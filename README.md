@@ -14,8 +14,6 @@ Install npm modules
 npm install
 ```
 
-Copy `.env` to `.env.local` and fill in the required environment variables. Please contact Josh if you need these!
-
 Run the development server:
 ```bash
 npm run dev
