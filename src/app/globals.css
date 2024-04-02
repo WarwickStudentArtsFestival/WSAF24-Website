@@ -7,5 +7,9 @@ html {
 }
 
 body {
-  @apply bg-primary;
+  @apply bg-primary text-center;
+}
+
+h2 {
+  @apply uppercase text-3xl font-bold text-black bg-accent py-1 px-8 m-2 inline-block;
 }

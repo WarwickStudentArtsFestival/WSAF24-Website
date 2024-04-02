@@ -4,7 +4,7 @@ import Logo from '@/assets/logo.png';
 
 export default function Hero() {
   return (
-    <div className="relative">
+    <header className="relative border-b-accent border-b-8">
       <Image
         src={HeroImage}
         alt="Aerial shot of the Warwick University piazza"
@@ -33,6 +33,6 @@ export default function Hero() {
           </span>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
