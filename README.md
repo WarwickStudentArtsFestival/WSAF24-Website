@@ -2,7 +2,7 @@
 > This is the public website for the Warwick Student Arts Festival, written in [Next.js](https://nextjs.org/).
 
 ## Running the Website
-You will need to have installed NodeJS v18 and NPM for this to work. If you haven't already done this, you can install the LTS version [here](https://nodejs.org/en/download).
+You will need to have installed NodeJS v20 and NPM for this to work. If you haven't already done this, you can install the LTS version [here](https://nodejs.org/en/download).
 
 Then, clone the website through SSH. You'll need to install [Git](https://git-scm.com/downloads) to do this, and setup a SSH key.
 ```bash
