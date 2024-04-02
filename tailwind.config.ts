@@ -1,10 +1,11 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -13,11 +14,16 @@ const config: Config = {
         secondary: '#4F1D75',
         accent: '#FFBD00',
         white: '#FFFFFF',
-        dark: '#000000'
+        dark: '#000000',
       },
     },
     fontFamily: {
       lexend: ['var(--font-lexend)', 'sans-serif'],
+    },
+    screens: {
+      '2xs': '440px',
+      xs: '520px',
+      ...defaultTheme.screens,
     },
   },
   plugins: [],
