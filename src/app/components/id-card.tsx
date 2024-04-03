@@ -30,7 +30,7 @@ export default function IdCard({
           className={`rounded-2xl w-12 h-3 mt-1 ${organisation ? 'bg-primary' : 'bg-accent'}`}
         />
       </header>
-      <main
+      <div
         className={`flex-grow flex flex-col px-4 py-2 ${organisation ? 'mb-2' : 'text-black'}`}
       >
         {image && (
@@ -44,7 +44,7 @@ export default function IdCard({
         {description && (
           <span className="block text-sm leading-tight">{description}</span>
         )}
-      </main>
+      </div>
       {role && (
         <footer className="bg-secondary text-xl uppercase font-bold pt-1 pb-2 px-2 mt-auto">
           {role}
