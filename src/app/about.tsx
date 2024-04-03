@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="-top-8 relative -mb-8">
+    <section className="-top-8 relative mb-4">
       <h2>What is WSAF?</h2>
       <p>
         Warwick Student Arts Festival (WSAF) is a 3 day showcase and celebration
