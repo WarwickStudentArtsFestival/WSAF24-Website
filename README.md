@@ -47,11 +47,27 @@ npm run lint:fix
 If you are using an editor such as IntelliJ or VSCode, I'd recommend setting your editor to automatically run this whenever you save, and fix any issues.
 
 ## Deployment
+## Environments
+There are two deployment environments which are automatically deployed to after a commit is merged into the `main`/`production` branches:
+* `main` - https://wsaf24-main.containers.uwcs.co.uk/
+* `production` - https://wsaf24-production.containers.uwcs.co.uk
 
-Run the following command
+## NPM
+A deployment build can be built with
 
 ```bash
 npm run build
 ```
 
-This will generate static build in the `out/` directory, which can be served using any webserver.
+This can then be served with:
+
+```
+npm run start
+```
+
+### Docker
+A Docker container can be built and run with:
+```
+docker build -t wsaf24-docker .
+docker run -p 3000:3000 wsaf24-docker
+```
