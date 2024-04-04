@@ -10,6 +10,7 @@ export default function Hero() {
         alt="Aerial shot of the Warwick University piazza"
         placeholder="blur"
         className="absolute h-full object-cover"
+        priority
       />
       <div className="relative flex flex-wrap sm:flex-nowrap justify-center items-center p-6 sm:p-12 md:p-24">
         <Image
