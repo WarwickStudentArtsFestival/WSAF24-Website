@@ -50,7 +50,11 @@ export default function KeyDates() {
       <p className="mt-2 mb-1 mx-4">
         This year&apos;s WSAF is being organised by the following volunteers. If
         you think you could add something to the team, contact us at{' '}
-        <a href="mailto:info@wsaf.org.uk" className="text-accent">
+        <a
+          href="mailto:info@wsaf.org.uk"
+          target="_blank"
+          className="text-accent"
+        >
           info@wsaf.org.uk
         </a>
         .
