@@ -62,7 +62,7 @@ const people: IdCardProps[] = [
 export default function KeyDates() {
   return (
     <section className="mb-12">
-      <h2>Who's Involved?</h2>
+      <h2>Who&apos;s Involved?</h2>
       <p>Some random text goes here</p>
 
       <div className="flex justify-center flex-wrap mb-8">

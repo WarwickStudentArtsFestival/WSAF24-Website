@@ -13,8 +13,8 @@ export default function About() {
           Every day will feature a morning-to-evening programme of events
           including theatre, dance, music, film, literature, comedy and art held
           across the entirety of campus. If you have a show, some art, a dance,
-          a poem or anything in-between that you want to show, we'd love to see
-          you there!
+          a poem or anything in-between that you want to show, we&apos;d love to
+          see you there!
         </p>
         <a
           href="https://forms.office.com/pages/responsepage.aspx?id=vc-6Ce9HZUSSZTVG8ur2vFkUeDcXxJtJj843aI4gzYJUNEJZSVlJN1k5UlBKUE01VzA2VjhNMlIyMiQlQCN0PWcu"
