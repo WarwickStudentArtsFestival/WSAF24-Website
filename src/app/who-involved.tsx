@@ -15,7 +15,7 @@ const people: IdCardProps[] = [
   {
     name: 'Alexander',
     role: 'Coordinator',
-    description: '',
+    description: '2nd Year Chemistry (PhD)',
     image: AlexPhoto,
   },
   {
@@ -47,7 +47,14 @@ export default function KeyDates() {
   return (
     <section className="mb-12">
       <h2>Who&apos;s Involved?</h2>
-      <p>Some random text goes here</p>
+      <p className="mt-2 mb-1 mx-4">
+        This year&apos;s WSAF is being organised by the following volunteers. If
+        you think you could add something to the team, contact us at{' '}
+        <a href="mailto:info@wsaf.org.uk" className="text-accent">
+          info@wsaf.org.uk
+        </a>
+        .
+      </p>
 
       <div className="flex justify-center flex-wrap mb-8">
         {people.map((person) => (
