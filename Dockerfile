@@ -5,7 +5,7 @@ RUN apk add --no-cache libc6-compat
 
 COPY src ./src
 COPY public ./public
-COPY tsconfig.json tailwind.config.ts postcss.config.js next-env.d.ts next.config.mjs package.json package-lock.json .prettierrc.json .eslintrc.json ./
+COPY tsconfig.json tailwind.config.ts postcss.config.js next.config.mjs package.json package-lock.json .prettierrc.json .eslintrc.json ./
 
 # Note - this cannot be run with NODE_ENV of production as it will not install dev dependencies
 RUN npm ci
