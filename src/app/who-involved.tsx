@@ -1,25 +1,9 @@
 import IdCard, { IdCardProps } from '@/app/components/id-card';
-import WarwickTechCrewLogo from '@/assets/organisations/warwick-tech-crew.png';
-import WarwickSuLogo from '@/assets/organisations/warwick-su.png';
 import AdamPhoto from '@/assets/people/adam.jpg';
 import AlexPhoto from '@/assets/people/alex.jpg';
 import MaximusPhoto from '@/assets/people/maximus.jpg';
 import JoshPhoto from '@/assets/people/josh.jpg';
 import ElliePhoto from '@/assets/people/ellie.jpg';
-
-const organisations: IdCardProps[] = [
-  {
-    name: 'Warwick Tech Crew',
-    image: WarwickTechCrewLogo,
-  },
-  {
-    name: 'Warwick Presents',
-  },
-  {
-    name: 'Warwick SU',
-    image: WarwickSuLogo,
-  },
-];
 
 const people: IdCardProps[] = [
   {
@@ -64,18 +48,6 @@ export default function KeyDates() {
     <section className="mb-12">
       <h2>Who&apos;s Involved?</h2>
       <p>Some random text goes here</p>
-
-      <div className="flex justify-center flex-wrap mb-8">
-        {organisations.map((organisation) => (
-          <IdCard
-            key={organisation.name}
-            name={organisation.name}
-            description={organisation.description}
-            image={organisation.image}
-            organisation={true}
-          />
-        ))}
-      </div>
 
       <div className="flex justify-center flex-wrap mb-8">
         {people.map((person) => (
