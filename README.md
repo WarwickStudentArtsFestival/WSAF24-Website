@@ -45,3 +45,13 @@ npm run lint:fix
 ```
 
 If you are using an editor such as IntelliJ or VSCode, I'd recommend setting your editor to automatically run this whenever you save, and fix any issues.
+
+## Deployment
+
+Run the following command
+
+```bash
+npm run build
+```
+
+This will generate static build in the `out/` directory, which can be served using any webserver.
