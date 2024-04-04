@@ -44,6 +44,23 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
+  main-deployment:
+    runs-on: ubuntu-latest
+    environment:
+      name: main
+      url: https://wsaf24-main.containers.uwcs.co.uk
+    steps:
+      - name: Trigger Portainer Deployment
+        uses: newarifrh/portainer-service-webhook@v1
+        with:
+          webhook_url: $${{ secrets.PORTAINER_WEBHOOK_URL }}
+
+  production-deployment:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://wsaf24-production.containers.uwcs.co.uk
+    steps:
       - name: Trigger Portainer Deployment
         uses: newarifrh/portainer-service-webhook@v1
         with:
