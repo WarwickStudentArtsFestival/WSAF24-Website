@@ -2,7 +2,7 @@ import { FiExternalLink } from 'react-icons/fi';
 
 export default function About() {
   return (
-    <section className="-top-8 relative mb-4">
+    <section className="-top-8 relative mb-8">
       <h2>What is WSAF?</h2>
       <div className="px-8 text-lg max-w-5xl mx-auto">
         <p className="font-bold mb-2">
