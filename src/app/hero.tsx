@@ -4,7 +4,7 @@ import Logo from '@/assets/logo.png';
 
 export default function Hero() {
   return (
-    <header className="relative border-b-accent border-b-8">
+    <header className="relative border-b-accent border-b-8 bg-accent">
       <Image
         src={HeroImage}
         alt="Aerial shot of the Warwick University piazza"
