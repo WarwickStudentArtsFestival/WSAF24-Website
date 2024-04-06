@@ -2,12 +2,12 @@ import { FiExternalLink } from 'react-icons/fi';
 
 export default function About() {
   return (
-    <section className="-top-8 relative mb-8">
+    <section className="-top-8 relative">
       <h2>What is WSAF?</h2>
-      <div className="px-8 text-lg max-w-5xl mx-auto">
+      <div className="px-8 lg:text-lg max-w-5xl mx-auto">
         <p className="font-bold mb-2">
           Warwick Student Arts Festival (WSAF) is a 3 day showcase and
-          celebration of all aspects of the arts here at Warwick!
+          celebration of all aspects of the arts at Warwick.
         </p>
         <p>
           Every day will feature a morning-to-evening programme of events
@@ -21,7 +21,7 @@ export default function About() {
           target="_blank"
           className="inline-block bg-secondary m-4 px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105"
         >
-          <span className="text-2xl uppercase font-bold">
+          <span className="text-xl lg:text-2xl uppercase font-bold">
             Registration Form Now Open{' '}
             <FiExternalLink className="inline-block mb-2" />
           </span>

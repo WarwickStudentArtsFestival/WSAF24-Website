@@ -1,22 +1,19 @@
-import Hero from './hero';
-import KeyDates from './key-dates';
-import WhoInvolved from './who-involved';
-import Faq from './faq';
-import Footer from './footer';
+import Hero from './components/hero';
+import KeyDates from './components/key-dates';
+import WhoInvolved from './components/who-involved';
+import Faq from './components/faq';
+import Footer from './components/footer';
 import React from 'react';
-import About from '@/app/about';
+import About from './components/about';
 
 export default function Home() {
   return (
-    <>
-      <main>
-        <Hero />
-        <About />
-        <KeyDates />
-        <WhoInvolved />
-        <Faq />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <Hero />
+      <About />
+      <KeyDates />
+      <WhoInvolved />
+      <Faq />
+    </main>
   );
 }

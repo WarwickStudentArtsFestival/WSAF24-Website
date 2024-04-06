@@ -40,7 +40,7 @@ const keyDates: KeyDateProps[] = [
 
 export default function KeyDates() {
   return (
-    <section className="mb-20">
+    <section className="mb-12">
       <h2 className="mb-4">Key Dates</h2>
 
       <div className="relative">

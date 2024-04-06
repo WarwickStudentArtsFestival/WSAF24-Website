@@ -4,6 +4,7 @@ import AlexPhoto from '@/assets/people/alex.jpg';
 import MaximusPhoto from '@/assets/people/maximus.jpg';
 import JoshPhoto from '@/assets/people/josh.jpg';
 import ElliePhoto from '@/assets/people/ellie.jpg';
+import DaePhoto from '@/assets/people/dae.jpg';
 
 const people: IdCardProps[] = [
   {
@@ -21,7 +22,8 @@ const people: IdCardProps[] = [
   {
     name: 'Dae',
     role: 'Coordinator',
-    description: '',
+    description: '2nd Year Liberal Arts',
+    image: DaePhoto,
   },
   {
     name: 'Maximus',
@@ -45,7 +47,7 @@ const people: IdCardProps[] = [
 
 export default function KeyDates() {
   return (
-    <section className="mb-20">
+    <section className="mb-12">
       <h2>Who&apos;s Involved?</h2>
       <p className="mt-2 mb-1 mx-4">
         This year&apos;s WSAF is being organised by the following volunteers. If

@@ -1,53 +1,103 @@
-name: Build and publish site to GitHub container registry
+name: Build, Release and Publish Website
 
 on:
   push:
     branches: ["main","production"]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  build-and-push:
+  build:
+    name: 'Build Website'
     runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.ref_name }}
 
     permissions:
       contents: read
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: 'npm'
+
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          path: .next/cache
+          # Generate a new cache whenever packages or source files change.
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          # If source files changed but packages didn't, rebuild from a prior cache.
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build website
+        run: npm run build
+        env:
+          BASE_URL: ${{ vars.BASE_URL }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: |
+            ./.next
+            ./public
+            Dockerfile
+
+  release:
+    name: 'Package and Release'
+    needs: [build]
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.ref_name }}
+
+    permissions:
       packages: write
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build
+          path: ./
 
       - name: Log in to the Container registry
-        uses: docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1
+        uses: docker/login-action@v2
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract metadata (tags, labels) for Docker
+      - name: Extract tags and labels for Docker release
         id: meta
-        uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
+        uses: docker/metadata-action@v4
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
+        uses: docker/build-push-action@v4
         with:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
-  main-deployment:
-    name: 'Main Deployment'
-    needs: [build-and-push]
+  deploy-main:
+    name: 'Deploy to Main'
+    needs: [release]
     if: github.ref == 'refs/heads/main'
+
     runs-on: ubuntu-latest
     environment:
       name: main
@@ -58,14 +108,15 @@ jobs:
         with:
           webhook_url: ${{ secrets.PORTAINER_WEBHOOK_URL }}
 
-  production-deployment:
-    name: 'Production Deployment'
-    needs: [build-and-push]
-    if: github.ref == 'refs/heads/production'
+  deploy-production:
+    name: 'Deploy to Production'
+    needs: [release]
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/production'
     environment:
       name: production
       url: https://wsaf24-production.containers.uwcs.co.uk
+
     steps:
       - name: Trigger Portainer Deployment
         uses: newarifrh/portainer-service-webhook@v1

@@ -11,15 +11,27 @@ export default function Footer() {
           delivery partners:
         </p>
         <div className="flex justify-center gap-4 mt-1">
-          <Image
-            src={warwickTechCrewLogo}
-            alt="Warwick Tech Crew logo"
-            className="h-16 w-auto"
-          />
+          <a href="https://www.warwicktechcrew.co.uk/" target="_blank">
+            <Image
+              src={warwickTechCrewLogo}
+              alt="Warwick Tech Crew logo"
+              className="h-16 w-auto"
+            />
+          </a>
         </div>
       </div>
       <p className="font-light mt-8">
         Copyright © Warwick Student Arts Festival 2024
+      </p>
+
+      <p className="font-bold mt-0.5">
+        <a href="mailto:info@wsaf.org.uk" target="_blank">
+          info@wsaf.org.uk
+        </a>
+        <span className="font-light"> • </span>
+        <a href="https://www.instagram.com/wsaf24/" target="_blank">
+          @wsaf24
+        </a>
       </p>
     </footer>
   );
