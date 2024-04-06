@@ -5,10 +5,18 @@ export default function Faq() {
     <section className="mb-32">
       <h2>FAQ</h2>
 
-      <div className={`mx-8 my-2 leading-tight space-y-6 ${styles.faq}`}>
+      <div
+        className={`max-w-7xl mx-auto px-8 my-2 leading-tight space-y-6 ${styles.faq}`}
+      >
         <div>
           <h3>Why are you putting on this event?</h3>
-          <p>Answer</p>
+          <p>
+            Warwick University has a wealth of highly motivated student bands,
+            theatre societies and other performing groups which we want to
+            present to whole Warwick community in the summer term. This is
+            inspired by the old &apos;Warwick Student Arts Festival&apos;, which
+            to our knowledge last took place in 2015.
+          </p>
         </div>
 
         <div>
@@ -37,7 +45,73 @@ export default function Faq() {
             </a>
             ?
           </h3>
-          <p>Answer</p>
+          <p>
+            WSAF&apos;s aim is to widen performance opportunities and to give
+            people the chance to watch something that they might not have seen
+            otherwise. We&apos;re providing a wider range of arts than
+            society-specific events such as StageFest and Freshblood, and are
+            more performance and arts-related than SocFest. You&apos;re more
+            than welcome to submit and exhibit the same performance at both WSAF
+            and another event.
+          </p>
+        </div>
+
+        <div>
+          <h3>Where will everything take place?</h3>
+          <p>
+            WSAF will take place all over the Warwick University campus. Our
+            preliminary list includes a stage on the Piazza, Curiositea and the
+            FAB Studios in addition to the performance spaces in Avon and
+            Milburn House - however this is subject to change.
+          </p>
+        </div>
+
+        <div>
+          <h3>
+            Is there any funding available for production costs, and how much
+            will tickets be?
+          </h3>
+          <p>
+            We will have more information on budget and pricing at a later date,
+            however please{' '}
+            <a href="mailto:info@wsaf.org.uk" target="_blank">
+              get in touch
+            </a>{' '}
+            as this will likely be discussed individually. In order to ensure
+            that everyone can access this event, if we do sell tickets in
+            certain venues this will likely be minimal (&lt;£5). Tech (sound,
+            lights and video) will be provided by WSAF in combination with Tech
+            Crew and does not need to be individually budgeted for.
+          </p>
+        </div>
+
+        <div>
+          <h3>How long can my performance be?</h3>
+          <p>
+            We&apos;re hoping for most shows to be shorter than 60 minutes, to
+            allow people to see as much as possible over the weekend. However,
+            if your show is longer than this,{' '}
+            <a href="mailto:info@wsaf.org.uk" target="_blank">
+              get in touch
+            </a>{' '}
+            and we can work something out.
+          </p>
+        </div>
+
+        <div>
+          <h3>
+            I&apos;d like to help out but don&apos;t want or have anything to
+            perform. Is this possible?
+          </h3>
+          <p>
+            Of course! We&apos;ll likely need a lot of help in advance with
+            organisation and marketing, and on the day with operations and
+            logistics. Please reach out to us at{' '}
+            <a href="mailto:info@wsaf.org.uk" target="_blank">
+              info@wsaf.org.uk
+            </a>
+            .
+          </p>
         </div>
 
         <div>
@@ -55,36 +129,8 @@ export default function Faq() {
             >
               2015
             </a>
-            . We&apos;re looking at reviving this again.
-          </p>
-        </div>
-
-        <div>
-          <h3>Where will WSAF take place?</h3>
-          <p>Answer</p>
-        </div>
-
-        <div>
-          <h3>
-            Is there any funding available for production costs, and how much
-            will shows be?
-          </h3>
-          <p>Answer</p>
-        </div>
-
-        <div>
-          <h3>
-            I&apos;d like to help out but don&apos;t want or have anything to
-            perform. Is this possible?
-          </h3>
-          <p>
-            Of course! We&apos;ll likely need a lot of help in advance with
-            organisation and marketing, and on the day with operations and
-            logistics. Please reach out to us at{' '}
-            <a href="mailto:info@wsaf.org.uk" target="_blank">
-              info@wsaf.org.uk
-            </a>
-            .
+            . We&apos;re looking at reviving this again in 2024, with a
+            completely new team.
           </p>
         </div>
 
