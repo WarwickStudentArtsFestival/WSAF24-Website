@@ -8,15 +8,12 @@ import About from './components/about';
 
 export default function Home() {
   return (
-    <>
-      <main>
-        <Hero />
-        <About />
-        <KeyDates />
-        <WhoInvolved />
-        <Faq />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <Hero />
+      <About />
+      <KeyDates />
+      <WhoInvolved />
+      <Faq />
+    </main>
   );
 }

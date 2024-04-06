@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from 'next';
 import { Lexend } from 'next/font/google';
 import './globals.css';
+import Footer from '@/app/components/footer';
+import React from 'react';
 
 const lexend = Lexend({
   subsets: ['latin'],
@@ -37,6 +39,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${lexend.className} flex flex-col min-h-screen`}>
         {children}
+        <Footer />
       </body>
     </html>
   );
