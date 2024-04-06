@@ -40,7 +40,7 @@ jobs:
         run: npm ci
 
       - name: Build website
-        run: npm next build
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
