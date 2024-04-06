@@ -44,7 +44,7 @@ jobs:
       - name: Build website
         run: npm run build
         env:
-          BASE_URL: ${{ env.BASE_URL }}
+          BASE_URL: test
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
