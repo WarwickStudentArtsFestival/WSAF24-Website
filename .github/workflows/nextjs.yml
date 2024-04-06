@@ -12,6 +12,8 @@ jobs:
   build:
     name: 'Build Website'
     runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.ref_name }}
 
     permissions:
       contents: read
@@ -49,11 +51,14 @@ jobs:
           path: |
             ./next
             ./public
+            Dockerfile
 
   release:
     name: 'Package and Release'
     needs: [build]
     runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.ref_name }}
 
     permissions:
       packages: write
@@ -104,12 +109,12 @@ jobs:
   deploy-production:
     name: 'Deploy to Production'
     needs: [release]
-    if: github.ref == 'refs/heads/production'
-
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/production'
     environment:
       name: production
       url: https://wsaf24-production.containers.uwcs.co.uk
+
     steps:
       - name: Trigger Portainer Deployment
         uses: newarifrh/portainer-service-webhook@v1
