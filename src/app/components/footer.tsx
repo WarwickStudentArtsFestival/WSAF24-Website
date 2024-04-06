@@ -11,11 +11,13 @@ export default function Footer() {
           delivery partners:
         </p>
         <div className="flex justify-center gap-4 mt-1">
-          <Image
-            src={warwickTechCrewLogo}
-            alt="Warwick Tech Crew logo"
-            className="h-16 w-auto"
-          />
+          <a href="https://www.warwicktechcrew.co.uk/" target="_blank">
+            <Image
+              src={warwickTechCrewLogo}
+              alt="Warwick Tech Crew logo"
+              className="h-16 w-auto"
+            />
+          </a>
         </div>
       </div>
       <p className="font-light mt-8">
