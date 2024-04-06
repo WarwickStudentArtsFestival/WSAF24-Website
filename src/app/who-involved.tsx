@@ -4,6 +4,7 @@ import AlexPhoto from '@/assets/people/alex.jpg';
 import MaximusPhoto from '@/assets/people/maximus.jpg';
 import JoshPhoto from '@/assets/people/josh.jpg';
 import ElliePhoto from '@/assets/people/ellie.jpg';
+import DaePhoto from '@/assets/people/dae.jpg';
 
 const people: IdCardProps[] = [
   {
@@ -21,7 +22,8 @@ const people: IdCardProps[] = [
   {
     name: 'Dae',
     role: 'Coordinator',
-    description: '',
+    description: '2nd Year Liberal Arts',
+    image: DaePhoto,
   },
   {
     name: 'Maximus',
