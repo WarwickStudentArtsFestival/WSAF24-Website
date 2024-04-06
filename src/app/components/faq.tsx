@@ -2,7 +2,7 @@ import styles from './faq.module.css';
 
 export default function Faq() {
   return (
-    <section className="mb-32">
+    <section className="mb-16">
       <h2>FAQ</h2>
 
       <div
