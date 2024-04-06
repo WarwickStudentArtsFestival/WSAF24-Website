@@ -24,10 +24,10 @@ export default function Faq() {
             {' '}
             How is WSAF different to other events such as{' '}
             <a
-              href="https://www.warwicksu.com/campaigns-communities/campaigns/active/socsfest/"
+              href="https://www.warwicksu.com/campaigns-communities/campaigns/active/socfest/"
               target="_blank"
             >
-              SocsFest
+              SocFest
             </a>
             ,{' '}
             <a
