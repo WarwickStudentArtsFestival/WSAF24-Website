@@ -30,8 +30,8 @@ export default function Hero() {
             </span>
           </h1>
           <span className="bg-primary text-accent font-bold text-xs 2xs:text-md lg:text-lg py-2 px-4">
-            <time dateTime="2024-03-08T10:00:00.000">Sat 8th</time> -{' '}
-            <time dateTime="2024-03-10T22:00:00.000">Mon 10th June</time>
+            <time dateTime="2024-06-08T10:00:00.000">Sat 8th</time> -{' '}
+            <time dateTime="2024-06-10T22:00:00.000">Mon 10th June</time>
           </span>
         </div>
       </div>
