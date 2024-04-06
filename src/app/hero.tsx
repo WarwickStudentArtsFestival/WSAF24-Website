@@ -18,6 +18,7 @@ export default function Hero() {
           alt="WSAF 2024 logo"
           placeholder="blur"
           className="my-6 mr-8 h-32 lg:h-36 w-auto object-contain drop-shadow-sm"
+          priority
         />
         <div className="text-right my-6">
           <h1 className="text-left bg-primary font-bold py-2 px-4">
