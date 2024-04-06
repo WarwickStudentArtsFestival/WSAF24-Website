@@ -68,6 +68,7 @@ npm run start
 ### Docker
 A Docker container can be built and run with:
 ```
+npm run build
 docker build -t wsaf24-docker .
 docker run -p 3000:3000 wsaf24-docker
 ```
