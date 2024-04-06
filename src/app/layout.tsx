@@ -9,9 +9,18 @@ const lexend = Lexend({
 });
 
 export const metadata: Metadata = {
-  title: 'Warwick Student Arts Festival',
+  title: 'Warwick Student Arts Festival 2024',
   description:
-    'Warwick Student Arts Festival (WSAF) is a 3 day showcase and celebration of all aspects of the arts here at Warwick!',
+    'Warwick Student Arts Festival (WSAF) is a 3 day showcase and celebration of all aspects of the arts at Warwick.\n\nSubmissions are open until Friday 26th April.',
+  category: 'website',
+  keywords: [
+    'Warwick',
+    'Warwick University',
+    'Warwick Student Arts Festival',
+    'WSAF',
+    'Warwick Arts',
+    'Festival',
+  ],
 };
 
 export const viewport: Viewport = {

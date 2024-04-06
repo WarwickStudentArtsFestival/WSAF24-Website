@@ -7,7 +7,7 @@ export default function About() {
       <div className="px-8 text-lg max-w-5xl mx-auto">
         <p className="font-bold mb-2">
           Warwick Student Arts Festival (WSAF) is a 3 day showcase and
-          celebration of all aspects of the arts here at Warwick!
+          celebration of all aspects of the arts here Warwick.
         </p>
         <p>
           Every day will feature a morning-to-evening programme of events
