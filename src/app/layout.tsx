@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     'Warwick Arts',
     'Festival',
   ],
+  metadataBase: new URL(process.env.BASE_URL || 'http://localhost:3000'),
 };
 
 export const viewport: Viewport = {
