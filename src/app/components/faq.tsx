@@ -11,9 +11,9 @@ export default function Faq() {
         <div>
           <h3>Why are you putting on this event?</h3>
           <p>
-            Warwick University has a wealth of highly motivated student bands,
-            theatre societies and other performing groups which we want to
-            present to whole Warwick community in the summer term. This is
+            The University of Warwick has a wealth of highly motivated student
+            bands, theatre societies and other performing groups which we want
+            to present to whole Warwick community in the summer term. This is
             inspired by the old &apos;Warwick Student Arts Festival&apos;, which
             to our knowledge last took place in 2015.
           </p>
@@ -59,7 +59,7 @@ export default function Faq() {
         <div>
           <h3>Where will everything take place?</h3>
           <p>
-            WSAF will take place all over the Warwick University campus. Our
+            WSAF will take place all over the University of Warwick campus. Our
             preliminary list includes a stage on the Piazza, Curiositea and the
             FAB Studios in addition to the performance spaces in Avon and
             Milburn House - however this is subject to change.

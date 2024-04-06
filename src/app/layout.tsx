@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   keywords: [
     'Warwick',
     'Warwick University',
+    'University of Warwick',
     'Warwick Student Arts Festival',
     'WSAF',
     'Warwick Arts',
