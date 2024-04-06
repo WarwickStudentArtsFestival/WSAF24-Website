@@ -100,6 +100,26 @@ export default function Faq() {
 
         <div>
           <h3>
+            I&apos;d just like to perform a short set individually. Is this
+            possible?
+          </h3>
+          <p>
+            Yes! When you fill in the{' '}
+            <a
+              href="https://forms.office.com/pages/responsepage.aspx?id=vc-6Ce9HZUSSZTVG8ur2vFkUeDcXxJtJj843aI4gzYJUNEJZSVlJN1k5UlBKUE01VzA2VjhNMlIyMiQlQCN0PWcu"
+              target="_blank"
+            >
+              form
+            </a>{' '}
+            it has an option for small/solo performances. Currently, we&apos;re
+            planning on combining similar acts into larger events where
+            there&apos;s a lot of interest, but if not we&apos;ll try to find a
+            place to slot you into the schedule anyway.
+          </p>
+        </div>
+
+        <div>
+          <h3>
             I&apos;d like to help out but don&apos;t want or have anything to
             perform. Is this possible?
           </h3>
