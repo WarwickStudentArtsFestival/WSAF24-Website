@@ -27,7 +27,7 @@ export default function Faq() {
               href="https://www.warwicksu.com/campaigns-communities/campaigns/active/socsfest/"
               target="_blank"
             >
-              SocFest
+              SocsFest
             </a>
             ,{' '}
             <a
@@ -50,7 +50,7 @@ export default function Faq() {
             people the chance to watch something that they might not have seen
             otherwise. We&apos;re providing a wider range of arts than
             society-specific events such as StageFest and Freshblood, and are
-            more performance and arts-related than SocFest. You&apos;re more
+            more performance and arts-related than SocsFest. You&apos;re more
             than welcome to submit and exhibit the same performance at both WSAF
             and another event.
           </p>
@@ -80,8 +80,8 @@ export default function Faq() {
             as this will likely be discussed individually. In order to ensure
             that everyone can access this event, if we do sell tickets in
             certain venues this will likely be minimal (&lt;£5). Tech (sound,
-            lights and video) will be provided by WSAF in combination with Tech
-            Crew and does not need to be individually budgeted for.
+            lights and video) will be provided by WSAF in collaboration with
+            Tech Crew and does not need to be individually budgeted for.
           </p>
         </div>
 
