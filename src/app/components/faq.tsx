@@ -13,7 +13,7 @@ export default function Faq() {
           <p>
             The University of Warwick has a wealth of highly motivated student
             bands, theatre societies and other performing groups which we want
-            to present to whole Warwick community in the summer term. This is
+            to present to whole University community in the summer term. This is
             inspired by the old &apos;Warwick Student Arts Festival&apos;, which
             to our knowledge last took place in 2015.
           </p>
