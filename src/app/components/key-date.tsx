@@ -3,6 +3,7 @@ export type KeyDateProps = {
   date: string;
   dateTime: string;
   description?: string;
+  warwickWeek?: string;
 };
 
 export default function KeyDate({
@@ -10,14 +11,16 @@ export default function KeyDate({
   date,
   dateTime,
   description,
+  warwickWeek,
 }: {
   name: string;
   date: string;
   dateTime: string;
   description?: string;
+  warwickWeek?: string;
 }) {
   return (
-    <article className="relative group lg:even:mt-[210px] lg:odd:mb-[202px] flex flex-col">
+    <article className="relative group lg:even:mt-[224px] lg:odd:mb-[215px] flex flex-col">
       <div className="hidden group-odd:hidden lg:block">
         <div className="bg-secondary rounded-full w-6 h-6 -mb-3 mx-auto" />
         <div className="bg-secondary w-2 h-40 -mb-28 mx-auto" />
@@ -27,6 +30,11 @@ export default function KeyDate({
           <h3 className="uppercase font-bold text-2xl">{name}</h3>
           <time className="text-accent font-bold text-lg" dateTime={dateTime}>
             {date}
+            {warwickWeek && (
+              <span className="block font-normal text-xs -mt-1 mb-1">
+                {warwickWeek}
+              </span>
+            )}
           </time>
         </header>
         <div className="mt-auto">

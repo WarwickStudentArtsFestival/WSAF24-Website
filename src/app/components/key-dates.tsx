@@ -6,6 +6,7 @@ const keyDates: KeyDateProps[] = [
     date: 'Mon 1st Apr',
     dateTime: '2024-04-01',
     description: 'WSAF performance submissions open.',
+    warwickWeek: 'Easter Holiday',
   },
   {
     name: 'Submissions Close',
@@ -13,6 +14,7 @@ const keyDates: KeyDateProps[] = [
     dateTime: '2024-04-26',
     description:
       'Submission form closes and the schedule and logistics are finalised.',
+    warwickWeek: 'Term 3, Week 1',
   },
   {
     name: 'WSAF',
@@ -20,6 +22,7 @@ const keyDates: KeyDateProps[] = [
     dateTime: '2024-06-08',
     description:
       'The festival itself - a 3 day showcase and celebration of all aspects of the arts.',
+    warwickWeek: 'Term 3, Week 7/8',
   },
 ];
 
@@ -38,6 +41,7 @@ export default function KeyDates() {
               date={date.date}
               dateTime={date.dateTime}
               description={date.description}
+              warwickWeek={date.warwickWeek}
             />
           ))}
         </div>
