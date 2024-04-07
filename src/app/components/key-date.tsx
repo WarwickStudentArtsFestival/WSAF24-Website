@@ -2,7 +2,7 @@ export type KeyDateProps = {
   name: string;
   date: string;
   dateTime: string;
-  description: string;
+  description?: string;
 };
 
 export default function KeyDate({
@@ -14,10 +14,10 @@ export default function KeyDate({
   name: string;
   date: string;
   dateTime: string;
-  description: string;
+  description?: string;
 }) {
   return (
-    <article className="relative group lg:even:mt-64 lg:odd:mb-64 flex flex-col">
+    <article className="relative group lg:even:mt-[210px] lg:odd:mb-[202px] flex flex-col">
       <div className="hidden group-odd:hidden lg:block">
         <div className="bg-secondary rounded-full w-6 h-6 -mb-3 mx-auto" />
         <div className="bg-secondary w-2 h-40 -mb-28 mx-auto" />

@@ -5,36 +5,21 @@ const keyDates: KeyDateProps[] = [
     name: 'Submissions Open',
     date: 'Mon 1st Apr',
     dateTime: '2024-04-01',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'WSAF performance submissions open.',
   },
   {
     name: 'Submissions Close',
     date: 'Fri 26th Apr',
     dateTime: '2024-04-26',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    name: 'Submissions Confirmed',
-    date: 'Fri 3rd May',
-    dateTime: '2024-05-03',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    name: 'Schedule Announced',
-    date: 'Fri 17th May',
-    dateTime: '2024-05-17',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua.',
+      'Submission form closes and the schedule and logistics are finalised.',
   },
   {
     name: 'WSAF',
     date: 'Sat 8th - Mon 10th June',
     dateTime: '2024-06-08',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua.',
+      'The festival itself - a 3 day showcase and celebration of all aspects of the arts.',
   },
 ];
 
