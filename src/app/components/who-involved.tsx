@@ -14,7 +14,7 @@ const people: IdCardProps[] = [
     image: AdamPhoto,
   },
   {
-    name: 'Alexander',
+    name: 'Alex',
     role: 'Coordinator',
     description: '2nd Year Chemistry (PhD)',
     image: AlexPhoto,
