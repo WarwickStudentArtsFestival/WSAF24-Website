@@ -138,7 +138,7 @@ export default function Faq() {
           <h3>
             {' '}
             I&apos;ve found references to an older Warwick Student Arts Festival
-            or Warwick Fringe Before. Is this related?
+            or Warwick Fringe before. Is this related?
           </h3>
           <p>
             Yes! To the best of our knowledge, the Warwick Student Arts Festival
