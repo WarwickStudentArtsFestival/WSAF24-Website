@@ -20,7 +20,7 @@ export default function Hero() {
           className="my-6 mr-8 h-32 lg:h-36 w-auto object-contain drop-shadow-sm"
           priority
         />
-        <div className="text-right my-6">
+        <div className="flex flex-col items-end text-right my-6">
           <h1 className="text-left bg-primary font-bold py-2 px-4">
             <span className="block text-4xl sm:text-5xl lg:text-6xl">
               WSAF 2024
@@ -29,7 +29,7 @@ export default function Hero() {
               Warwick Student Arts Festival
             </span>
           </h1>
-          <span className="bg-primary text-accent font-bold text-xs 2xs:text-md lg:text-lg py-2 px-4">
+          <span className="block bg-primary text-accent font-bold text-xs 2xs:text-md lg:text-lg pb-2 px-4">
             <time dateTime="2024-06-08T10:00:00.000">Sat 8th</time> -{' '}
             <time dateTime="2024-06-10T22:00:00.000">Mon 10th June</time>
           </span>
