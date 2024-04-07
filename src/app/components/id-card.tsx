@@ -32,9 +32,7 @@ export default function IdCard({
             className="mx-auto mb-2 w-24 sm:w-32 h-auto"
           />
         )}
-        <h3 className="mt-auto text-lg sm:text-xl font-bold leading-tight">
-          {name}
-        </h3>
+        <h3 className="text-lg sm:text-xl font-bold leading-tight">{name}</h3>
         {description && (
           <span className="block text-xs sm:text-sm leading-tight">
             {description}
