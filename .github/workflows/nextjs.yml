@@ -115,7 +115,7 @@ jobs:
     if: github.ref == 'refs/heads/production'
     environment:
       name: production
-      url: https://wsaf24-production.containers.uwcs.co.uk
+      url: https://wsaf24.org.uk
 
     steps:
       - name: Trigger Portainer Deployment
