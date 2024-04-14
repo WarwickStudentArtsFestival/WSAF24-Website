@@ -40,7 +40,7 @@ export default function IdCard({
         )}
       </div>
       {role && (
-        <footer className="bg-secondary text-sm sm:text-lg uppercase font-bold pt-1 pb-1 sm:pb-2 px-2 mt-auto">
+        <footer className="bg-secondary text-sm sm:text-lg leading-tight sm:leading-tight uppercase font-bold pt-1 pb-1 sm:pb-2 px-2 mt-auto min-h-12 sm:min-h-14 flex justify-center items-center">
           {role}
         </footer>
       )}
