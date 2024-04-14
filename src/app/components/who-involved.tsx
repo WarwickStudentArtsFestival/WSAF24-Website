@@ -39,7 +39,7 @@ const people: IdCardProps[] = [
   },
   {
     name: 'Ellie',
-    role: 'Design Officer',
+    role: 'Head of Marketing',
     description: '2nd Year English and Theatre Studies',
     image: ElliePhoto,
   },
