@@ -9,31 +9,31 @@ import DaePhoto from '@/assets/people/dae.jpg';
 const people: IdCardProps[] = [
   {
     name: 'Adam',
-    role: 'Coordinator',
+    role: 'Coordinator (Technical)',
     description: '4th Year Computer Systems Engineering',
     image: AdamPhoto,
   },
   {
     name: 'Alex',
-    role: 'Coordinator',
+    role: 'Coordinator (Operations)',
     description: '2nd Year Chemistry (PhD)',
     image: AlexPhoto,
   },
   {
     name: 'Dae',
-    role: 'Coordinator',
+    role: 'Coordinator (Communications)',
     description: '2nd Year Liberal Arts',
     image: DaePhoto,
   },
   {
     name: 'Maximus',
-    role: 'Coordinator',
+    role: 'Coordinator (Finance & Data)',
     description: '1st Year Mathematics',
     image: MaximusPhoto,
   },
   {
     name: 'Josh',
-    role: 'Webmaster',
+    role: 'Head of\nDigital',
     description: '2nd Year Computer Science',
     image: JoshPhoto,
   },
