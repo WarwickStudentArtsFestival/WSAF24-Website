@@ -5,6 +5,9 @@ import MaximusPhoto from '@/assets/people/maximus.jpg';
 import JoshPhoto from '@/assets/people/josh.jpg';
 import ElliePhoto from '@/assets/people/ellie.jpg';
 import DaePhoto from '@/assets/people/dae.jpg';
+import DannyPhoto from '@/assets/people/danny.jpg';
+import EthanPhoto from '@/assets/people/ethan.jpg';
+import AvatarImage from '@/assets/people/avatar.jpg';
 
 const people: IdCardProps[] = [
   {
@@ -43,6 +46,24 @@ const people: IdCardProps[] = [
     description: '2nd Year English and Theatre Studies',
     image: ElliePhoto,
   },
+  {
+    name: 'Ethan',
+    role: 'Head of\nTeam Catering',
+    description: '3rd Year Mechanical Engineering',
+    image: EthanPhoto,
+  },
+  {
+    name: 'Danny',
+    role: 'Sustainability Coordinator',
+    description: '2nd Year Biological Sciences',
+    image: DannyPhoto,
+  },
+  {
+    name: 'You?',
+    role: 'Volunteer',
+    emailDescription: true,
+    image: AvatarImage,
+  },
 ];
 
 export default function KeyDates() {
@@ -68,6 +89,7 @@ export default function KeyDates() {
             key={person.name}
             name={person.name}
             description={person.description}
+            emailDescription={person.emailDescription}
             role={person.role}
             image={person.image}
           />

@@ -6,16 +6,19 @@ export type IdCardProps = {
   description?: string;
   role?: string;
   image?: StaticImageData;
+  emailDescription?: boolean;
 };
 
 export default function IdCard({
   name,
   description,
+  emailDescription,
   role,
   image,
 }: {
   name: string;
   description?: string;
+  emailDescription?: boolean;
   role?: string;
   image?: StaticImageData;
 }) {
@@ -33,6 +36,18 @@ export default function IdCard({
           />
         )}
         <h3 className="text-lg sm:text-xl font-bold leading-tight">{name}</h3>
+        {emailDescription && (
+          <span className="block text-xs sm:text-sm leading-tight">
+            Interested? Email us at{' '}
+            <a
+              href="mailto:info@wsaf.org.uk"
+              target="_blank"
+              className="text-secondary"
+            >
+              info@wsaf.org.uk
+            </a>
+          </span>
+        )}
         {description && (
           <span className="block text-xs sm:text-sm leading-tight">
             {description}
