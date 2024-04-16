@@ -49,7 +49,7 @@ export default function IdCard({
           </span>
         )}
         {description && (
-          <span className="block text-xs sm:text-sm leading-tight">
+          <span className="block text-xs sm:text-sm leading-tight whitespace-pre-wrap">
             {description}
           </span>
         )}
