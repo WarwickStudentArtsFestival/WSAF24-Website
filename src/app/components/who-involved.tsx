@@ -19,19 +19,19 @@ const people: IdCardProps[] = [
   {
     name: 'Alex',
     role: 'WSAF Lead (Operations)',
-    description: '2nd Year Chemistry (PhD)',
+    description: '2nd Year\nChemistry (PhD)',
     image: AlexPhoto,
   },
   {
     name: 'Dae',
     role: 'WSAF Lead (Communications)',
-    description: '2nd Year Liberal Arts',
+    description: '2nd Year\nLiberal Arts',
     image: DaePhoto,
   },
   {
     name: 'Maximus',
     role: 'WSAF Lead (Finance & Data)',
-    description: '1st Year Mathematics',
+    description: '1st Year\nMathematics',
     image: MaximusPhoto,
   },
   {
