@@ -67,21 +67,15 @@ export default function Faq() {
         </div>
 
         <div>
-          <h3>
-            Is there any funding available for production costs, and how much
-            will tickets be?
-          </h3>
+          <h3>Is there any funding available for production costs?</h3>
           <p>
-            We will have more information on budget and pricing at a later date,
-            however please{' '}
+            There may be a limited amount of funding available - please{' '}
             <a href="mailto:info@wsaf.org.uk" target="_blank">
               get in touch
             </a>{' '}
-            as this will likely be discussed individually. In order to ensure
-            that everyone can access this event, if we do sell tickets in
-            certain venues this will likely be minimal (&lt;£5). Tech (sound,
-            lights and video) will be provided by WSAF in collaboration with
-            Tech Crew and does not need to be individually budgeted for.
+            as this will need to be discussed individually. Tech (sound, lights
+            and video) will be provided by WSAF in collaboration with Tech Crew
+            and does not need to be individually budgeted for.
           </p>
         </div>
 
