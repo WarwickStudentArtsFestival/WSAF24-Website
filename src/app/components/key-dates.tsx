@@ -10,11 +10,11 @@ const keyDates: KeyDateProps[] = [
   },
   {
     name: 'Submissions Close',
-    date: 'Fri 26th Apr',
-    dateTime: '2024-04-26',
+    date: 'Sunday 12th May',
+    dateTime: '2024-05-12',
     description:
       'Submission form closes and the schedule and logistics are finalised.',
-    warwickWeek: 'Term 3, Week 1',
+    warwickWeek: 'Term 3, Week 3',
   },
   {
     name: 'WSAF',
