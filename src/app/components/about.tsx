@@ -25,7 +25,7 @@ export default function About() {
             Registration Form Now Open{' '}
             <FiExternalLink className="inline-block mb-2" />
           </span>
-          <span className="block text-sm">Closes Friday 26th April</span>
+          <span className="block text-sm">Closes Sunday 12th May</span>
         </a>
       </div>
     </section>
