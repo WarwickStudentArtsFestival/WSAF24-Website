@@ -10,7 +10,7 @@ const keyDates: KeyDateProps[] = [
   },
   {
     name: 'Submissions Close',
-    date: 'Sunday 12th May',
+    date: 'Sun 12th May',
     dateTime: '2024-05-12',
     description:
       'Submission form closes and the schedule and logistics are finalised.',
