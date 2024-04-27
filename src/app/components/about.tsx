@@ -22,10 +22,10 @@ export default function About() {
           className="inline-block bg-secondary m-4 px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105"
         >
           <span className="text-xl lg:text-2xl uppercase font-bold">
-            Registration Form Now Open{' '}
+            Registration Form Still Open{' '}
             <FiExternalLink className="inline-block mb-2" />
           </span>
-          <span className="block text-sm">Closes Friday 26th April</span>
+          <span className="block text-sm">Closes Sunday 12th May</span>
         </a>
       </div>
     </section>
