@@ -1,4 +1,4 @@
-import KeyDate, { KeyDateProps } from '@/app/components/key-date';
+import KeyDate, { KeyDateProps } from './key-date';
 
 const keyDates: KeyDateProps[] = [
   {
