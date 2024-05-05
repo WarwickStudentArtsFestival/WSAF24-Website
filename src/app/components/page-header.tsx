@@ -19,17 +19,17 @@ export default function PageHeader({ title }: { title: string }) {
             src={Logo}
             alt="WSAF 2024 logo"
             placeholder="blur"
-            className="my-2 mr-6 h-24 w-auto object-contain drop-shadow-sm"
+            className="my-2 mr-2 sm:mr-6 h-16 sm:h-24 w-auto object-contain drop-shadow-sm"
             priority
           />
-          <div className="my-2 flex flex-col items-end text-right">
-            <h2 className="text-left bg-primary font-bold py-2 px-4 text-white m-0">
-              <span className="block text-4xl">WSAF 2024</span>
-              <span className="block text-xl normal-case">
+          <div className="my-2 flex flex-col items-end text-right mr-2 sm:mr-6">
+            <h2 className="text-left bg-primary font-bold py-1 sm:py-2 px-2 sm:px-4 text-white m-0">
+              <span className="block text-2xl sm:text-4xl">WSAF 2024</span>
+              <span className="block text-sm sm:text-xl normal-case -mt-1 sm:mt-0">
                 Warwick Student Arts Festival
               </span>
             </h2>
-            <span className="text-sm pb-1 px-3 -mt-2 block bg-primary text-accent font-bold">
+            <span className="text-xs sm:text-sm pb-1 px-2 sm:px-3 -mt-1 sm:-mt-2 block bg-primary text-accent font-bold">
               <time dateTime="2024-06-08T10:00:00.000">Sat 8th</time> -{' '}
               <time dateTime="2024-06-10T22:00:00.000">Mon 10th June</time>
             </span>
