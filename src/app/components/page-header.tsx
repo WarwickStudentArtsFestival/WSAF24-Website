@@ -1,10 +1,44 @@
-import Hero from '@/app/components/hero';
+import Image from 'next/image';
+import HeroImage from '@/assets/hero.jpg';
+import Logo from '@/assets/logo.png';
+import Link from 'next/link';
 
 export default function PageHeader({ title }: { title: string }) {
   return (
-    <>
-      <Hero collapsed />
-      <h1 className="heading -top-8 relative !-mb-4">{title}</h1>
-    </>
+    <header className="relative border-b-accent border-b-8 bg-accent mb-8">
+      <Image
+        src={HeroImage}
+        alt="Aerial shot of the Warwick University piazza"
+        placeholder="blur"
+        className="absolute h-full object-cover"
+        priority
+      />
+      <Link href="/">
+        <div className="p-6 relative flex flex-wrap sm:flex-nowrap justify-center items-center hover:scale-105">
+          <Image
+            src={Logo}
+            alt="WSAF 2024 logo"
+            placeholder="blur"
+            className="my-2 mr-6 h-24 w-auto object-contain drop-shadow-sm"
+            priority
+          />
+          <div className="my-2 flex flex-col items-end text-right">
+            <h2 className="text-left bg-primary font-bold py-2 px-4 text-white m-0">
+              <span className="block text-4xl">WSAF 2024</span>
+              <span className="block text-xl normal-case">
+                Warwick Student Arts Festival
+              </span>
+            </h2>
+            <span className="text-sm pb-1 px-3 -mt-2 block bg-primary text-accent font-bold">
+              <time dateTime="2024-06-08T10:00:00.000">Sat 8th</time> -{' '}
+              <time dateTime="2024-06-10T22:00:00.000">Mon 10th June</time>
+            </span>
+          </div>
+        </div>
+      </Link>
+      <div className="-bottom-8 absolute left-0 right-0 text-center">
+        <h1 className="heading">{title}</h1>
+      </div>
+    </header>
   );
 }
