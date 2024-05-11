@@ -2,6 +2,8 @@ import Image from 'next/image';
 import warwickTechCrewLogo from '@/assets/organisations/warwick-tech-crew.png';
 import warwickSuLogo from '@/assets/organisations/warwick-su.svg';
 import warwickPresentsLogo from '@/assets/organisations/warwick-presents.png';
+import { FiInstagram } from 'react-icons/fi';
+import { FaDiscord } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -43,13 +45,27 @@ export default function Footer() {
         Copyright © Warwick Student Arts Festival 2024
       </p>
 
-      <p className="font-bold mt-0.5">
+      <p className="font-bold mt-0.5 flex gap-2 justify-center">
         <a href="mailto:info@wsaf.org.uk" target="_blank">
           info@wsaf.org.uk
         </a>
-        <span className="font-light"> • </span>
-        <a href="https://www.instagram.com/wsaf24/" target="_blank">
+        <span className="font-light">•</span>
+        <a
+          href="https://www.instagram.com/wsaf24/"
+          target="_blank"
+          className="flex items-center justify-center"
+        >
+          <FiInstagram className="inline mr-0.5 mt-0.5" />
           @wsaf24
+        </a>
+        <span className="font-light">•</span>
+        <a
+          href="https://discord.gg/TuFwJX4GKM"
+          target="_blank"
+          className="flex items-center justify-center"
+        >
+          <FaDiscord className="inline mr-0.5" />
+          Discord
         </a>
       </p>
     </footer>
