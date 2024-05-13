@@ -60,9 +60,9 @@ export default function Faq() {
           <h3>Where will everything take place?</h3>
           <p>
             WSAF will take place all over the University of Warwick campus. Our
-            preliminary list includes a stage on the Piazza, Curiositea and the
-            FAB Studios in addition to the performance spaces in Avon and
-            Milburn House - however this is subject to change.
+            preliminary list includes an outdoor stage, Curiositea and the FAB
+            Studios in addition to the performance spaces in Avon and Milburn
+            House - however this is subject to change.
           </p>
         </div>
 
