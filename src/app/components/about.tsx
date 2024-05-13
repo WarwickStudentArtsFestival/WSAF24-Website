@@ -17,18 +17,7 @@ export default function About() {
           a poem or anything in-between that you want to show, we&apos;d love to
           see you there!
         </p>
-        <a
-          href="https://forms.office.com/pages/responsepage.aspx?id=vc-6Ce9HZUSSZTVG8ur2vFkUeDcXxJtJj843aI4gzYJUNEJZSVlJN1k5UlBKUE01VzA2VjhNMlIyMiQlQCN0PWcu"
-          target="_blank"
-          className="inline-block bg-secondary m-4 mb-2 px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105"
-        >
-          <span className="text-xl lg:text-2xl uppercase font-bold">
-            Registration Form Still Open{' '}
-            <FiExternalLink className="inline-block mb-2" />
-          </span>
-          <span className="block text-sm">Closes Sunday 12th May</span>
-        </a>
-        <p className="flex gap-2 justify-center mb-2">
+        <p className="flex gap-2 justify-center mb-2 mt-4">
           <a
             href="https://www.instagram.com/wsaf24/"
             target="_blank"
