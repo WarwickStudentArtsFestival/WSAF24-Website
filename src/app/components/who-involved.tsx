@@ -15,48 +15,56 @@ const people: IdCardProps[] = [
     role: 'WSAF Lead (Technical)',
     description: '4th Year Computer Systems Engineering',
     image: AdamPhoto,
+    pronouns: 'He/Him',
   },
   {
     name: 'Alex',
     role: 'WSAF Lead (Operations)',
     description: '2nd Year\nChemistry (PhD)',
     image: AlexPhoto,
+    pronouns: 'He/Him',
   },
   {
     name: 'Dae',
     role: 'WSAF Lead (Communications)',
     description: '2nd Year\nLiberal Arts',
     image: DaePhoto,
+    pronouns: 'They/Them',
   },
   {
     name: 'Maximus',
     role: 'WSAF Lead (Finance & Data)',
     description: '1st Year\nMathematics',
     image: MaximusPhoto,
+    pronouns: 'He/Him',
   },
   {
     name: 'Josh',
     role: 'Head of\nDigital',
     description: '2nd Year Computer Science',
     image: JoshPhoto,
+    pronouns: 'He/Him',
   },
   {
     name: 'Ellie',
     role: 'Head of Marketing',
     description: '2nd Year English and Theatre Studies',
     image: ElliePhoto,
+    pronouns: 'She/Her',
   },
   {
     name: 'Ethan',
     role: 'Head of\nTeam Catering',
     description: '3rd Year Mechanical Engineering',
     image: EthanPhoto,
+    pronouns: 'He/Him',
   },
   {
     name: 'Danny',
     role: 'Sustainability Coordinator',
     description: '2nd Year Biological Sciences',
     image: DannyPhoto,
+    pronouns: 'He/Him',
   },
   {
     name: 'You?',
@@ -92,6 +100,7 @@ export default function KeyDates() {
             emailDescription={person.emailDescription}
             role={person.role}
             image={person.image}
+            pronouns={person.pronouns}
           />
         ))}
       </div>
