@@ -64,7 +64,7 @@ const people: IdCardProps[] = [
     role: 'Sustainability Coordinator',
     description: '2nd Year Biological Sciences',
     image: DannyPhoto,
-    pronouns: 'He/Him',
+    pronouns: 'They/Them',
   },
   {
     name: 'You?',
