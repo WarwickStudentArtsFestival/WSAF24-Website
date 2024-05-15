@@ -29,7 +29,7 @@ const people: IdCardProps[] = [
     role: 'WSAF Lead (Communications)',
     description: '2nd Year\nLiberal Arts',
     image: DaePhoto,
-    pronouns: 'They/Them',
+    pronouns: 'She/They',
   },
   {
     name: 'Maximus',
