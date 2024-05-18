@@ -6,7 +6,6 @@ export type IdCardProps = {
   description?: string;
   role?: string;
   image?: StaticImageData;
-  emailDescription?: boolean;
 };
 
 export default function IdCard({
