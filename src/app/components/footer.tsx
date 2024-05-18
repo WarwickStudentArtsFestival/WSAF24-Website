@@ -12,6 +12,8 @@ export default function Footer() {
       <div className="flex gap-2 justify-center items-center mb-6 font-bold uppercase">
         <Link href="/">WSAF</Link>
         <span className="font-light"> • </span>
+        <Link href="/events">Events</Link>
+        <span className="font-light"> • </span>
         <Link href="/team">Team</Link>
         <span className="font-light"> • </span>
         <Link href="/history">History</Link>
