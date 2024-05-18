@@ -7,6 +7,13 @@ import volunteers from '@/app/team/volunteers';
 import AvatarImage from '@/assets/people/avatar.jpg';
 import { FaDiscord } from 'react-icons/fa';
 import CrewRole from '@/app/team/components/crew-role';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Team | Warwick Student Arts Festival 2024',
+  description:
+    "Warwick Student Arts Festival would not be possible without our amazing team of volunteers. From marketing to catering and from stewarding to tech, our team have been working hard since February to make the event the best that it can be. However, we're still looking for people to help!",
+};
 
 const crewRoles = [
   {
@@ -89,7 +96,7 @@ export default function Team() {
           </div>
           <Image
             src={PosteringImage}
-            alt="Postering"
+            alt="Warwick Student Arts Festival volunteers putting up posters on campus."
             className="max-w-64 sm:max-w-80 lg:max-w-md float-right"
             priority
             placeholder="blur"
