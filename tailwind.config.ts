@@ -16,6 +16,9 @@ const config: Config = {
         white: '#FFFFFF',
         dark: '#000000',
       },
+      fontSize: {
+        '2xs': '0.6rem',
+      },
     },
     fontFamily: {
       lexend: ['var(--font-lexend)', 'sans-serif'],
