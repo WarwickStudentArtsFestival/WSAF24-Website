@@ -1,31 +1,28 @@
 import IdCard from '@/app/components/id-card';
 import AvatarImage from '@/assets/people/avatar.jpg';
 import organisers from '@/app/team/organisers';
+import { FiArrowRight } from 'react-icons/fi';
 
 export default function KeyDates() {
   return (
     <section className="mb-12">
       <h2>Who&apos;s Involved?</h2>
       <p className="mt-2 mb-1 mx-4">
-        This year&apos;s WSAF is being organised by the following volunteers. If
-        you think you could add something to the team, contact us at{' '}
-        <a
-          href="mailto:info@wsaf.org.uk"
-          target="_blank"
-          className="text-accent"
-        >
-          info@wsaf.org.uk
+        This year&apos;s WSAF is being organised by the following volunteers, in
+        combination with many other people working behind the scenes in roles
+        such as marketing, tech and logistics.
+        <br />
+        <a href="/team" className="text-accent">
+          Find out more about the full team and how you can get involved here.
         </a>
-        .
       </p>
 
-      <div className="flex justify-center flex-wrap mb-8">
+      <div className="flex justify-center flex-wrap mb-4">
         {organisers.map((person) => (
           <IdCard
             key={person.name}
             name={person.name}
             description={person.description}
-            emailDescription={person.emailDescription}
             role={person.role}
             image={person.image}
           />
@@ -37,6 +34,16 @@ export default function KeyDates() {
           emailDescription
         />
       </div>
+
+      <a
+        href="/team"
+        className="inline-block bg-tertiary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mb-4"
+      >
+        <span className="text-xl lg:text-2xl uppercase font-bold">
+          <FiArrowRight className="inline mr-2 mb-1" />
+          View or Join the WSAF Team
+        </span>
+      </a>
     </section>
   );
 }

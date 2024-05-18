@@ -60,7 +60,7 @@ export default function Footer() {
         </a>
         <span className="font-light">•</span>
         <a
-          href="https://www.instagram.com/wsaf24/"
+          href="/instagram"
           target="_blank"
           className="flex items-center justify-center"
         >
@@ -69,7 +69,7 @@ export default function Footer() {
         </a>
         <span className="font-light">•</span>
         <a
-          href="https://discord.gg/TuFwJX4GKM"
+          href="/discord"
           target="_blank"
           className="flex items-center justify-center"
         >

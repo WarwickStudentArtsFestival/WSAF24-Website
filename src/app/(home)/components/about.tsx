@@ -19,7 +19,7 @@ export default function About() {
         </p>
         <p className="flex gap-2 justify-center mb-2 mt-4">
           <a
-            href="https://www.instagram.com/wsaf24/"
+            href="/instagram"
             target="_blank"
             className="flex items-center justify-center hover:scale-105"
           >
@@ -28,7 +28,7 @@ export default function About() {
           </a>
           <span className="font-light">•</span>
           <a
-            href="https://discord.gg/TuFwJX4GKM"
+            href="/discord"
             target="_blank"
             className="flex items-center justify-center hover:scale-105"
           >
