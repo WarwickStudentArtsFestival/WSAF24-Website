@@ -3,6 +3,7 @@ import { Lexend } from 'next/font/google';
 import './globals.css';
 import Footer from '@/app/components/footer';
 import React from 'react';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const lexend = Lexend({
   subsets: ['latin'],
@@ -38,6 +39,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID} />
+      )}
       <body className={`${lexend.className} flex flex-col min-h-screen`}>
         {children}
         <Footer />
