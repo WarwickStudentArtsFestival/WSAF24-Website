@@ -46,7 +46,7 @@ const crewRoles = [
 export default function Team() {
   return (
     <main>
-      <section className="mb-16">
+      <section className="mb-8 md:mb-16">
         <PageHeader title="Team" />
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start max-w-5xl mx-auto px-4 gap-4">
@@ -104,7 +104,7 @@ export default function Team() {
         </div>
       </section>
 
-      <section className="mb-16 max-w-8xl mx-auto">
+      <section className="mb-8 md:mb-16 max-w-8xl mx-auto">
         <h2>Crew Roles</h2>
         <div className="mt-2 flex flex-wrap gap-4 justify-center mx-4">
           {crewRoles.map((role) => (
@@ -117,7 +117,7 @@ export default function Team() {
         </div>
       </section>
 
-      <section className="mb-16">
+      <section className="md:mb-16">
         <h2>Organiser Team</h2>
         <p className="mb-1  max-w-6xl mx-auto px-4">
           Our organiser team, led by the four founders, have been central in the
@@ -137,7 +137,7 @@ export default function Team() {
         </div>
       </section>
 
-      <section className="mb-16 mx-4">
+      <section className="md:mb-16 mx-4">
         <h2>Volunteer Team</h2>
         <p className="mb-1 max-w-6xl mx-auto px-4">
           Our volunteer team are also essential to the running of WSAF, and
