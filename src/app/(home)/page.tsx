@@ -4,6 +4,7 @@ import WhoInvolved from './components/who-involved';
 import Faq from './components/faq';
 import React from 'react';
 import About from './components/about';
+import History from './components/history';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <KeyDates />
       <WhoInvolved />
+      <History />
       <Faq />
     </main>
   );
