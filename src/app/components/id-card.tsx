@@ -5,6 +5,7 @@ export type IdCardProps = {
   name: string;
   description?: string;
   role?: string;
+  pronouns?: string;
   image?: StaticImageData;
   emailDescription?: boolean;
 };
@@ -14,12 +15,14 @@ export default function IdCard({
   description,
   emailDescription,
   role,
+  pronouns,
   image,
 }: {
   name: string;
   description?: string;
   emailDescription?: boolean;
   role?: string;
+  pronouns?: string;
   image?: StaticImageData;
 }) {
   return (
@@ -36,6 +39,7 @@ export default function IdCard({
           />
         )}
         <h3 className="text-lg sm:text-xl font-bold leading-tight">{name}</h3>
+        {pronouns && <p className="text-2xs font-bold -mt-1">{pronouns}</p>}
         {emailDescription && (
           <span className="block text-xs sm:text-sm leading-tight">
             Interested? Email us at{' '}
