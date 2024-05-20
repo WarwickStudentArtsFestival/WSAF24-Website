@@ -29,17 +29,17 @@ const crewRoles = [
   {
     name: 'Tech',
     description:
-      'The tech team ensure that everyone can be seen and heard through the use of PA and lighting systems (depending on the venue). They are also responsible for livestreaming and recording events, where applicable.',
+      'The tech team ensure that everyone can be seen and heard through the use of sound/PA and lighting/LX systems. They are also responsible for livestreaming and recording events, where applicable. All tech operators must be members of Warwick Tech Crew - please contact us for more information.',
   },
   {
     name: 'Venue Managers',
     description:
-      'Venue managers are responsible for looking after each venue and its equipment, and ensuring that there are adequate stewards and tech throughout the day.',
+      'Venue managers are responsible for looking after each venue and its performance schedule throughout WSAF. They ensure that performers, tech operators and stewards are aware of the schedule and any special requirements and that they communicate well with each other.',
   },
   {
-    name: 'Logistics',
+    name: 'Operations',
     description:
-      'The logistics team ensures that the event runs smoothly and are on hand to resolve any issues that can crop up.',
+      'The operations and logistics team ensures that the event runs smoothly and are on hand to resolve any issues that can crop up. This can range from transporting equipment between venues to sorting last-minute scheduling issues.',
   },
 ];
 
