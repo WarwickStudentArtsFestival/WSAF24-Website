@@ -137,34 +137,38 @@ const festivalList: {
 export default function FestivalsTable() {
   return (
     <table className="mx-auto table-auto bg-secondary border-2 border-accent m-4">
-      <tr className="uppercase text-lg">
-        <th className="px-4 py-0.5">Name</th>
-        <th className="px-4 py-0.5">Dates</th>
-        <th className="px-4 py-0.5">Events</th>
-        <th className="px-4 py-0.5">Links</th>
-      </tr>
-      {festivalList.map((festival) => (
-        <tr key={festival.name} className="border-t border-accent">
-          <th className="px-4 py-0.5">{festival.name}</th>
-          <td className="px-4 py-0.5">{festival.dates || '-'}</td>
-          <td className="px-4 py-0.5">{festival.events || '-'}</td>
-          <td className="px-4 py-0.5">
-            {festival.links
-              ? festival.links.map((link) => (
-                  <a
-                    key={link.href}
-                    target="_blank"
-                    href={link.href}
-                    rel="noopener noreferrer"
-                    className="text-accent block"
-                  >
-                    {link.name}
-                  </a>
-                ))
-              : '-'}
-          </td>
+      <thead>
+        <tr className="uppercase text-lg">
+          <th className="px-4 py-0.5">Name</th>
+          <th className="px-4 py-0.5">Dates</th>
+          <th className="px-4 py-0.5">Events</th>
+          <th className="px-4 py-0.5">Links</th>
         </tr>
-      ))}
+      </thead>
+      <tbody>
+        {festivalList.map((festival) => (
+          <tr key={festival.name} className="border-t border-accent">
+            <th className="px-4 py-0.5">{festival.name}</th>
+            <td className="px-4 py-0.5">{festival.dates || '-'}</td>
+            <td className="px-4 py-0.5">{festival.events || '-'}</td>
+            <td className="px-4 py-0.5">
+              {festival.links
+                ? festival.links.map((link) => (
+                    <a
+                      key={link.href}
+                      target="_blank"
+                      href={link.href}
+                      rel="noopener noreferrer"
+                      className="text-accent block"
+                    >
+                      {link.name}
+                    </a>
+                  ))
+                : '-'}
+            </td>
+          </tr>
+        ))}
+      </tbody>
     </table>
   );
 }
