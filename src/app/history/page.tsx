@@ -5,7 +5,7 @@ export default function History() {
   return (
     <main>
       <PageHeader title="The History of WSAF" />
-      <p>Bit of an introduction</p>
+      <p>Bit of an introduction.</p>
 
       <section>
         <FestivalsTable />
@@ -14,13 +14,14 @@ export default function History() {
       <section>
         <p>
           The first ever Warwick Student Arts Festival took place in 2004, with
-          over 50 events take place across campus in a spectacular celebration
-          of the creative talent at the University.
+          over 50 events take place across campus in a &apos;spectacular
+          celebration of the creative talent at the University&apos;.
         </p>
 
         <p>
-          Warwick Student Arts Festival was temporarily renamed to SPLAT-Fest,
-          standing for Student Performance, Literature, Art & Theatre.
+          In 2009, Warwick Student Arts Festival was temporarily renamed to
+          SPLAT-Fest, standing for Student Performance, Literature, Art &
+          Theatre.
         </p>
       </section>
     </main>
