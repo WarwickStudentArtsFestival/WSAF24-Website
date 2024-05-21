@@ -144,7 +144,10 @@ export default function Faq() {
               2015
             </a>
             . We&apos;re looking at reviving this again in 2024, with a
-            completely new team.
+            completely new team.{' '}
+            <a href="/history" target="_blank">
+              You can find more about our history here.
+            </a>
           </p>
         </div>
 
