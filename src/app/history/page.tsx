@@ -66,8 +66,8 @@ export default function History() {
       <section className="max-w-6xl mx-auto px-4 mb-16">
         <h2>The Beginning</h2>
 
-        <div className="flex gap-4 mb-2">
-          <div className="w-96 flex-grow text-right">
+        <div className="flex-col-reverse sm:flex-row flex gap-2 sm:gap-4 mb-2">
+          <div className="sm:w-96 flex-grow sm:text-right">
             <p className="mb-2">
               The{' '}
               <a
@@ -121,7 +121,7 @@ export default function History() {
             <Image
               src={Wsaf2004Poster}
               alt="Poster from WSAF 2004"
-              className="w-36 object-contain"
+              className="w-36 object-contain mx-auto"
               placeholder="blur"
               priority
             />
@@ -139,7 +139,7 @@ export default function History() {
         </div>
 
         <figure className="mb-4">
-          <div className="flex gap-4 justify-center h-40">
+          <div className="flex gap-4 justify-center flex-wrap">
             <Image
               src={Wsaf2004Dj}
               alt="24-hour DJ marathon at WSAF '04"
@@ -171,7 +171,7 @@ export default function History() {
           </figcaption>
         </figure>
 
-        <div className="flex gap-4 text-left mb-2">
+        <div className="flex-col sm:flex-row flex gap-4 sm:text-left mb-2">
           <figure>
             <iframe
               width="241"
@@ -182,6 +182,7 @@ export default function History() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
+              className="mx-auto"
             ></iframe>
             <figcaption className="text-xs mt-0.5 text-center">
               <a
@@ -194,7 +195,7 @@ export default function History() {
               </a>
             </figcaption>
           </figure>
-          <div className="w-96 flex-grow">
+          <div className="sm:w-96 flex-grow">
             <p className="mb-2">
               Perhaps one of the most notable relics of WSAF &apos;05 was the{' '}
               <a
@@ -263,7 +264,7 @@ export default function History() {
           </p>
         </div>
 
-        <div className="flex gap-4 justify-center mb-2">
+        <div className="flex gap-4 justify-center mb-2 flex-wrap">
           <figure>
             <iframe
               width="341"
@@ -274,6 +275,7 @@ export default function History() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
+              className="max-w-full 2xs:h-64"
             ></iframe>
             <figcaption className="text-xs mt-0.5">
               <a
@@ -290,7 +292,7 @@ export default function History() {
             <Image
               src={Wsaf2008Schedule}
               alt="WSAF '08 Schedule"
-              className="object-contain w-auto h-64"
+              className="object-contain w-auto 2xs:h-64"
             />
             <figcaption className="text-xs mt-0.5">
               <a
@@ -305,12 +307,12 @@ export default function History() {
           </figure>
         </div>
 
-        <div className="flex gap-4 mb-2">
+        <div className="mt-6 sm:mt-0 flex-col sm:flex-row flex gap-2 sm:gap-4 mb-2">
           <figure>
             <Image
               src={Wsaf2010Logo}
               alt="WSAF 2010 Logo"
-              className="object-contain w-36"
+              className="object-contain w-36 mx-auto"
             />
             <figcaption className="text-xs mt-0.5">
               <a
@@ -323,7 +325,7 @@ export default function History() {
               </a>
             </figcaption>
           </figure>
-          <div className="w-96 flex-grow text-left">
+          <div className="sm:w-96 flex-grow sm:text-left">
             <p className="mb-2">
               In 2009, Warwick Student Arts Festival was temporarily renamed to{' '}
               <a
@@ -368,8 +370,8 @@ export default function History() {
           </div>
         </div>
 
-        <div className="flex gap-4 mb-4">
-          <div className="w-96 flex-grow text-right">
+        <div className="flex-col-reverse sm:flex-row flex gap-2 sm:gap-4 mb-4">
+          <div className="sm:w-96 flex-grow sm:text-right">
             <p className="mb-2">
               <a
                 href="https://warwick.ac.uk/newsandevents/news-old/wsaf2010"
@@ -415,7 +417,7 @@ export default function History() {
             <Image
               src={Wsaf2012Poster}
               alt="WSAF 2012 Poster"
-              className="object-contain w-28"
+              className="object-contain w-28 mx-auto"
             />
             <figcaption className="text-xs mt-0.5">
               <a
@@ -432,12 +434,12 @@ export default function History() {
 
         <h2 className="mt-4">The End?</h2>
 
-        <div className="my-2 flex gap-4 justify-center">
+        <div className="sm:mt-2 mb-2 flex gap-4 justify-center items-center">
           <figure>
             <Image
               src={Wsaf2014Logo}
               alt="WSAF 2014 Logo"
-              className="object-contain h-32 w-auto"
+              className="object-contain 2xs:h-32 w-auto"
             />
             <figcaption className="text-xs mt-0.5">
               <a

@@ -169,22 +169,22 @@ const festivalList: {
 export default function FestivalsTable() {
   return (
     <figure className="m-4">
-      <table className="mx-auto table-auto bg-secondary border-2 border-accent">
+      <table className="mx-auto table-auto bg-secondary border-2 border-accent text-sm sm:text-base">
         <thead>
-          <tr className="uppercase text-lg">
-            <th className="px-4 py-0.5">Name</th>
-            <th className="px-4 py-0.5">Dates</th>
-            <th className="px-4 py-0.5">Events</th>
-            <th className="px-4 py-0.5">Links</th>
+          <tr className="uppercase sm:text-lg">
+            <th className="px-2 sm:px-4 py-0.5">Name</th>
+            <th className="px-2 sm:px-4 py-0.5">Dates</th>
+            <th className="px-2 sm:px-4 py-0.5">Events</th>
+            <th className="px-2 sm:px-4 py-0.5">Links</th>
           </tr>
         </thead>
         <tbody>
           {festivalList.map((festival) => (
             <tr key={festival.name} className="border-t border-accent">
-              <th className="px-4 py-0.5">{festival.name}</th>
-              <td className="px-4 py-0.5">{festival.dates || '-'}</td>
-              <td className="px-4 py-0.5">{festival.events || '-'}</td>
-              <td className="px-4 py-0.5">
+              <th className="px-2 sm:px-4 py-0.5">{festival.name}</th>
+              <td className="px-2 sm:px-4 py-0.5">{festival.dates || '-'}</td>
+              <td className="px-2 sm:px-4 py-0.5">{festival.events || '-'}</td>
+              <td className="px-2 sm:px-4 py-0.5">
                 {festival.links
                   ? festival.links.map((link) => (
                       <a
