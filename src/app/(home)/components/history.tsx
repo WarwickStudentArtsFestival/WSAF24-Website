@@ -7,13 +7,23 @@ export default function History() {
     <section className="mb-4 md:mb-12">
       <h2 className="mb-4">History</h2>
 
-      <div className="mx-4">
+      <figure className="mx-4">
         <Image
           src={Wsaf2015StandImage}
           alt="The WSAF stand in 2015"
           className="w-full max-w-80 mx-auto"
         />
-      </div>
+        <figcaption className="text-xs mt-0.5">
+          <a
+            href="https://www.facebook.com/photo/?fbid=495940720558871&set=a.287594771393468"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent"
+          >
+            WSAF 2014 Help Desk
+          </a>
+        </figcaption>
+      </figure>
 
       <p className="mt-2 mb-3 mx-auto px-4 max-w-5xl">
         Although we are a completely new team, Warwick Student Arts Festival is

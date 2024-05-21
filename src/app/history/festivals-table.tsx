@@ -22,6 +22,17 @@ const festivalList: {
   },
   {
     name: 'WSAF 2014',
+    dates: '21-24 June 2014',
+    links: [
+      {
+        name: 'Facebook Page',
+        href: 'https://www.facebook.com/warwickstudentartsfest/posts/pfbid02SY2jPCGEcRthhCqw9MRc9whj8hazeuXBGrrJdar6K2UnjJysGSbb46esuYDRv91Wl',
+      },
+      {
+        name: 'News Article',
+        href: 'https://warwick.ac.uk/insite/news/intnews2/wsaf2014',
+      },
+    ],
   },
   {
     name: 'WSAF 2013',
@@ -36,6 +47,7 @@ const festivalList: {
   {
     name: 'WSAF 2012',
     dates: '24-27 June 2012',
+    events: '100+',
     links: [
       {
         name: 'Website',
@@ -95,6 +107,18 @@ const festivalList: {
         name: 'Website',
         href: 'https://web.archive.org/web/20081007200600/http://www.wsaf.org.uk/',
       },
+      {
+        name: 'News Article',
+        href: 'https://warwick.ac.uk/newsandevents/news-old/get_set_for',
+      },
+      {
+        name: 'Schedule',
+        href: 'https://warwick.ac.uk/newsandevents/news-old/get_set_for/wsaf_prog_08_190608_print.pdf',
+      },
+      {
+        name: 'Trailer',
+        href: 'https://www.youtube.com/watch?v=NETIyo4Uc_o',
+      },
     ],
   },
   {
@@ -134,45 +158,54 @@ const festivalList: {
         name: 'Website',
         href: 'https://web.archive.org/web/20050506042341/http://www.wsaf.org.uk:80/',
       },
+      {
+        name: 'BBC News',
+        href: 'https://www.bbc.co.uk/coventry/features/student/break-dancing-at-warwick-uni.shtml',
+      },
     ],
   },
 ];
 
 export default function FestivalsTable() {
   return (
-    <table className="mx-auto table-auto bg-secondary border-2 border-accent m-4">
-      <thead>
-        <tr className="uppercase text-lg">
-          <th className="px-4 py-0.5">Name</th>
-          <th className="px-4 py-0.5">Dates</th>
-          <th className="px-4 py-0.5">Events</th>
-          <th className="px-4 py-0.5">Links</th>
-        </tr>
-      </thead>
-      <tbody>
-        {festivalList.map((festival) => (
-          <tr key={festival.name} className="border-t border-accent">
-            <th className="px-4 py-0.5">{festival.name}</th>
-            <td className="px-4 py-0.5">{festival.dates || '-'}</td>
-            <td className="px-4 py-0.5">{festival.events || '-'}</td>
-            <td className="px-4 py-0.5">
-              {festival.links
-                ? festival.links.map((link) => (
-                    <a
-                      key={link.href}
-                      target="_blank"
-                      href={link.href}
-                      rel="noopener noreferrer"
-                      className="text-accent block"
-                    >
-                      {link.name}
-                    </a>
-                  ))
-                : '-'}
-            </td>
+    <figure className="m-4">
+      <table className="mx-auto table-auto bg-secondary border-2 border-accent">
+        <thead>
+          <tr className="uppercase text-lg">
+            <th className="px-4 py-0.5">Name</th>
+            <th className="px-4 py-0.5">Dates</th>
+            <th className="px-4 py-0.5">Events</th>
+            <th className="px-4 py-0.5">Links</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {festivalList.map((festival) => (
+            <tr key={festival.name} className="border-t border-accent">
+              <th className="px-4 py-0.5">{festival.name}</th>
+              <td className="px-4 py-0.5">{festival.dates || '-'}</td>
+              <td className="px-4 py-0.5">{festival.events || '-'}</td>
+              <td className="px-4 py-0.5">
+                {festival.links
+                  ? festival.links.map((link) => (
+                      <a
+                        key={link.href}
+                        target="_blank"
+                        href={link.href}
+                        rel="noopener noreferrer"
+                        className="text-accent block"
+                      >
+                        {link.name}
+                      </a>
+                    ))
+                  : '-'}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <figcaption className="text-xs mt-0.5">
+        Table of all WSAF Festivals
+      </figcaption>
+    </figure>
   );
 }

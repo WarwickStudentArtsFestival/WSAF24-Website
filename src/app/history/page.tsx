@@ -1,7 +1,21 @@
 import PageHeader from '@/app/components/page-header';
 import FestivalsTable from '@/app/history/festivals-table';
-import Wsaf2004Poster from '@/assets/history/wasf-2004-poster.jpg';
+import Wsaf2004Poster from '@/assets/history/wsaf-2004-poster.jpg';
+import Wsaf2004Dj from '@/assets/history/wsaf-2004-dj.jpg';
+import Wsaf2004Breakdancing from '@/assets/history/wsaf-2004-breakdancing.jpg';
+import Wsaf2004Film from '@/assets/history/wsaf-2004-film.jpg';
+import Wsaf2008Schedule from '@/assets/history/wsaf-2008-schedule.jpg';
+import Wsaf2010Logo from '@/assets/history/wsaf-2010-logo.jpg';
+import Wsaf2012Poster from '@/assets/history/wsaf-2012-poster.jpg';
+import Wsaf2014Logo from '@/assets/history/wsaf-2014-logo.jpg';
+import Wsaf2015Logo from '@/assets/history/wsaf-2015-logo.jpg';
+import Wsaf2014Scheduling from '@/assets/history/wsaf-2014-scheduling.jpg';
+import Wsaf2014OutdoorPianos from '@/assets/history/wsaf-2014-outdoor-pianos.jpg';
+import Wsaf2014Stand from '@/assets/history/wsaf-2014-stand.jpg';
+import Wsaf2014Trampolining from '@/assets/history/wsaf-2014-trampolining.jpg';
+import Wsaf2014BigBand from '@/assets/history/wsaf-2014-big-band.jpg';
 import Image from 'next/image';
+import Gallery from '@/app/history/gallery';
 
 export default function History() {
   return (
@@ -51,6 +65,7 @@ export default function History() {
 
       <section className="max-w-6xl mx-auto px-4 mb-16">
         <h2>The Beginning</h2>
+
         <div className="flex gap-4 mb-2">
           <div className="w-96 flex-grow text-right">
             <p className="mb-2">
@@ -70,12 +85,20 @@ export default function History() {
                 University, encapsulating virtually every artistic genre
                 imaginable.&quot;
               </em>{' '}
-              This festival had over 50 events which ranged from a &apos;Paint
-              Explosion&apos; and &apos;Prom in the Park&apos; to an
-              &apos;Indian Raga Evening&apos; and &apos;Stomp Style
-              Percussion&apos; - and from the website that was made and the
-              subsequent yearly festivals, it seemed like this was a huge
-              success.
+              This festival had 60 events involving around 700 students, ranging
+              from a &apos;Paint Explosion&apos; and &apos;Prom in the
+              Park&apos; to an &apos;Indian Raga Evening&apos; and &apos;Stomp
+              Style Percussion&apos;.{' '}
+              <a
+                href="https://www.bbc.co.uk/coventry/features/student/break-dancing-at-warwick-uni.shtml"
+                className="text-accent"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                An article from BBC News
+              </a>{' '}
+              also reported breakdancing, a 24-hour DJ marathon and Student Film
+              Festival.
             </p>
             <p>
               The next year,{' '}
@@ -91,34 +114,86 @@ export default function History() {
               hour and a half of{' '}
               <em>&quot;The Greatest Show on Campus&quot;</em>, a combination of
               magic, juggling and music. This festival also included WSAF
-              postcards and a printed programme and had &apos;hundreds&apos; of
-              volunteers.
+              postcards and a printed programme, with hundreds of volunteers.
             </p>
           </div>
-          <a
-            href="https://web.archive.org/web/20050506042341/http://www.wsaf.org.uk:80/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <figure>
             <Image
               src={Wsaf2004Poster}
               alt="Poster from WSAF 2004"
               className="w-36 object-contain"
+              placeholder="blur"
+              priority
             />
-          </a>
+            <figcaption className="text-xs mt-0.5">
+              <a
+                href="https://web.archive.org/web/20050506042341/http://www.wsaf.org.uk:80/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF 2004 Poster
+              </a>
+            </figcaption>
+          </figure>
         </div>
 
+        <figure className="mb-4">
+          <div className="flex gap-4 justify-center h-40">
+            <Image
+              src={Wsaf2004Dj}
+              alt="24-hour DJ marathon at WSAF '04"
+              placeholder="blur"
+              className="object-contain h-40 w-auto"
+            />
+            <Image
+              src={Wsaf2004Breakdancing}
+              alt="Breakdancing at WSAF '04"
+              placeholder="blur"
+              className="object-contain h-40 w-auto"
+            />
+            <Image
+              src={Wsaf2004Film}
+              alt="12 foot high outdoor screen at WSAF '04"
+              placeholder="blur"
+              className="object-contain h-40 w-auto"
+            />
+          </div>
+          <figcaption className="text-xs mt-0.5">
+            <a
+              href="https://www.bbc.co.uk/coventry/features/student/break-dancing-at-warwick-uni.shtml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent"
+            >
+              WSAF &apos;04 Images from BBC News
+            </a>
+          </figcaption>
+        </figure>
+
         <div className="flex gap-4 text-left mb-2">
-          <iframe
-            width="241"
-            height="180"
-            src="https://www.youtube.com/embed/zdXN7Y-Flxo?si=hP0IUv_ZMrEANFXy"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
+          <figure>
+            <iframe
+              width="241"
+              height="180"
+              src="https://www.youtube.com/embed/zdXN7Y-Flxo?si=hP0IUv_ZMrEANFXy"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+            <figcaption className="text-xs mt-0.5 text-center">
+              <a
+                href="https://www.youtube.com/watch?v=zdXN7Y-Flxo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF Amarillo Music Video
+              </a>
+            </figcaption>
+          </figure>
           <div className="w-96 flex-grow">
             <p className="mb-2">
               Perhaps one of the most notable relics of WSAF &apos;05 was the{' '}
@@ -128,7 +203,7 @@ export default function History() {
                 rel="noopener noreferrer"
                 className="text-accent"
               >
-                WSAF Amarillo Music Video
+                WSAF Amarillo Music Video Trailer
               </a>
               , which premiered to over 3,000 people at Top Banana (the Student
               Union nightclub event predating Pop!). This was reportedly Warwick
@@ -174,40 +249,271 @@ export default function History() {
             line in the world, a Chinese carnival parade and a ghost tour around
             campus. By this point, annual WSAF traditions included an opening
             concert by Revelation Rock Gospel Choir and late-night outdoor film
-            screenings by Warwick Student Cinema.
+            screenings by Warwick Student Cinema. WSAF &apos;08 was also the
+            first festival whose{' '}
+            <a
+              href="https://warwick.ac.uk/newsandevents/news-old/get_set_for/wsaf_prog_08_190608_print.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent"
+            >
+              16-page printed programme
+            </a>{' '}
+            we can find.
           </p>
         </div>
 
-        <p>
-          In 2009, Warwick Student Arts Festival was temporarily renamed to{' '}
-          <a
-            href="http://web.archive.org/web/20090524043909/http://wsaf.org.uk/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent"
-          >
-            SPLAT-Fest
-          </a>
-          , standing for{' '}
-          <strong>
-            Student Performance, Literature, Art & Theatre Festival
-          </strong>
-          . This year was the first year that featured literature, with events
-          such as a &apos;Writers Panel Discussion&apos;, &apos;Speed Book
-          Club&apos; and &apos;Poetry Slam&apos; - in the first{' '}
-          <a
-            href="https://warwick.ac.uk/newsandevents/pressreleases/award-winning_author_to/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent"
-          >
-            WSAF-related press release from Warwick University
-          </a>
-          , it was announced that award-winning author AL Kennedy would headline
-          at the festival.
-        </p>
+        <div className="flex gap-4 justify-center mb-2">
+          <figure>
+            <iframe
+              width="341"
+              height="256"
+              src="https://www.youtube.com/embed/NETIyo4Uc_o?si=bPm_Vyn5skPze2_w"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+            <figcaption className="text-xs mt-0.5">
+              <a
+                href="https://www.youtube.com/watch?v=NETIyo4Uc_o"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF &apos;08 Trailer
+              </a>
+            </figcaption>
+          </figure>
+          <figure>
+            <Image
+              src={Wsaf2008Schedule}
+              alt="WSAF '08 Schedule"
+              className="object-contain w-auto h-64"
+            />
+            <figcaption className="text-xs mt-0.5">
+              <a
+                href="https://warwick.ac.uk/newsandevents/news-old/get_set_for/wsaf_prog_08_190608_print.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF &apos;08 Schedule
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div className="flex gap-4 mb-2">
+          <figure>
+            <Image
+              src={Wsaf2010Logo}
+              alt="WSAF 2010 Logo"
+              className="object-contain w-36"
+            />
+            <figcaption className="text-xs mt-0.5">
+              <a
+                href="https://warwick.ac.uk/newsandevents/news-old/wsaf2010"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF 2010 Logo
+              </a>
+            </figcaption>
+          </figure>
+          <div className="w-96 flex-grow text-left">
+            <p className="mb-2">
+              In 2009, Warwick Student Arts Festival was temporarily renamed to{' '}
+              <a
+                href="http://web.archive.org/web/20090524043909/http://wsaf.org.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                SPLAT-Fest
+              </a>
+              , standing for{' '}
+              <strong>
+                Student Performance, Literature, Art & Theatre Festival
+              </strong>
+              . This year was the first year that featured literature, with
+              events such as a &apos;Writers Panel Discussion&apos;, &apos;Speed
+              Book Club&apos; and &apos;Poetry Slam&apos; - in the first{' '}
+              <a
+                href="https://warwick.ac.uk/newsandevents/pressreleases/award-winning_author_to/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF-related press release from Warwick University
+              </a>
+              , it was announced that award-winning author AL Kennedy would
+              headline at the festival.
+            </p>
+            <p>
+              <a
+                href="https://warwick.ac.uk/newsandevents/news-old/wsaf2010"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF 2010
+              </a>{' '}
+              introduced the <strong>Funday Sunday</strong>, a family day out
+              designed to &quot;celebrate the relationship between the
+              University and the wider community.&quot;
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-4 mb-4">
+          <div className="w-96 flex-grow text-right">
+            <p className="mb-2">
+              <a
+                href="https://warwick.ac.uk/newsandevents/news-old/wsaf2010"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF 2011
+              </a>{' '}
+              took place on Saturday 25th-Tuesday 28th June 2011, continuing the
+              focus on the wider community with events aimed at children and
+              young people. This also continued into{' '}
+              <a
+                href="https://warwick.ac.uk/newsandevents/news-old/wsaf2010"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF 2012
+              </a>
+              , with performances from Music Theatre Warwick Juniors and a
+              Community Creative Arts Competition featuring performances from
+              Aces Cheer and Dance Club, Rhapsody Academy of Dance, Tile Hill
+              School Choir and Finham Park School Choir.
+            </p>
+            <p>
+              2012 also introduced each day centering around a different theme:
+              Community on Sunday, Creation on Monday, Collaboration on Tuesday,
+              and Celebration on Wednesday.{' '}
+              <a
+                href="http://web.archive.org/web/20130810135711/http://wsaf.co.uk/whatiswsaf.php"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                2013
+              </a>{' '}
+              continued these themes but added a focus on &apos;urban and
+              sensory themes.&apos;
+            </p>
+          </div>
+          <figure>
+            <Image
+              src={Wsaf2012Poster}
+              alt="WSAF 2012 Poster"
+              className="object-contain w-28"
+            />
+            <figcaption className="text-xs mt-0.5">
+              <a
+                href="https://warwick.ac.uk/newsandevents/news-old/wsaf_2012/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF 2012 Poster
+              </a>
+            </figcaption>
+          </figure>
+        </div>
 
         <h2 className="mt-4">The End?</h2>
+
+        <div className="my-2 flex gap-4 justify-center">
+          <figure>
+            <Image
+              src={Wsaf2014Logo}
+              alt="WSAF 2014 Logo"
+              className="object-contain h-32 w-auto"
+            />
+            <figcaption className="text-xs mt-0.5">
+              <a
+                href="https://warwick.ac.uk/insite/news/intnews2/wsaf2014"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF 2014 Logo
+              </a>
+            </figcaption>
+          </figure>
+          <figure>
+            <Image
+              src={Wsaf2015Logo}
+              alt="WSAF 2015 Logo"
+              className="object-contain h-32 w-auto"
+            />
+            <figcaption className="text-xs mt-0.5">
+              <a
+                href="https://www.facebook.com/photo/?fbid=158415133533661&set=pb.100080955263187.-2207520000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent"
+              >
+                WSAF 2015 Logo
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div>
+          <p className="mb-2">
+            <a
+              href="https://warwick.ac.uk/insite/news/intnews2/wsaf2014"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent"
+            >
+              WSAF 2014
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://www.facebook.com/warwickstudentartsfest/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent"
+            >
+              2015
+            </a>{' '}
+            are the last festivals we can find. Although we are unable to find
+            much information about these or WSAF stopped, WSAF 2014 started
+            using a{' '}
+            <a
+              href="https://www.facebook.com/warwickstudentartsfest/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent"
+            >
+              Facebook page
+            </a>{' '}
+            which still exists today, containing many images of what the last
+            festivals were like.
+          </p>
+          <p>
+            But this is not the end of the story! 9 years later, WSAF 2024 is
+            being launched by a completely new team, and we hope that this can
+            continue for many years into the future. As you excited as we are,
+            or has this page inspired you to help?{' '}
+            <a href="/team" className="text-accent">
+              Join our team!
+            </a>
+          </p>
+        </div>
+
+        <Gallery />
       </section>
     </main>
   );
