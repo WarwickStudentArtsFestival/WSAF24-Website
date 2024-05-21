@@ -16,6 +16,13 @@ import Wsaf2014Trampolining from '@/assets/history/wsaf-2014-trampolining.jpg';
 import Wsaf2014BigBand from '@/assets/history/wsaf-2014-big-band.jpg';
 import Image from 'next/image';
 import Gallery from '@/app/history/gallery';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'The History of WSAF | Warwick Student Arts Festival 2024',
+  description:
+    'Warwick Student Arts Festival is not a completely novel idea - it made its first debut on 20-24 June 2004, with over 50 events. Since then, it ran for 11 further years before it stopped, with more and more success each time. Our aim is to bring this event back to campus, reclaiming the title as "Europe\'s largest annual student arts festival".',
+};
 
 export default function History() {
   return (
