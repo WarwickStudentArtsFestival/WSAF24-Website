@@ -2,12 +2,21 @@ import Image from 'next/image';
 import warwickTechCrewLogo from '@/assets/organisations/warwick-tech-crew.png';
 import warwickSuLogo from '@/assets/organisations/warwick-su.svg';
 import warwickPresentsLogo from '@/assets/organisations/warwick-presents.png';
+import Link from 'next/link';
 import { FiInstagram } from 'react-icons/fi';
 import { FaDiscord } from 'react-icons/fa';
 
 export default function Footer() {
   return (
     <footer className="bg-secondary mt-auto px-4 pt-6 pb-8 text-sm">
+      <div className="flex gap-2 justify-center items-center mb-6 font-bold uppercase">
+        <Link href="/">WSAF</Link>
+        <span className="font-light"> • </span>
+        <Link href="/team">Team</Link>
+        <span className="font-light"> • </span>
+        <Link href="/history">History</Link>
+      </div>
+
       <div className="m-2">
         <h3 className="font-bold">Delivery Partners</h3>
         <p className="font-light">
@@ -51,7 +60,7 @@ export default function Footer() {
         </a>
         <span className="font-light">•</span>
         <a
-          href="https://www.instagram.com/wsaf24/"
+          href="/instagram"
           target="_blank"
           className="flex items-center justify-center"
         >
@@ -60,7 +69,7 @@ export default function Footer() {
         </a>
         <span className="font-light">•</span>
         <a
-          href="https://discord.gg/TuFwJX4GKM"
+          href="/discord"
           target="_blank"
           className="flex items-center justify-center"
         >

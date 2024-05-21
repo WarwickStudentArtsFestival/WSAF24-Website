@@ -1,6 +1,6 @@
 'use client';
 
-import HomepageRedirect from '@/app/components/homepage-redirect';
+import HomepageRedirect from '@/app/(home)/components/homepage-redirect';
 
 export default function NotFound() {
   return (

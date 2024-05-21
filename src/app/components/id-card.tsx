@@ -7,7 +7,6 @@ export type IdCardProps = {
   role?: string;
   pronouns?: string;
   image?: StaticImageData;
-  emailDescription?: boolean;
 };
 
 export default function IdCard({
@@ -36,6 +35,7 @@ export default function IdCard({
             src={image}
             alt={`Image of ${name}`}
             className="mx-auto mb-2 w-24 sm:w-32 h-auto"
+            placeholder="blur"
           />
         )}
         <h3 className="text-lg sm:text-xl font-bold leading-tight">{name}</h3>

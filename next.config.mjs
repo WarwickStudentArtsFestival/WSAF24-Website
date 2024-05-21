@@ -8,6 +8,11 @@ const nextConfig = {
       permanent: true,
     },
     {
+      source: '/discord',
+      destination: 'https://discord.gg/TuFwJX4GKM',
+      permanent: true,
+    },
+    {
       source: '/submit',
       destination: 'https://forms.office.com/e/VCDf8eLLTp',
       permanent: true,
