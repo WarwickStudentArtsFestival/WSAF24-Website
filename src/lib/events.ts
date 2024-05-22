@@ -16,6 +16,18 @@ export async function getEventInstances() {
   });
 }
 
+export async function getEvent(
+  id: number,
+): Promise<schedule_event_with_relations | null> {
+  return prisma.schedule_event.findFirst({
+    where: { id },
+    include: {
+      schedule_organisation: true,
+      schedule_event_categories: { include: { schedule_category: true } },
+    },
+  });
+}
+
 export async function getEvents(): Promise<schedule_event_with_relations[]> {
   return prisma.schedule_event.findMany({
     include: {

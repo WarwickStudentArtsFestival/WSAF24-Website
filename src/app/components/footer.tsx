@@ -9,14 +9,19 @@ import { FaDiscord } from 'react-icons/fa';
 export default function Footer() {
   return (
     <footer className="bg-secondary mt-auto px-4 pt-6 pb-8 text-sm">
-      <div className="flex gap-2 justify-center items-center mb-6 font-bold uppercase">
+      <div className="flex gap-2 justify-center items-center font-bold uppercase">
         <Link href="/">WSAF</Link>
-        <span className="font-light"> • </span>
-        <Link href="/events">Events</Link>
         <span className="font-light"> • </span>
         <Link href="/team">Team</Link>
         <span className="font-light"> • </span>
         <Link href="/history">History</Link>
+      </div>
+      <div className="flex gap-2 justify-center items-center mb-6 font-bold uppercase">
+        <Link href="/events">Events</Link>
+        <span className="font-light"> • </span>
+        <Link href="/schedule">Schedule</Link>
+        <span className="font-light"> • </span>
+        <Link href="/venues">Venues</Link>
       </div>
 
       <div className="m-2">
