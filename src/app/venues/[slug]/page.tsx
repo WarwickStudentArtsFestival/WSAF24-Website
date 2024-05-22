@@ -4,15 +4,17 @@ import { Metadata } from 'next';
 
 export async function generateStaticParams() {
   const venues = await getVenues();
-  return venues.map((venue) => ({ id: venue.toString() }));
+  return venues
+    .filter((venue) => venue.slug)
+    .map((venue) => ({ slug: venue.slug }));
 }
 
 export async function generateMetadata({
-  params: { id },
+  params: { slug },
 }: {
-  params: { id: string };
+  params: { slug: string };
 }): Promise<Metadata> {
-  const venue = await getVenue(parseInt(id));
+  const venue = await getVenue(slug);
   if (!venue) {
     return {
       title: 'Venue Not Found',
@@ -22,16 +24,16 @@ export async function generateMetadata({
 
   return {
     title: `${venue.name} | WSAF 2024`,
-    description: venue.address,
+    description: venue.description,
   };
 }
 
 export default async function Venue({
-  params: { id },
+  params: { slug },
 }: {
-  params: { id: string };
+  params: { slug: string };
 }) {
-  const venue = await getVenue(parseInt(id));
+  const venue = await getVenue(slug);
   if (!venue)
     return (
       <main>
@@ -45,9 +47,21 @@ export default async function Venue({
   return (
     <main>
       <PageHeader title={venue.name} />
-      <p>{venue.address}</p>
+      <p>{venue.description}</p>
+      {venue.campus_map_url && (
+        <a href={venue.campus_map_url} className="text-accent" target="_blank">
+          Campus Map
+        </a>
+      )}
 
-      <a href="/venues">Go back to venues</a>
+      <div>
+        <a
+          href="/venues"
+          className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 m-4"
+        >
+          <span className="text-xl uppercase font-bold">All Venues</span>
+        </a>
+      </div>
     </main>
   );
 }

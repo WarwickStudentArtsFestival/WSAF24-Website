@@ -13,7 +13,7 @@ export default async function Venues() {
         {venues.map((venue) => (
           <a
             key={venue.id}
-            href={`/venues/${venue.id}`}
+            href={`/venues/${venue.slug || ''}`}
             className="hover:scale-105"
           >
             <article className="bg-secondary p-4">

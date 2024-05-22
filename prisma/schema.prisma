@@ -269,8 +269,12 @@ model schedule_organisation {
 model schedule_venue {
   id                     BigInt                   @id @default(autoincrement())
   name                   String                   @db.VarChar(200)
-  address                String
+  description            String
+  campus_map_url         String?                  @db.VarChar
+  slug                   String?                  @unique @db.VarChar(50)
   schedule_eventinstance schedule_eventinstance[]
+
+  @@index([slug], map: "schedule_venue_slug_f3d3b124_like")
 }
 
 /// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.

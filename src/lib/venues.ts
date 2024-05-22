@@ -4,6 +4,6 @@ export function getVenues() {
   return prisma.schedule_venue.findMany();
 }
 
-export function getVenue(venueId: number) {
-  return prisma.schedule_venue.findFirst({ where: { id: venueId } });
+export function getVenue(slug: string) {
+  return prisma.schedule_venue.findFirst({ where: { slug } });
 }
