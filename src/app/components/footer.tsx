@@ -56,7 +56,18 @@ export default function Footer() {
         Copyright © Warwick Student Arts Festival 2024
       </p>
 
-      <p className="font-bold mt-0.5 flex gap-2 justify-center">
+      <p className="font-bold text-xs">
+        <a
+          href="https://github.com/WarwickStudentArtsFestival/WSAF24-Website"
+          target="_blank"
+        >
+          Source Code
+        </a>
+        <span className="font-light mx-1">•</span>
+        <a href="/privacy">Privacy Policy</a>
+      </p>
+
+      <p className="font-bold mt-2 flex gap-2 justify-center">
         <a href="mailto:info@wsaf.org.uk" target="_blank">
           info@wsaf.org.uk
         </a>

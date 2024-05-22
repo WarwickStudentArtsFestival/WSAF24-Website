@@ -5,7 +5,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 export default function KeyDates() {
   return (
-    <section className="mb-12">
+    <section className="mb-4 md:mb-12">
       <h2>Who&apos;s Involved?</h2>
       <p className="mt-2 mb-1 mx-4">
         This year&apos;s WSAF is being organised by the following volunteers, in
@@ -37,9 +37,9 @@ export default function KeyDates() {
 
       <a
         href="/team"
-        className="inline-block bg-tertiary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mb-4"
+        className="inline-block bg-tertiary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mb-4 mx-4"
       >
-        <span className="text-xl lg:text-2xl uppercase font-bold">
+        <span className="text-xl uppercase font-bold">
           <FiArrowRight className="inline mr-2 mb-1" />
           View or Join the WSAF Team
         </span>

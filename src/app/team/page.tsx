@@ -29,24 +29,24 @@ const crewRoles = [
   {
     name: 'Tech',
     description:
-      'The tech team ensure that everyone can be seen and heard through the use of PA and lighting systems (depending on the venue). They are also responsible for livestreaming and recording events, where applicable.',
+      'The tech team ensure that everyone can be seen and heard through the use of sound/PA and lighting/LX systems. They are also responsible for livestreaming and recording events, where applicable. All tech operators must be members of Warwick Tech Crew - please contact us for more information.',
   },
   {
     name: 'Venue Managers',
     description:
-      'Venue managers are responsible for looking after each venue and its equipment, and ensuring that there are adequate stewards and tech throughout the day.',
+      'Venue managers are responsible for looking after each venue and its performance schedule throughout WSAF. They ensure that performers, tech operators and stewards are aware of the schedule and any special requirements and that they communicate well with each other.',
   },
   {
-    name: 'Logistics',
+    name: 'Operations',
     description:
-      'The logistics team ensures that the event runs smoothly and are on hand to resolve any issues that can crop up.',
+      'The operations and logistics team ensures that the event runs smoothly and are on hand to resolve any issues that can crop up. This can range from transporting equipment between venues to sorting last-minute scheduling issues.',
   },
 ];
 
 export default function Team() {
   return (
     <main>
-      <section className="mb-16">
+      <section className="mb-8 md:mb-16">
         <PageHeader title="Team" />
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start max-w-5xl mx-auto px-4 gap-4">
@@ -104,7 +104,7 @@ export default function Team() {
         </div>
       </section>
 
-      <section className="mb-16 max-w-8xl mx-auto">
+      <section className="mb-8 md:mb-16 max-w-8xl mx-auto">
         <h2>Crew Roles</h2>
         <div className="mt-2 flex flex-wrap gap-4 justify-center mx-4">
           {crewRoles.map((role) => (
@@ -117,7 +117,7 @@ export default function Team() {
         </div>
       </section>
 
-      <section className="mb-16">
+      <section className="md:mb-16">
         <h2>Organiser Team</h2>
         <p className="mb-1  max-w-6xl mx-auto px-4">
           Our organiser team, led by the four founders, have been central in the
@@ -137,7 +137,7 @@ export default function Team() {
         </div>
       </section>
 
-      <section className="mb-16 mx-4">
+      <section className="md:mb-16 mx-4">
         <h2>Volunteer Team</h2>
         <p className="mb-1 max-w-6xl mx-auto px-4">
           Our volunteer team are also essential to the running of WSAF, and
