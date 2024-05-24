@@ -17,6 +17,7 @@
   "dependencies": {
     "@next/third-parties": "^14.2.3",
     "@prisma/client": "^5.14.0",
+    "dayjs": "^1.11.11",
     "dotenv-cli": "^7.4.2",
     "next": "14.1.4",
     "react": "^18",

@@ -1,5 +1,6 @@
 import prisma from '@/lib/prisma';
 import { Prisma, schedule_category, schedule_event } from '@prisma/client';
+import dayjs from 'dayjs';
 
 export async function getEventInstances() {
   return prisma.schedule_eventinstance.findMany({
@@ -24,6 +25,7 @@ export async function getEvent(
     include: {
       schedule_organisation: true,
       schedule_event_categories: { include: { schedule_category: true } },
+      schedule_eventinstance: { include: { schedule_venue: true } },
     },
   });
 }
@@ -33,6 +35,7 @@ export async function getEvents(): Promise<schedule_event_with_relations[]> {
     include: {
       schedule_organisation: true,
       schedule_event_categories: { include: { schedule_category: true } },
+      schedule_eventinstance: { include: { schedule_venue: true } },
     },
   });
 }
@@ -41,5 +44,10 @@ export type schedule_event_with_relations = Prisma.schedule_eventGetPayload<{
   include: {
     schedule_organisation: true;
     schedule_event_categories: { include: { schedule_category: true } };
+    schedule_eventinstance: { include: { schedule_venue: true } };
   };
 }>;
+
+export function formatShowDateTime(date: Date) {
+  return dayjs(date).format('ddd h:mma');
+}
