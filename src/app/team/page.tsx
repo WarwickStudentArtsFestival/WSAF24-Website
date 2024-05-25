@@ -8,6 +8,7 @@ import AvatarImage from '@/assets/people/avatar.jpg';
 import { FaDiscord } from 'react-icons/fa';
 import CrewRole from '@/app/team/components/crew-role';
 import { Metadata } from 'next';
+import { FiArrowRight } from 'react-icons/fi';
 
 export const metadata: Metadata = {
   title: 'Team | Warwick Student Arts Festival 2024',
@@ -65,10 +66,10 @@ export default function Team() {
             </p>
             <p className="mb-4">
               Not only do volunteers get to meet new people and gain new
-              experience, but all crew receive a free T-shirt and lunch on each
-              day. If you&apos;d be interested in helping out in any of the
-              listed roles (or feel like you could contribute in a different
-              way), join the{' '}
+              experience, but all crew receive a <strong>free T-shirt</strong>{' '}
+              and <strong>lunch</strong> on each day. If you&apos;d be
+              interested in helping out in any of the listed roles (or feel like
+              you could contribute in a different way), join the{' '}
               <a href="/discord" target="_blank" className="text-accent">
                 Discord
               </a>{' '}
@@ -83,16 +84,28 @@ export default function Team() {
               .
             </p>
 
-            <a
-              href="/discord"
-              target="_blank"
-              className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105"
-            >
-              <span className="text-xl lg:text-2xl uppercase font-bold">
-                <FaDiscord className="inline-block mb-1 mr-2" />
-                Join the Discord
-              </span>
-            </a>
+            <div className="flex gap-2 justify-center md:justify-end flex-wrap">
+              <a
+                href="/discord"
+                target="_blank"
+                className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105"
+              >
+                <span className="text-xl lg:text-2xl uppercase font-bold">
+                  <FaDiscord className="inline-block mb-1 mr-2" />
+                  Join Discord
+                </span>
+              </a>
+              <a
+                href="/helfertool"
+                target="_blank"
+                className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105"
+              >
+                <span className="text-xl lg:text-2xl uppercase font-bold">
+                  <FiArrowRight className="inline-block mb-1 mr-2" />
+                  Sign Up
+                </span>
+              </a>
+            </div>
           </div>
           <Image
             src={PosteringImage}
@@ -115,6 +128,17 @@ export default function Team() {
             />
           ))}
         </div>
+
+        <a
+          href="/helfertool"
+          className="inline-block bg-tertiary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mt-4 mx-4"
+          target="_blank"
+        >
+          <span className="text-xl uppercase font-bold">
+            <FiArrowRight className="inline mr-2 mb-1" />
+            View or Sign Up to a Role
+          </span>
+        </a>
       </section>
 
       <section className="md:mb-16">
@@ -141,8 +165,12 @@ export default function Team() {
         <h2>Volunteer Team</h2>
         <p className="mb-1 max-w-6xl mx-auto px-4">
           Our volunteer team are also essential to the running of WSAF, and
-          we&apos;re still looking for others to join! If you&apos;re
-          interested, join the{' '}
+          we&apos;re still looking for others to join! You can view our
+          available roles and sign up{' '}
+          <a href="/helfertool" target="_blank" className="text-accent">
+            here
+          </a>
+          , join the{' '}
           <a href="/discord" target="_blank" className="text-accent">
             Discord
           </a>{' '}

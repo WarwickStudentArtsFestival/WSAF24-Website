@@ -1,4 +1,4 @@
-import { FiExternalLink, FiInstagram } from 'react-icons/fi';
+import { FiArrowRight, FiExternalLink, FiInstagram } from 'react-icons/fi';
 import { FaDiscord } from 'react-icons/fa';
 
 export default function About() {
@@ -13,11 +13,18 @@ export default function About() {
         <p>
           Every day will feature a morning-to-evening programme of events
           including theatre, dance, music, film, literature, comedy and art held
-          across the entirety of campus. If you have a show, some art, a dance,
-          a poem or anything in-between that you want to show, we&apos;d love to
-          see you there!
+          across the entirety of campus.
         </p>
-        <p className="flex gap-2 justify-center mb-2 mt-4">
+        <a
+          href="/team"
+          className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mt-2"
+        >
+          <span className="text-xl lg:text-2xl uppercase font-bold">
+            <FiArrowRight className="inline-block mb-1 mr-2" />
+            Join the Team
+          </span>
+        </a>
+        <p className="flex gap-2 justify-center mb-2">
           <a
             href="/instagram"
             target="_blank"
