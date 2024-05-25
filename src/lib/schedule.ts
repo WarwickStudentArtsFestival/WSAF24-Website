@@ -29,6 +29,16 @@ export async function getScheduleDays(
   for (const eventInstance of eventInstances) {
     if (currentDateString !== eventInstance.start.toDateString()) {
       if (currentScheduleDay) {
+        if (currentEventStartTime) {
+          currentScheduleDay?.venueScheduleDays
+            .filter(
+              (venueScheduleDay) =>
+                !currentTimeVenueEvents[venueScheduleDay.venue.id.toString()],
+            )
+            .forEach((venueScheduleDay) =>
+              venueScheduleDay.eventInstances.push(null),
+            );
+        }
         scheduleDays.push(currentScheduleDay);
       }
 
@@ -79,6 +89,7 @@ export async function getScheduleDays(
     }
     currentTimeVenueEvents[eventInstance.venue_id.toString()] = true;
   }
+
   if (currentScheduleDay) {
     scheduleDays.push(currentScheduleDay);
   }

@@ -1,6 +1,8 @@
 import { ScheduleDay } from '@/lib/schedule';
 import ScheduleVenueDay from '@/app/schedule/components/schedule-venue-day';
 import dayjs from 'dayjs';
+import advancedFormat from 'dayjs/plugin/advancedFormat';
+dayjs.extend(advancedFormat);
 
 export default function ScheduleDays({
   scheduleDays,
@@ -10,15 +12,22 @@ export default function ScheduleDays({
   hideVenues?: boolean;
 }) {
   return (
-    <div className="">
+    <div>
       {scheduleDays.map((scheduleDay) => (
         <div
           key={scheduleDay.earliestEventDate.toDateString()}
-          className="mb-8 relative"
+          className="mb-12 relative"
         >
-          <h2 className="text-xl font-semibold px-3 py-0.5">
-            {dayjs(scheduleDay.earliestEventDate).format('dddd')}
-          </h2>
+          <div className="relative">
+            <div className="absolute top-0 bottom-0 flex justify-center items-center left-0 right-0">
+              <div className="bg-accent w-full h-1" />
+            </div>
+
+            <h2 className="relative text-2xl font-semibold px-3 py-0.5 bg-accent">
+              {dayjs(scheduleDay.earliestEventDate).format('dddd Do')}
+            </h2>
+          </div>
+
           <div className="overflow-x-scroll">
             {scheduleDay.venueScheduleDays.map((venueScheduleDay) => (
               <ScheduleVenueDay

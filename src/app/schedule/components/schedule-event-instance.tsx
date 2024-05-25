@@ -17,13 +17,13 @@ export default function ScheduleEventInstance({
       className="block w-52 mr-3"
     >
       <article
-        className={`group p-4 ${getEventColourClasses(eventInstance.schedule_event)} drop-shadow-md h-full relative`}
+        className={`group p-2 ${getEventColourClasses(eventInstance.schedule_event)} drop-shadow-md h-full relative`}
       >
         <div className="p-6 absolute left-0 right-0 bottom-0 top-0">
           <Image
             src={getEventLogo(eventInstance.schedule_event)}
             alt="Event logo"
-            className="w-32 max-h-full object-contain mx-auto group-hover:scale-125 transition-all duration-75 opacity-45"
+            className="w-32 max-h-full object-contain mx-auto group-hover:scale-125 transition-all duration-75 opacity-35"
           />
         </div>
 

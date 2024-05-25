@@ -53,6 +53,10 @@ export async function getEvents(
   });
 }
 
+export function getEventCount(): Promise<number> {
+  return prisma.schedule_event.count();
+}
+
 export type schedule_event_with_relations = Prisma.schedule_eventGetPayload<{
   include: {
     schedule_organisation: true;
