@@ -1,9 +1,20 @@
 import PageHeader from '@/app/components/page-header';
-import { getVenues } from '@/lib/venues';
+import { getVenueCount, getVenues } from '@/lib/venues';
 import { FiCalendar, FiTv } from 'react-icons/fi';
 import { getEventCount } from '@/lib/events';
+import { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
+export async function generateMetadata(): Promise<Metadata> {
+  const venueCount = await getVenueCount();
+  const eventCount = await getEventCount();
+
+  return {
+    title: 'Venues | Warwick Student Arts Festival 2024',
+    description: `WSAF 2024 will take place across Saturday 8th - Monday 10th June, with ${eventCount} events across ${venueCount} venues.`,
+  };
+}
+
 export default async function Venues() {
   const venues = await getVenues();
   const eventCount = await getEventCount();

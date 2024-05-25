@@ -1,10 +1,20 @@
 import PageHeader from '@/app/components/page-header';
-import { getEvents } from '@/lib/events';
+import { getEventCount, getEvents } from '@/lib/events';
 import EventCard from '@/app/events/components/event-card';
 import { FiCalendar, FiHome } from 'react-icons/fi';
 import { getVenueCount } from '@/lib/venues';
+import { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
+export async function generateMetadata(): Promise<Metadata> {
+  const venueCount = await getVenueCount();
+  const eventCount = await getEventCount();
+
+  return {
+    title: 'Events | Warwick Student Arts Festival 2024',
+    description: `WSAF 2024 will take place across Saturday 8th - Monday 10th June, with ${eventCount} events across ${venueCount} venues.`,
+  };
+}
 
 export default async function Events() {
   const events = await getEvents();
