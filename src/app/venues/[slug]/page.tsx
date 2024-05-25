@@ -1,16 +1,17 @@
 import PageHeader from '@/app/components/page-header';
-import { getVenue, getVenues } from '@/lib/venues';
+import { getVenue } from '@/lib/venues';
 import { Metadata } from 'next';
 import { getScheduleDays } from '@/lib/schedule';
 import ScheduleDays from '@/app/schedule/components/schedule-days';
 
-export async function generateStaticParams() {
+/*export async function generateStaticParams() {
   const venues = await getVenues();
   return venues
     .filter((venue) => venue.slug)
     .map((venue) => ({ slug: venue.slug }));
-}
+}*/
 
+export const dynamic = 'force-dynamic';
 export async function generateMetadata({
   params: { slug },
 }: {

@@ -3,6 +3,7 @@ import { getVenues } from '@/lib/venues';
 import { FiCalendar, FiTv } from 'react-icons/fi';
 import { getEventCount } from '@/lib/events';
 
+export const dynamic = 'force-dynamic';
 export default async function Venues() {
   const venues = await getVenues();
   const eventCount = await getEventCount();

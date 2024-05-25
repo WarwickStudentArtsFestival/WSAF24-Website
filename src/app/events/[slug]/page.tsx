@@ -2,11 +2,12 @@ import PageHeader from '@/app/components/page-header';
 import { Metadata } from 'next';
 import { getEvent, getEvents } from '@/lib/events';
 
-export async function generateStaticParams() {
+/*export async function generateStaticParams() {
   const events = await getEvents();
   return events.map((event) => ({ slug: event.slug }));
-}
+}*/
 
+export const dynamic = 'force-dynamic';
 export async function generateMetadata({
   params: { slug },
 }: {

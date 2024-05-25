@@ -5,6 +5,8 @@ import { getVenueCount } from '@/lib/venues';
 import { getEventCount } from '@/lib/events';
 import { FiHome, FiTv } from 'react-icons/fi';
 
+export const dynamic = 'force-dynamic';
+
 export default async function Schedule() {
   const scheduleDays = await getScheduleDays();
   const venueCount = await getVenueCount();

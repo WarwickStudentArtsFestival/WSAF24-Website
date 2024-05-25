@@ -4,6 +4,8 @@ import EventCard from '@/app/events/components/event-card';
 import { FiCalendar, FiHome } from 'react-icons/fi';
 import { getVenueCount } from '@/lib/venues';
 
+export const dynamic = 'force-dynamic';
+
 export default async function Events() {
   const events = await getEvents();
   const venueCount = await getVenueCount();
