@@ -9,6 +9,12 @@ Then, clone the website through SSH. You'll need to install [Git](https://git-sc
 git clone git@github.com:WarwickStudentArtsFestival/WSAF24-Website.git
 ```
 
+Setup env
+```bash
+cp .env .env.local
+nano .env.local
+```
+
 Install npm modules
 ```bash
 npm install
@@ -20,6 +26,19 @@ npm run dev
 ```
 
 This will start a live-reloading web server at [http://localhost:3000](http://localhost:3000).
+
+### Database
+This project uses a PostgreSQL database to store event information.
+
+Pull schema from the db
+```bash
+npm run prisma:db:pull
+```
+
+Generate Prisma client
+```bash
+npm run prisma:generate
+```
 
 ## Code and Commit Style
 ### Git Usage
