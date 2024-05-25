@@ -16,11 +16,6 @@ export async function generateMetadata(): Promise<Metadata> {
     description: `WSAF 2024 will take place across Saturday 8th - Monday 10th June, with ${eventCount} events across ${venueCount} venues.`,
   };
 }
-export const metadata: Metadata = {
-  title: 'Schedule | Warwick Student Arts Festival 2024',
-  description:
-    "Warwick Student Arts Festival would not be possible without our amazing team of volunteers. From marketing to catering and from stewarding to tech, our team have been working hard since February to make the event the best that it can be. However, we're still looking for people to help!",
-};
 
 export default async function Schedule() {
   const scheduleDays = await getScheduleDays();
