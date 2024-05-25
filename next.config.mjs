@@ -21,6 +21,21 @@ const nextConfig = {
       source: '/submissions',
       destination: 'https://forms.office.com/e/VCDf8eLLTp',
       permanent: true,
+    },
+    {
+      source: '/helfertool',
+      destination: 'https://helfertool.wsaf.org.uk/wsaf24/',
+      permanent: true,
+    },
+    {
+      source: '/sign-up',
+      destination: 'https://helfertool.wsaf.org.uk/wsaf24/',
+      permanent: true,
+    },
+    {
+      source: '/volunteer',
+      destination: '/team',
+      permanent: true,
     }
   ])
 };
