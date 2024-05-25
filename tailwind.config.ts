@@ -16,6 +16,7 @@ const config: Config = {
         accent: '#FFBD00',
         white: '#FFFFFF',
         dark: '#000000',
+        orange: '#FF5400',
       },
       fontSize: {
         '2xs': '0.6rem',
@@ -28,6 +29,10 @@ const config: Config = {
       '2xs': '440px',
       xs: '520px',
       ...defaultTheme.screens,
+      '3xl': '1800px',
+      '4xl': '2050px',
+      '5xl': '2300px',
+      '6xl': '2550px',
     },
   },
   plugins: [],

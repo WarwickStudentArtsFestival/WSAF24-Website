@@ -4,15 +4,15 @@ import { getEvent, getEvents } from '@/lib/events';
 
 export async function generateStaticParams() {
   const events = await getEvents();
-  return events.map((event) => ({ id: event.toString() }));
+  return events.map((event) => ({ slug: event.slug }));
 }
 
 export async function generateMetadata({
-  params: { id },
+  params: { slug },
 }: {
-  params: { id: string };
+  params: { slug: string };
 }): Promise<Metadata> {
-  const event = await getEvent(parseInt(id));
+  const event = await getEvent(slug);
   if (!event) {
     return {
       title: 'Event Not Found',
@@ -27,11 +27,11 @@ export async function generateMetadata({
 }
 
 export default async function Event({
-  params: { id },
+  params: { slug },
 }: {
-  params: { id: string };
+  params: { slug: string };
 }) {
-  const event = await getEvent(parseInt(id));
+  const event = await getEvent(slug);
   if (!event)
     return (
       <main>

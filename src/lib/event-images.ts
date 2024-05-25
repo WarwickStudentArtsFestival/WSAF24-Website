@@ -1,26 +1,28 @@
 import MaskImage from '@/assets/icons/mask.png';
-import WorkshopImage from '@/assets/icons/workshop.png';
-import DanceImage from '@/assets/icons/dance.png';
-import MusicImage from '@/assets/icons/music.png';
-import SpokenWordImage from '@/assets/icons/spoken-word.png';
+import TrumpetImage from '@/assets/icons/trumpet.png';
+import BalletShoesImage from '@/assets/icons/ballet_shoes.png';
+import MicrophoneImage from '@/assets/icons/microphone.png';
+import PaintbrushImage from '@/assets/icons/paintbrush.png';
 import { schedule_event_with_relations } from '@/lib/events';
 import { StaticImageData } from 'next/image';
 
 export function getEventLogo(
   event: schedule_event_with_relations,
 ): StaticImageData {
-  const category = event.schedule_event_categories[0];
-  if (!category) return MaskImage;
+  if (!event.schedule_category) return MaskImage;
 
-  switch (category.category_id.toString()) {
-    case '1':
-      return WorkshopImage;
-    case '2':
-      return DanceImage;
-    case '3':
-      return MusicImage;
-    case '4':
-      return SpokenWordImage;
+  // https://github.com/WarwickStudentArtsFestival/WSAF-Management/blob/main/schedule/models.py#L101
+  switch (event.schedule_category.icon) {
+    case 'MASK':
+      return MaskImage;
+    case 'TRUMPET':
+      return TrumpetImage;
+    case 'BALLET_SHOES':
+      return BalletShoesImage;
+    case 'MICROPHONE':
+      return MicrophoneImage;
+    case 'PAINTBRUSH':
+      return PaintbrushImage;
     default:
       return MaskImage;
   }

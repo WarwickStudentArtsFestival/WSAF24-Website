@@ -1,5 +1,5 @@
 import prisma from '@/lib/prisma';
-import { Prisma, schedule_category, schedule_event } from '@prisma/client';
+import { Prisma } from '@prisma/client';
 import dayjs from 'dayjs';
 
 export async function getEventInstances() {
@@ -18,12 +18,13 @@ export async function getEventInstances() {
 }
 
 export async function getEvent(
-  id: number,
+  slug: string,
 ): Promise<schedule_event_with_relations | null> {
   return prisma.schedule_event.findFirst({
-    where: { id },
+    where: { slug },
     include: {
       schedule_organisation: true,
+      schedule_category: true,
       schedule_event_categories: { include: { schedule_category: true } },
       schedule_eventinstance: { include: { schedule_venue: true } },
     },
@@ -34,6 +35,7 @@ export async function getEvents(): Promise<schedule_event_with_relations[]> {
   return prisma.schedule_event.findMany({
     include: {
       schedule_organisation: true,
+      schedule_category: true,
       schedule_event_categories: { include: { schedule_category: true } },
       schedule_eventinstance: { include: { schedule_venue: true } },
     },
@@ -43,6 +45,7 @@ export async function getEvents(): Promise<schedule_event_with_relations[]> {
 export type schedule_event_with_relations = Prisma.schedule_eventGetPayload<{
   include: {
     schedule_organisation: true;
+    schedule_category: true;
     schedule_event_categories: { include: { schedule_category: true } };
     schedule_eventinstance: { include: { schedule_venue: true } };
   };
@@ -50,4 +53,24 @@ export type schedule_event_with_relations = Prisma.schedule_eventGetPayload<{
 
 export function formatShowDateTime(date: Date) {
   return dayjs(date).format('ddd h:mma');
+}
+
+export function getEventColourClasses(
+  event: schedule_event_with_relations,
+): string {
+  if (!event.schedule_category) return 'bg-secondary text-white';
+
+  // https://github.com/WarwickStudentArtsFestival/WSAF-Management/blob/main/schedule/models.py#L108
+  switch (event.schedule_category.colour_theme) {
+    case 'YELLOW':
+      return 'bg-accent text-black';
+    case 'ORANGE':
+      return 'bg-orange text-black';
+    case 'PINK':
+      return 'bg-tertiary text-black';
+    case 'PURPLE':
+      return 'bg-secondary text-white';
+    default:
+      return 'bg-secondary text-white';
+  }
 }
