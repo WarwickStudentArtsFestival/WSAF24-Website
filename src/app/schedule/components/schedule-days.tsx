@@ -19,13 +19,15 @@ export default function ScheduleDays({
           <h2 className="text-xl font-semibold px-3 py-0.5">
             {dayjs(scheduleDay.earliestEventDate).format('dddd')}
           </h2>
-          {scheduleDay.venueScheduleDays.map((venueScheduleDay) => (
-            <ScheduleVenueDay
-              venueScheduleDay={venueScheduleDay}
-              key={venueScheduleDay.venue.id}
-              hideVenues={hideVenues}
-            />
-          ))}
+          <div className="overflow-x-scroll">
+            {scheduleDay.venueScheduleDays.map((venueScheduleDay) => (
+              <ScheduleVenueDay
+                venueScheduleDay={venueScheduleDay}
+                key={venueScheduleDay.venue.id}
+                hideVenues={hideVenues}
+              />
+            ))}
+          </div>
         </div>
       ))}
     </div>

@@ -14,42 +14,44 @@ export default function ScheduleEventInstance({
   return (
     <a
       href={`/events/${eventInstance.schedule_event.slug}`}
-      className="block w-72 mr-3"
+      className="block w-52 mr-3"
     >
       <article
-        className={`group p-4 ${getEventColourClasses(eventInstance.schedule_event)} drop-shadow-md h-full`}
+        className={`group p-4 ${getEventColourClasses(eventInstance.schedule_event)} drop-shadow-md h-full relative`}
       >
-        <p>
-          <time
-            dateTime={eventInstance.start.toISOString()}
-            className="uppercase text-xl font-bold mb-1"
-          >
-            {dayjs(eventInstance.start).format('h:mma')}
-          </time>
-        </p>
-        <div className="m-2">
+        <div className="p-6 absolute left-0 right-0 bottom-0 top-0">
           <Image
             src={getEventLogo(eventInstance.schedule_event)}
             alt="Event logo"
-            className="w-20 mx-auto group-hover:scale-110 transition-all duration-75"
+            className="w-32 max-h-full object-contain mx-auto group-hover:scale-125 transition-all duration-75 opacity-45"
           />
         </div>
 
-        <header>
+        <div className="relative">
+          <div className="block uppercase text-lg font-bold mb-1">
+            <time dateTime={eventInstance.start.toISOString()}>
+              {dayjs(eventInstance.start).format('h:mma')}
+            </time>{' '}
+            -{' '}
+            <time dateTime={eventInstance.end.toISOString()}>
+              {dayjs(eventInstance.end).format('h:mma')}
+            </time>
+          </div>
+
           {eventInstance.schedule_event.schedule_organisation && (
-            <p className="italic text-xs">
+            <p className="italic text-2xs">
               {eventInstance.schedule_event.schedule_organisation.name} Presents
             </p>
           )}
-          <h3 className="text-lg font-bold leading-6">
+          <h3 className="font-bold leading-5">
             {eventInstance.schedule_event.title}
           </h3>
-          <div className="text-sm uppercase">
+          <div className="text-xs uppercase">
             {eventInstance.schedule_event.schedule_event_categories
               .map((category) => category.schedule_category.name)
               .join(' | ')}
           </div>
-        </header>
+        </div>
       </article>
     </a>
   );

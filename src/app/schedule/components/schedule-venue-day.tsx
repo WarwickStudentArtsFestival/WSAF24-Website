@@ -9,10 +9,10 @@ export default function ScheduleVenueDay({
   hideVenues?: boolean;
 }) {
   return (
-    <div className="flex mb-4 overflow-x-scroll">
+    <div className="flex relative">
       <div className="sm:w-24 xl:w-64 flex-shrink-0" />
       {hideVenues || (
-        <div className="flex w-44 flex-grow-0 flex-shrink-0 sticky left-0 z-10">
+        <div className="flex w-44 flex-grow-0 flex-shrink-0 sticky left-0 z-20">
           <div className="bg-primary flex items-center justify-end text-right flex-grow">
             <a
               href={`/venues/${venueScheduleDay.venue.slug}`}
@@ -27,13 +27,23 @@ export default function ScheduleVenueDay({
         </div>
       )}
 
-      <div className="flex">
-        {venueScheduleDay.eventInstances.map((eventInstance) => (
-          <ScheduleEventInstance
-            eventInstance={eventInstance}
-            key={eventInstance.id}
-          />
-        ))}
+      {/*<div className="relative">
+        <div className="absolute top-0 bottom-0 left-0 w-screen flex items-center z-0">
+          <div className="absolute w-full border-b-4 border-b-accent opacity-50" />
+        </div>
+      </div>*/}
+
+      <div className="relative z-10 flex my-1.5">
+        {venueScheduleDay.eventInstances.map((eventInstance, index) =>
+          eventInstance ? (
+            <ScheduleEventInstance
+              eventInstance={eventInstance}
+              key={eventInstance.id}
+            />
+          ) : (
+            <div key={index} className="w-52 mr-3"></div>
+          ),
+        )}
       </div>
     </div>
   );

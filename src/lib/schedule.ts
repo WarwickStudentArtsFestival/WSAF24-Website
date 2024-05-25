@@ -1,13 +1,12 @@
 import { schedule_event, schedule_venue } from '@prisma/client';
 import {
   getEventInstances,
-  schedule_event_with_relations,
   schedule_eventinstance_with_relations,
 } from '@/lib/events';
 
 export type VenueScheduleDay = {
   venue: schedule_venue;
-  eventInstances: schedule_eventinstance_with_relations[];
+  eventInstances: (schedule_eventinstance_with_relations | null)[];
 };
 
 export type ScheduleDay = {
@@ -23,17 +22,13 @@ export async function getScheduleDays(
   const eventInstances = await getEventInstances(venueId);
   let currentDateString = null;
   let currentScheduleDay: ScheduleDay | null = null;
-  let currentDayVenueEvents: Record<string, VenueScheduleDay> = {};
+  let currentDayEventCount = 0;
+  let currentEventStartTime = null;
+  let currentTimeVenueEvents: Record<string, boolean> = {};
 
   for (const eventInstance of eventInstances) {
-    if (
-      !currentScheduleDay ||
-      currentDateString !== eventInstance.start.toDateString()
-    ) {
+    if (currentDateString !== eventInstance.start.toDateString()) {
       if (currentScheduleDay) {
-        currentScheduleDay.venueScheduleDays = Object.values(
-          currentDayVenueEvents,
-        );
         scheduleDays.push(currentScheduleDay);
       }
 
@@ -42,22 +37,49 @@ export async function getScheduleDays(
         earliestEventDate: eventInstance.start,
         venueScheduleDays: [],
       };
-      currentDayVenueEvents = {};
+      currentDayEventCount = 0;
+      currentEventStartTime = null;
+      currentTimeVenueEvents = {};
     }
 
-    if (currentDayVenueEvents[eventInstance.venue_id.toString()]) {
-      currentDayVenueEvents[
-        eventInstance.venue_id.toString()
-      ].eventInstances.push(eventInstance);
-    } else {
-      currentDayVenueEvents[eventInstance.venue_id.toString()] = {
-        venue: eventInstance.schedule_venue,
-        eventInstances: [eventInstance],
-      };
+    if (
+      currentEventStartTime !== eventInstance.start.toTimeString() ||
+      currentTimeVenueEvents[eventInstance.venue_id.toString()]
+    ) {
+      if (currentEventStartTime) {
+        currentScheduleDay?.venueScheduleDays
+          .filter(
+            (venueScheduleDay) =>
+              !currentTimeVenueEvents[venueScheduleDay.venue.id.toString()],
+          )
+          .forEach((venueScheduleDay) =>
+            venueScheduleDay.eventInstances.push(null),
+          );
+        currentDayEventCount++;
+      }
+
+      currentEventStartTime = eventInstance.start.toTimeString();
+      currentTimeVenueEvents = {};
     }
+
+    const venueScheduleDay = currentScheduleDay?.venueScheduleDays.find(
+      (venueScheduleDay) =>
+        venueScheduleDay.venue.id === eventInstance.venue_id,
+    );
+    if (venueScheduleDay) {
+      venueScheduleDay.eventInstances.push(eventInstance);
+    } else {
+      currentScheduleDay?.venueScheduleDays.push({
+        venue: eventInstance.schedule_venue,
+        eventInstances: [
+          ...new Array(currentDayEventCount).fill(null),
+          eventInstance,
+        ],
+      });
+    }
+    currentTimeVenueEvents[eventInstance.venue_id.toString()] = true;
   }
   if (currentScheduleDay) {
-    currentScheduleDay.venueScheduleDays = Object.values(currentDayVenueEvents);
     scheduleDays.push(currentScheduleDay);
   }
 
