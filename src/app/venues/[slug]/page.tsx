@@ -1,6 +1,8 @@
 import PageHeader from '@/app/components/page-header';
 import { getVenue, getVenues } from '@/lib/venues';
 import { Metadata } from 'next';
+import { getScheduleDays } from '@/lib/schedule';
+import ScheduleDays from '@/app/schedule/components/schedule-days';
 
 export async function generateStaticParams() {
   const venues = await getVenues();
@@ -44,6 +46,8 @@ export default async function Venue({
       </main>
     );
 
+  const scheduleDays = await getScheduleDays(parseInt(venue.id.toString()));
+
   return (
     <main>
       <PageHeader title={venue.name} />
@@ -62,6 +66,9 @@ export default async function Venue({
           <span className="text-xl uppercase font-bold">All Venues</span>
         </a>
       </div>
+
+      <h2>Venue Schedule</h2>
+      <ScheduleDays scheduleDays={scheduleDays} hideVenues />
     </main>
   );
 }

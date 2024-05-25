@@ -1,7 +1,7 @@
 import {
   formatShowDateTime,
   getEventColourClasses,
-  schedule_event_with_relations,
+  schedule_event_with_relations_and_instances,
 } from '@/lib/events';
 import Image from 'next/image';
 import { getEventLogo } from '@/lib/event-images';
@@ -11,7 +11,7 @@ export default function EventCard({
   className,
   spacingClasses,
 }: {
-  event: schedule_event_with_relations;
+  event: schedule_event_with_relations_and_instances;
   className?: string;
   spacingClasses?: string;
 }) {
