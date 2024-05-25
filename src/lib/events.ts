@@ -31,8 +31,11 @@ export async function getEvent(
   });
 }
 
-export async function getEvents(): Promise<schedule_event_with_relations[]> {
+export async function getEvents(
+  limit: number = -1,
+): Promise<schedule_event_with_relations[]> {
   return prisma.schedule_event.findMany({
+    take: limit === -1 ? undefined : limit,
     include: {
       schedule_organisation: true,
       schedule_category: true,

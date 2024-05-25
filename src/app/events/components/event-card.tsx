@@ -8,16 +8,20 @@ import { getEventLogo } from '@/lib/event-images';
 
 export default function EventCard({
   event,
+  className,
+  spacingClasses,
 }: {
   event: schedule_event_with_relations;
+  className?: string;
+  spacingClasses?: string;
 }) {
   return (
     <a
       href={`/events/${event.slug}`}
-      className="block break-inside-avoid hover:scale-105"
+      className={`block break-inside-avoid hover:scale-105 ${className || ''}`}
     >
       <article
-        className={`group p-4 ${getEventColourClasses(event)} drop-shadow-md mb-4 mx-2`}
+        className={`group p-4 ${getEventColourClasses(event)} drop-shadow-md ${spacingClasses || 'mb-4 mx-2'} h-full`}
       >
         <div className="text-xs">
           {event.schedule_eventinstance.map((instance) => (
