@@ -91,6 +91,17 @@ export async function getScheduleDays(
   }
 
   if (currentScheduleDay) {
+    if (currentEventStartTime) {
+      currentScheduleDay?.venueScheduleDays
+        .filter(
+          (venueScheduleDay) =>
+            !currentTimeVenueEvents[venueScheduleDay.venue.id.toString()],
+        )
+        .forEach((venueScheduleDay) =>
+          venueScheduleDay.eventInstances.push(null),
+        );
+      currentDayEventCount++;
+    }
     scheduleDays.push(currentScheduleDay);
   }
 

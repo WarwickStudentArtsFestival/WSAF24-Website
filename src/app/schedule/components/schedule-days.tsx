@@ -28,14 +28,18 @@ export default function ScheduleDays({
             </h2>
           </div>
 
-          <div className="overflow-x-scroll">
-            {scheduleDay.venueScheduleDays.map((venueScheduleDay) => (
-              <ScheduleVenueDay
-                venueScheduleDay={venueScheduleDay}
-                key={venueScheduleDay.venue.id}
-                hideVenues={hideVenues}
-              />
-            ))}
+          <div className="overflow-x-scroll flex">
+            <div className="w-4 xs:w-6 sm:w-12 md:w-16 lg:w-24 xl:w-52 2xl:w-64 flex-grow flex-shrink-0 mr-3" />
+            <div>
+              {scheduleDay.venueScheduleDays.map((venueScheduleDay) => (
+                <ScheduleVenueDay
+                  venueScheduleDay={venueScheduleDay}
+                  key={venueScheduleDay.venue.id}
+                  hideVenues={hideVenues}
+                />
+              ))}
+            </div>
+            <div className="w-4 xs:w-6 sm:w-12 md:w-16 lg:w-24 xl:w-52 2xl:w-64 flex-grow flex-shrink" />
           </div>
         </div>
       ))}

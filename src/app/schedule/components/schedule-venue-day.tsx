@@ -10,7 +10,6 @@ export default function ScheduleVenueDay({
 }) {
   return (
     <div className="flex relative w-min min-w-full">
-      <div className="w-4 xs:w-6 sm:w-12 md:w-16 lg:w-24 xl:w-52 2xl:w-64 flex-grow flex-shrink-0 mr-3" />
       {hideVenues || (
         <div className="flex w-20 md:w-36 lg:w-44 flex-grow-0 flex-shrink-0 sticky left-0 z-20 overflow-hidden">
           <div className="items-stretch md:items-center bg-primary flex justify-end text-center md:text-right flex-grow max-w-full py-2">
@@ -45,8 +44,6 @@ export default function ScheduleVenueDay({
             <div key={index} className="w-52 mr-3"></div>
           ),
         )}
-
-        <div className="w-8 sm:w-12 md:w-16 lg:w-24 xl:w-52 2xl:w-64 flex-grow flex-shrink" />
       </div>
     </div>
   );
