@@ -11,6 +11,11 @@ export async function getEventInstances(
     },
     where: {
       venue_id: venueId || undefined,
+      parent_id: null,
+      published: true,
+      schedule_event: {
+        published: true,
+      },
     },
     include: {
       schedule_event: {
@@ -29,7 +34,7 @@ export async function getEvent(
   slug: string,
 ): Promise<schedule_event_with_relations_and_instances | null> {
   return prisma.schedule_event.findFirst({
-    where: { slug },
+    where: { slug, published: true },
     include: {
       schedule_organisation: true,
       schedule_category: true,
@@ -43,6 +48,9 @@ export async function getEvents(
   limit: number = -1,
 ): Promise<schedule_event_with_relations_and_instances[]> {
   return prisma.schedule_event.findMany({
+    where: {
+      published: true,
+    },
     take: limit === -1 ? undefined : limit,
     include: {
       schedule_organisation: true,
@@ -54,7 +62,7 @@ export async function getEvents(
 }
 
 export function getEventCount(): Promise<number> {
-  return prisma.schedule_event.count();
+  return prisma.schedule_event.count({ where: { published: true } });
 }
 
 export type schedule_event_with_relations = Prisma.schedule_eventGetPayload<{
@@ -101,9 +109,9 @@ export function getEventColourClasses(
     case 'YELLOW':
       return 'bg-accent text-black';
     case 'ORANGE':
-      return 'bg-orange text-black';
+      return 'bg-event-orange text-black';
     case 'PINK':
-      return 'bg-tertiary text-black';
+      return 'bg-event-pink text-white';
     case 'PURPLE':
       return 'bg-secondary text-white';
     default:
