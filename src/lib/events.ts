@@ -1,5 +1,5 @@
 import prisma from '@/lib/prisma';
-import { Prisma } from '@prisma/client';
+import { Prisma, schedule_organisation } from '@prisma/client';
 import dayjs from 'dayjs';
 import { StaticImageData } from 'next/image';
 import MaskImage from '@/assets/icons/mask.png';
@@ -131,4 +131,10 @@ export function getEventLogo(
     return `${process.env.WSAF_ASSETS_BASE_URL}/${event.schedule_category.image}`;
 
   return MaskImage;
+}
+
+export function getOrganisationLogo(
+  organisation: schedule_organisation,
+): string {
+  return `${process.env.WSAF_ASSETS_BASE_URL}/${organisation.logo}`;
 }

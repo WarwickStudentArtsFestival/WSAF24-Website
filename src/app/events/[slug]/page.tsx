@@ -1,6 +1,7 @@
 import PageHeader from '@/app/components/page-header';
 import { Metadata } from 'next';
-import { getEvent, getEvents } from '@/lib/events';
+import { getEvent, getEvents, getOrganisationLogo } from '@/lib/events';
+import Image from 'next/image';
 
 /*export async function generateStaticParams() {
   const events = await getEvents();
@@ -46,7 +47,56 @@ export default async function Event({
   return (
     <main>
       <PageHeader title={event.title} />
-      <p>{event.public_description}</p>
+      <div className="max-w-7xl mx-auto px-8 flex">
+        <aside className="w-96 p-4 bg-tertiary">
+          <div className="text-left">
+            <ul>
+              {event.schedule_category && (
+                <li>
+                  <strong>Category: </strong>
+                  {event.schedule_category.name}
+                </li>
+              )}
+              {event.schedule_event_categories.length > 1 && (
+                <li>
+                  <strong>Additional Categories: </strong>
+                  {event.schedule_event_categories
+                    .filter(
+                      (category) => category.id !== event.schedule_category?.id,
+                    )
+                    .join(', ')}
+                </li>
+              )}
+              {event.schedule_organisation && (
+                <li>
+                  <strong>Presented By: </strong>
+                  {event.schedule_organisation.name}
+                </li>
+              )}
+            </ul>
+            {event.schedule_organisation && (
+              <div>
+                <h3 className="uppercase text-lg font-bold">
+                  About the Presenter
+                </h3>
+                {event.schedule_organisation.logo && (
+                  <Image
+                    src={getOrganisationLogo(event.schedule_organisation)}
+                    alt="Organisation Logo"
+                    height={128}
+                    width={128}
+                    className="float-left w-32 m-2"
+                  />
+                )}
+                <p>{event.schedule_organisation.description}</p>
+              </div>
+            )}
+          </div>
+        </aside>
+        <div className="w-96 flex-grow">
+          <p>{event.public_description}</p>
+        </div>
+      </div>
 
       <a href="/events">Go back to events</a>
     </main>
