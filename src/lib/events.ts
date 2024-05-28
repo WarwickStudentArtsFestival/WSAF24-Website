@@ -1,5 +1,5 @@
 import prisma from '@/lib/prisma';
-import { Prisma, schedule_organisation } from '@prisma/client';
+import { Prisma, schedule_event, schedule_organisation } from '@prisma/client';
 import dayjs from 'dayjs';
 import { StaticImageData } from 'next/image';
 import MaskImage from '@/assets/icons/mask.png';
@@ -69,8 +69,9 @@ export async function getEvent(
 
 export async function getEvents(
   limit: number = -1,
+  randomise: boolean = false,
 ): Promise<schedule_event_with_relations_and_instances[]> {
-  return prisma.schedule_event.findMany({
+  let events = await prisma.schedule_event.findMany({
     where: {
       published: true,
     },
@@ -85,6 +86,48 @@ export async function getEvents(
       },
     },
   });
+  if (randomise) {
+    events = events
+      .map((val) => ({ val, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map((val) => val.val);
+  }
+
+  return events;
+}
+
+export async function getEventTinyDescriptions(): Promise<
+  schedule_event_with_category[]
+> {
+  const events = await prisma.schedule_event.findMany({
+    where: {
+      published: true,
+      tiny_description: { not: null },
+    },
+    include: {
+      schedule_category: true,
+    },
+  });
+
+  const randomEvents = events
+    .map((val) => ({ val, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map((val) => val.val);
+
+  let usedDescriptions: schedule_event_with_category[] = [];
+  for (const randomEvent of randomEvents) {
+    if (
+      !usedDescriptions.find(
+        (description) =>
+          description.tiny_description === randomEvent.tiny_description,
+      )
+    ) {
+      usedDescriptions.push(randomEvent);
+      if (usedDescriptions.length > 4) break;
+    }
+  }
+
+  return usedDescriptions;
 }
 
 export function getEventCount(): Promise<number> {
@@ -147,6 +190,12 @@ export type schedule_eventinstance_with_relations =
     };
   }>;
 
+export type schedule_event_with_category = Prisma.schedule_eventGetPayload<{
+  include: {
+    schedule_category: true;
+  };
+}>;
+
 export function formatShowDateTime(date: Date) {
   return dayjs(date).format('ddd h:mma');
 }
@@ -156,7 +205,7 @@ export function formatShowTime(date: Date) {
 }
 
 export function getEventColourClasses(
-  event: schedule_event_with_relations,
+  event: schedule_event_with_category,
 ): string {
   if (!event.schedule_category) return 'bg-secondary text-white';
 
@@ -176,7 +225,7 @@ export function getEventColourClasses(
 }
 
 export function getEventBorderClasses(
-  event: schedule_event_with_relations,
+  event: schedule_event_with_category,
 ): string {
   if (!event.schedule_category) return 'border-b-secondary';
 

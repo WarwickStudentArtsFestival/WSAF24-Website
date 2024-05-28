@@ -1,5 +1,10 @@
 import PageHeader from '@/app/components/page-header';
-import { getEventCount, getEvents } from '@/lib/events';
+import {
+  getEventColourClasses,
+  getEventCount,
+  getEvents,
+  getEventTinyDescriptions,
+} from '@/lib/events';
 import EventCard from '@/app/events/components/event-card';
 import { FiCalendar, FiHome } from 'react-icons/fi';
 import { getVenueCount } from '@/lib/venues';
@@ -17,8 +22,10 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Events() {
-  const events = await getEvents();
+  const events = await getEvents(-1, true);
   const venueCount = await getVenueCount();
+
+  const eventTinyDescriptions = await getEventTinyDescriptions();
 
   return (
     <main>
@@ -37,8 +44,51 @@ export default async function Events() {
           .
         </p>
         <p>
-          From pantomimes to ceilidhs and knitting showcases to aerial arts,
-          whatever you&apos;re interests there&apos;s sure to be something
+          From{' '}
+          {eventTinyDescriptions.length > 0 ? (
+            <a
+              href={`/events/${eventTinyDescriptions[0].slug}`}
+              className={`inline-block hover:scale-105 px-1 ${getEventColourClasses(eventTinyDescriptions[0])}`}
+            >
+              {eventTinyDescriptions[0].tiny_description}
+            </a>
+          ) : (
+            'pantomimes'
+          )}{' '}
+          to{' '}
+          {eventTinyDescriptions.length > 1 ? (
+            <a
+              href={`/events/${eventTinyDescriptions[1].slug}`}
+              className={`inline-block hover:scale-105 px-1 ${getEventColourClasses(eventTinyDescriptions[1])}`}
+            >
+              {eventTinyDescriptions[1].tiny_description}
+            </a>
+          ) : (
+            'ceilidhs'
+          )}
+          , and{' '}
+          {eventTinyDescriptions.length > 2 ? (
+            <a
+              href={`/events/${eventTinyDescriptions[2].slug}`}
+              className={`inline-block hover:scale-105 px-1 ${getEventColourClasses(eventTinyDescriptions[2])}`}
+            >
+              {eventTinyDescriptions[2].tiny_description}
+            </a>
+          ) : (
+            'knitting showcases'
+          )}{' '}
+          to{' '}
+          {eventTinyDescriptions.length > 3 ? (
+            <a
+              href={`/events/${eventTinyDescriptions[3].slug}`}
+              className={`inline-block hover:scale-105 my-0.5 px-1 ${getEventColourClasses(eventTinyDescriptions[3])}`}
+            >
+              {eventTinyDescriptions[3].tiny_description}
+            </a>
+          ) : (
+            'aerial arts'
+          )}
+          , whatever youre interests there&apos;s sure to be something
           you&apos;ll enjoy!
         </p>
         <div className="flex gap-2 justify-center flex-wrap m-4 mt-2">
