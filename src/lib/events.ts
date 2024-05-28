@@ -125,6 +125,8 @@ export function getEventLogo(
   event: schedule_event_with_relations,
 ): string | StaticImageData {
   if (event.logo) return `${process.env.WSAF_ASSETS_BASE_URL}/${event.logo}`;
+  if (event.schedule_organisation?.logo)
+    return `${process.env.WSAF_ASSETS_BASE_URL}/${event.schedule_organisation.logo}`;
   if (event.schedule_category?.image)
     return `${process.env.WSAF_ASSETS_BASE_URL}/${event.schedule_category.image}`;
 
