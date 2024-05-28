@@ -88,7 +88,7 @@ export default async function Events() {
           ) : (
             'aerial arts'
           )}
-          , whatever youre interests there&apos;s sure to be something
+          , whatever your interests there&apos;s sure to be something
           you&apos;ll enjoy!
         </p>
         <div className="flex gap-2 justify-center flex-wrap m-4 mt-2">

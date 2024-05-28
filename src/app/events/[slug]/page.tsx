@@ -6,6 +6,7 @@ import {
   getEvent,
   getEventBorderClasses,
   getEventColourClasses,
+  getEventLogo,
   getEvents,
   getOrganisationLogo,
 } from '@/lib/events';
@@ -32,9 +33,23 @@ export async function generateMetadata({
     };
   }
 
+  const eventLogo = getEventLogo(event);
+
   return {
-    title: `${event.title} | WSAF 2024`,
+    title: event.schedule_organisation
+      ? `${event.title} | ${event.schedule_organisation.name} | WSAF 2024`
+      : `${event.title} | WSAF 2024`,
     description: event.short_description,
+    openGraph: {
+      images:
+        eventLogo && typeof eventLogo === 'string'
+          ? [
+              {
+                url: eventLogo,
+              },
+            ]
+          : [],
+    },
   };
 }
 
