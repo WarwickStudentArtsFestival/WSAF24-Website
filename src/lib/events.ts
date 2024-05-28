@@ -34,14 +34,35 @@ export async function getEventInstances(
 
 export async function getEvent(
   slug: string,
-): Promise<schedule_event_with_relations_and_instances | null> {
+): Promise<schedule_event_with_relations_and_instances_and_children | null> {
   return prisma.schedule_event.findFirst({
     where: { slug, published: true },
     include: {
       schedule_organisation: true,
       schedule_category: true,
       schedule_event_categories: { include: { schedule_category: true } },
-      schedule_eventinstance: { include: { schedule_venue: true } },
+      schedule_eventinstance: {
+        where: { published: true },
+        include: {
+          schedule_venue: true,
+          other_schedule_eventinstance: {
+            where: { published: true },
+            orderBy: { start: 'asc' },
+            include: {
+              schedule_venue: true,
+              schedule_event: {
+                include: {
+                  schedule_organisation: true,
+                  schedule_category: true,
+                  schedule_event_categories: {
+                    include: { schedule_category: true },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
     },
   });
 }
@@ -58,7 +79,10 @@ export async function getEvents(
       schedule_organisation: true,
       schedule_category: true,
       schedule_event_categories: { include: { schedule_category: true } },
-      schedule_eventinstance: { include: { schedule_venue: true } },
+      schedule_eventinstance: {
+        where: { published: true },
+        include: { schedule_venue: true },
+      },
     },
   });
 }
@@ -83,6 +107,32 @@ export type schedule_event_with_relations_and_instances =
       };
     }>;
 
+export type schedule_event_with_relations_and_instances_and_children =
+  schedule_event_with_relations &
+    Prisma.schedule_eventGetPayload<{
+      include: {
+        schedule_eventinstance: {
+          include: {
+            schedule_venue: true;
+            other_schedule_eventinstance: {
+              include: {
+                schedule_venue: true;
+                schedule_event: {
+                  include: {
+                    schedule_organisation: true;
+                    schedule_category: true;
+                    schedule_event_categories: {
+                      include: { schedule_category: true };
+                    };
+                  };
+                };
+              };
+            };
+          };
+        };
+      };
+    }>;
+
 export type schedule_eventinstance_with_relations =
   Prisma.schedule_eventinstanceGetPayload<{
     include: {
@@ -101,6 +151,10 @@ export function formatShowDateTime(date: Date) {
   return dayjs(date).format('ddd h:mma');
 }
 
+export function formatShowTime(date: Date) {
+  return dayjs(date).format('h:mma');
+}
+
 export function getEventColourClasses(
   event: schedule_event_with_relations,
 ): string {
@@ -109,15 +163,35 @@ export function getEventColourClasses(
   // https://github.com/WarwickStudentArtsFestival/WSAF-Management/blob/main/schedule/models.py#L108
   switch (event.schedule_category.colour_theme) {
     case 'YELLOW':
-      return 'bg-accent text-black';
+      return '!bg-accent !text-black';
     case 'ORANGE':
-      return 'bg-event-orange text-black';
+      return '!bg-event-orange !text-black';
     case 'PINK':
-      return 'bg-event-pink text-white';
+      return '!bg-event-pink !text-white';
     case 'PURPLE':
-      return 'bg-secondary text-white';
+      return '!bg-secondary !text-white';
     default:
-      return 'bg-secondary text-white';
+      return '!bg-secondary !text-white';
+  }
+}
+
+export function getEventBorderClasses(
+  event: schedule_event_with_relations,
+): string {
+  if (!event.schedule_category) return 'border-b-secondary';
+
+  // https://github.com/WarwickStudentArtsFestival/WSAF-Management/blob/main/schedule/models.py#L108
+  switch (event.schedule_category.colour_theme) {
+    case 'YELLOW':
+      return 'border-b-accent';
+    case 'ORANGE':
+      return 'border-b-event-orange';
+    case 'PINK':
+      return 'border-b-event-pink';
+    case 'PURPLE':
+      return 'border-b-secondary';
+    default:
+      return 'border-b-secondary';
   }
 }
 

@@ -8,13 +8,15 @@ import dayjs from 'dayjs';
 
 export default function ScheduleEventInstance({
   eventInstance,
+  eventPage,
 }: {
   eventInstance: schedule_eventinstance_with_relations;
+  eventPage?: boolean;
 }) {
   return (
     <a
       href={`/events/${eventInstance.schedule_event.slug}`}
-      className="block w-52 mr-3"
+      className={`block w-52 ${eventPage ? 'hover:scale-105' : 'mr-3'}`}
     >
       <article
         className={`group p-2 ${getEventColourClasses(eventInstance.schedule_event)} drop-shadow-md h-full relative`}

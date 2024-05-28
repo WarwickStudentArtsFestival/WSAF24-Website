@@ -3,6 +3,7 @@ import { getVenue } from '@/lib/venues';
 import { Metadata } from 'next';
 import { getScheduleDays } from '@/lib/schedule';
 import ScheduleDays from '@/app/schedule/components/schedule-days';
+import { FiHome } from 'react-icons/fi';
 
 /*export async function generateStaticParams() {
   const venues = await getVenues();
@@ -64,6 +65,7 @@ export default async function Venue({
           href="/venues"
           className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 m-4"
         >
+          <FiHome className="inline-block mb-2 mr-2" />
           <span className="text-xl uppercase font-bold">All Venues</span>
         </a>
       </div>

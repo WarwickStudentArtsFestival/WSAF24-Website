@@ -38,6 +38,17 @@ const config: Config = {
     },
   },
   plugins: [],
-  safelist: ['bg-event-pink', 'bg-event-orange'],
+  safelist: [
+    '!bg-accent',
+    '!bg-secondary',
+    '!bg-event-pink',
+    '!bg-event-orange',
+    '!text-white',
+    '!text-black',
+    'border-b-accent',
+    'border-b-event-orange',
+    'border-b-event-pink',
+    'border-b-secondary',
+  ],
 };
 export default config;

@@ -180,6 +180,7 @@ model schedule_category {
   name                      String                      @db.VarChar(50)
   colour_theme              String                      @db.VarChar(32)
   image                     String?                     @db.VarChar(100)
+  icon                      String                      @db.VarChar(32)
   schedule_event            schedule_event[]
   schedule_event_categories schedule_event_categories[]
 }
@@ -188,7 +189,7 @@ model schedule_category {
 model schedule_event {
   id                          BigInt                        @id @default(autoincrement())
   title                       String                        @db.VarChar(200)
-  public_description          String?
+  short_description           String?
   organisation_id             BigInt?
   submission_id               Int?
   estimated_duration          Unsupported("interval")?
@@ -202,6 +203,7 @@ model schedule_event {
   digital_signage             Boolean
   published                   Boolean
   logo                        String?                       @db.VarChar(100)
+  long_description            String?
   schedule_organisation       schedule_organisation?        @relation(fields: [organisation_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "schedule_event_organisation_id_ef1f6527_fk_schedule_")
   schedule_category           schedule_category?            @relation(fields: [primary_category_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "schedule_event_primary_category_id_5c062bfa_fk_schedule_")
   schedule_event_admins       schedule_event_admins[]
@@ -273,12 +275,16 @@ model schedule_eventinstance {
 }
 
 model schedule_organisation {
-  id             BigInt           @id @default(autoincrement())
-  name           String           @db.VarChar(200)
-  description    String?
-  slug           String?          @unique @db.VarChar(50)
-  logo           String?          @db.VarChar(100)
-  schedule_event schedule_event[]
+  id               BigInt           @id @default(autoincrement())
+  name             String           @db.VarChar(200)
+  description      String?
+  slug             String?          @unique @db.VarChar(50)
+  logo             String?          @db.VarChar(100)
+  instagram_handle String?          @db.VarChar(200)
+  is_society       Boolean
+  website_name     String?          @db.VarChar(100)
+  website_url      String?          @db.VarChar(200)
+  schedule_event   schedule_event[]
 
   @@index([slug], map: "schedule_organisation_slug_3094a96f_like")
 }
