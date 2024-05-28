@@ -1,6 +1,8 @@
 import prisma from '@/lib/prisma';
 import { Prisma } from '@prisma/client';
 import dayjs from 'dayjs';
+import { StaticImageData } from 'next/image';
+import MaskImage from '@/assets/icons/mask.png';
 
 export async function getEventInstances(
   venueId?: number,
@@ -117,4 +119,15 @@ export function getEventColourClasses(
     default:
       return 'bg-secondary text-white';
   }
+}
+
+export function getEventLogo(
+  event: schedule_event_with_relations,
+): string | StaticImageData {
+  if (event.logo)
+    return `${process.env.WSAF_MANAGEMENT_BASE_URL}/public/media/${event.logo}`;
+  if (event.schedule_category?.image)
+    return `${process.env.WSAF_MANAGEMENT_BASE_URL}/public/media/${event.schedule_category.image}`;
+
+  return MaskImage;
 }

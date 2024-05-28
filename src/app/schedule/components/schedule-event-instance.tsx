@@ -1,9 +1,9 @@
 import {
   getEventColourClasses,
   schedule_eventinstance_with_relations,
+  getEventLogo,
 } from '@/lib/events';
 import Image from 'next/image';
-import { getEventLogo } from '@/lib/event-images';
 import dayjs from 'dayjs';
 
 export default function ScheduleEventInstance({
@@ -23,6 +23,8 @@ export default function ScheduleEventInstance({
           <Image
             src={getEventLogo(eventInstance.schedule_event)}
             alt="Event logo"
+            width={128}
+            height={128}
             className="w-32 max-h-full object-contain mx-auto group-hover:scale-125 transition-all duration-75 opacity-35"
           />
         </div>

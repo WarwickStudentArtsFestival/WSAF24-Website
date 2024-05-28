@@ -1,10 +1,10 @@
 import {
   formatShowDateTime,
   getEventColourClasses,
+  getEventLogo,
   schedule_event_with_relations_and_instances,
 } from '@/lib/events';
 import Image from 'next/image';
-import { getEventLogo } from '@/lib/event-images';
 
 export default function EventCard({
   event,
@@ -37,6 +37,8 @@ export default function EventCard({
           <Image
             src={getEventLogo(event)}
             alt="Event logo"
+            width={128}
+            height={128}
             className="w-20 mx-auto group-hover:scale-110 transition-all duration-75"
           />
         </div>

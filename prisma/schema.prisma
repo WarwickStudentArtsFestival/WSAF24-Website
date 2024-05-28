@@ -179,7 +179,7 @@ model schedule_category {
   id                        BigInt                      @id @default(autoincrement())
   name                      String                      @db.VarChar(50)
   colour_theme              String                      @db.VarChar(32)
-  icon                      String                      @db.VarChar(32)
+  image                     String?                     @db.VarChar(100)
   schedule_event            schedule_event[]
   schedule_event_categories schedule_event_categories[]
 }
@@ -201,6 +201,7 @@ model schedule_event {
   slug                        String?                       @unique @db.VarChar(50)
   digital_signage             Boolean
   published                   Boolean
+  logo                        String?                       @db.VarChar(100)
   schedule_organisation       schedule_organisation?        @relation(fields: [organisation_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "schedule_event_organisation_id_ef1f6527_fk_schedule_")
   schedule_category           schedule_category?            @relation(fields: [primary_category_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "schedule_event_primary_category_id_5c062bfa_fk_schedule_")
   schedule_event_admins       schedule_event_admins[]
@@ -276,6 +277,7 @@ model schedule_organisation {
   name           String           @db.VarChar(200)
   description    String?
   slug           String?          @unique @db.VarChar(50)
+  logo           String?          @db.VarChar(100)
   schedule_event schedule_event[]
 
   @@index([slug], map: "schedule_organisation_slug_3094a96f_like")
@@ -287,6 +289,7 @@ model schedule_venue {
   description            String
   campus_map_url         String?                  @db.VarChar
   slug                   String?                  @unique @db.VarChar(50)
+  image                  String?                  @db.VarChar(100)
   schedule_eventinstance schedule_eventinstance[]
 
   @@index([slug], map: "schedule_venue_slug_f3d3b124_like")

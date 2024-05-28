@@ -17,6 +17,8 @@ const config: Config = {
         white: '#FFFFFF',
         dark: '#000000',
         orange: '#FF5400',
+        'event-pink': '#B82458',
+        'event-orange': '#F5722F',
       },
       fontSize: {
         '2xs': '0.6rem',
@@ -36,6 +38,6 @@ const config: Config = {
     },
   },
   plugins: [],
-  safelist: ['bg-orange'],
+  safelist: ['bg-event-pink', 'bg-event-orange'],
 };
 export default config;
