@@ -82,7 +82,7 @@ export default async function Event({
           .join(' | ')}
       </div>
 
-      <div className="max-w-7xl mx-auto px-8 flex mt-2 flex-col lg:flex-row-reverse items-stretch">
+      <div className="max-w-7xl mx-auto px-8 flex mt-2 flex-col lg:flex-row-reverse lg:items-start">
         <div
           className={`flex-grow lg:px-4 ${event.schedule_organisation ? 'lg:text-left' : 'text-center'}`}
         >
@@ -124,7 +124,9 @@ export default async function Event({
                     </article>
                   </a>
                   {instance.other_schedule_eventinstance.length > 0 && (
-                    <div className="mt-2 flex flex-wrap gap-2">
+                    <div
+                      className={`mt-2 flex flex-wrap gap-2 justify-center ${event.schedule_organisation ? 'justify-center lg:justify-start' : 'justify-center'}`}
+                    >
                       {instance.other_schedule_eventinstance.map(
                         (childInstance) => (
                           <ScheduleEventInstance
