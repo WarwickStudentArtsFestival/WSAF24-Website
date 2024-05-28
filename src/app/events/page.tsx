@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Events() {
-  const events = await getEvents(-1, true);
+  const events = await getEvents(true);
   const venueCount = await getVenueCount();
 
   const eventTinyDescriptions = await getEventTinyDescriptions();

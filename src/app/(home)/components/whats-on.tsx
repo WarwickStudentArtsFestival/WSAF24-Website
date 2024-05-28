@@ -3,7 +3,7 @@ import { getEvents } from '@/lib/events';
 import EventCard from '@/app/events/components/event-card';
 
 export default async function WhatsOn() {
-  const events = await getEvents(6);
+  const events = (await getEvents()).slice(0, 6);
 
   return (
     <section className="mb-12">
