@@ -124,10 +124,9 @@ export function getEventColourClasses(
 export function getEventLogo(
   event: schedule_event_with_relations,
 ): string | StaticImageData {
-  if (event.logo)
-    return `${process.env.WSAF_ASSETS_BASE_URL}/public/media/${event.logo}`;
+  if (event.logo) return `${process.env.WSAF_ASSETS_BASE_URL}/${event.logo}`;
   if (event.schedule_category?.image)
-    return `${process.env.WSAF_ASSETS_BASE_URL}/public/media/${event.schedule_category.image}`;
+    return `${process.env.WSAF_ASSETS_BASE_URL}/${event.schedule_category.image}`;
 
   return MaskImage;
 }

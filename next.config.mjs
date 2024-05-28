@@ -6,7 +6,7 @@ const nextConfig = {
       {
         protocol: process.env.WSAF_ASSETS_BASE_URL.includes('https') ? 'https' : 'http',
         hostname: process.env.WSAF_ASSETS_BASE_URL.replace('https://', '').replace('http://', '').split('/')[0],
-        pathname: '/public/media/**'
+        pathname: '/**'
       }
     ],
   },
