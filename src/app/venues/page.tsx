@@ -52,7 +52,7 @@ export default async function Venues() {
             <span className="text-xl uppercase font-bold">Events</span>
           </a>
           <a
-            href="/venues"
+            href="/schedule"
             className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105"
           >
             <FiCalendar className="inline-block mb-2 mr-2" />
