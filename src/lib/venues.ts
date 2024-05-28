@@ -1,7 +1,20 @@
 import prisma from '@/lib/prisma';
 
 export function getVenues() {
-  return prisma.schedule_venue.findMany();
+  return prisma.schedule_venue.findMany({
+    include: {
+      _count: {
+        select: {
+          schedule_eventinstance: {
+            where: {
+              published: true,
+              parent_id: null,
+            },
+          },
+        },
+      },
+    },
+  });
 }
 
 export function getVenueCount() {

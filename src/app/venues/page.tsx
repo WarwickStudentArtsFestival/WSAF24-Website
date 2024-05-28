@@ -35,14 +35,6 @@ export default async function Venues() {
           </strong>{' '}
           across our <strong>{venues.length} venues</strong>.
         </p>
-        <p>
-          You can find our full weekend&apos;s schedule here or in our printed
-          programmes - simply head to one of our{' '}
-          <a href="/venues" className="text-accent">
-            venues
-          </a>{' '}
-          to pick one up!
-        </p>
         <div className="flex gap-2 justify-center flex-wrap m-4 mt-2">
           <a
             href="/events"
@@ -61,15 +53,20 @@ export default async function Venues() {
         </div>
       </div>
 
-      <div className="flex gap-4 flex-wrap justify-center">
+      <div className="max-w-7xl mx-auto px-4 flex gap-4 flex-wrap justify-center">
         {venues.map((venue) => (
           <a
             key={venue.id}
             href={`/venues/${venue.slug || ''}`}
-            className="hover:scale-105"
+            className="hover:scale-105 bg-accent"
           >
-            <article className="bg-secondary p-4">
-              <h3 className="uppercase text-lg">{venue.name}</h3>
+            <article className="p-4 text-black max-w-64">
+              <h3 className="uppercase text-lg font-bold">{venue.name}</h3>
+              <p className="uppercase text-xs font-bold">
+                {venue._count.schedule_eventinstance} Event
+                {venue._count.schedule_eventinstance === 1 ? '' : 's'}
+              </p>
+              <p className="text-sm mt-1">{venue.description}</p>
             </article>
           </a>
         ))}

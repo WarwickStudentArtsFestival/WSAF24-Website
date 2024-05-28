@@ -56,7 +56,7 @@ export default async function Venue({
       <p>{venue.description}</p>
       {venue.campus_map_url && (
         <a href={venue.campus_map_url} className="text-accent" target="_blank">
-          Campus Map
+          View on Campus Map
         </a>
       )}
 
