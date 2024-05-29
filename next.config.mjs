@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
+  images: {
+    remotePatterns: [
+      {
+        protocol: process.env.WSAF_ASSETS_BASE_URL.includes('https') ? 'https' : 'http',
+        hostname: process.env.WSAF_ASSETS_BASE_URL.replace('https://', '').replace('http://', '').split('/')[0],
+        pathname: '/**'
+      }
+    ],
+  },
   redirects: () => ([
     {
       source: '/instagram',

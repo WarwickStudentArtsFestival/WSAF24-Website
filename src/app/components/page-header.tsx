@@ -3,10 +3,20 @@ import HeroImage from '@/assets/hero.jpg';
 import Logo from '@/assets/logo.png';
 import Link from 'next/link';
 
-export default function PageHeader({ title }: { title: string }) {
+export default function PageHeader({
+  title,
+  headingClass,
+  borderClass,
+}: {
+  title: string;
+  headingClass?: string;
+  borderClass?: string;
+}) {
   return (
     <header>
-      <div className="relative border-b-accent border-b-8 bg-accent mb-8">
+      <div
+        className={`relative border-b-8 bg-accent mb-8 ${borderClass || 'border-b-accent'}`}
+      >
         <Image
           src={HeroImage}
           alt="Aerial shot of the Warwick University piazza"
@@ -40,7 +50,7 @@ export default function PageHeader({ title }: { title: string }) {
       </div>
 
       <div className="relative -mt-16 text-center">
-        <h1 className="heading">{title}</h1>
+        <h1 className={`heading ${headingClass || ''}`}>{title}</h1>
       </div>
     </header>
   );
