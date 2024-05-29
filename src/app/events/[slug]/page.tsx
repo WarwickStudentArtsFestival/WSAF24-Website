@@ -7,7 +7,6 @@ import {
   getEventBorderClasses,
   getEventColourClasses,
   getEventLogo,
-  getEvents,
   getOrganisationLogo,
 } from '@/lib/events';
 import Image from 'next/image';

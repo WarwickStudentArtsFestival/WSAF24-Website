@@ -202,6 +202,24 @@ export function formatShowTime(date: Date) {
   return dayjs(date).format('h:mma');
 }
 
+export function getEventColourHex(event: schedule_event_with_category): string {
+  if (!event.schedule_category) return '#4F1D75';
+
+  // https://github.com/WarwickStudentArtsFestival/WSAF-Management/blob/main/schedule/models.py#L108
+  switch (event.schedule_category.colour_theme) {
+    case 'YELLOW':
+      return '#FFBD00';
+    case 'ORANGE':
+      return '#F5722F';
+    case 'PINK':
+      return '#B82458';
+    case 'PURPLE':
+      return '#4F1D75';
+    default:
+      return '#4F1D75';
+  }
+}
+
 export function getEventColourClasses(
   event: schedule_event_with_category,
 ): string {

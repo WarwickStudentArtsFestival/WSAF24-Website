@@ -2,6 +2,8 @@ import { ScheduleDay } from '@/lib/schedule';
 import ScheduleVenueDay from '@/app/schedule/components/schedule-venue-day';
 import dayjs from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
+import ScheduleDayTimeline from '@/app/schedule/components/schedule-day-timeline';
+import ScheduleToggle from '@/app/schedule/components/schedule-toggle';
 dayjs.extend(advancedFormat);
 
 export default function ScheduleDays({
@@ -13,6 +15,7 @@ export default function ScheduleDays({
 }) {
   return (
     <div>
+      <ScheduleToggle />
       {scheduleDays.map((scheduleDay) => (
         <div
           key={scheduleDay.earliestEventDate.toDateString()}
@@ -28,7 +31,7 @@ export default function ScheduleDays({
             </h2>
           </div>
 
-          <div className="overflow-x-scroll flex">
+          <div className="overflow-x-scroll flex schedule-view">
             <div className="w-4 xs:w-6 sm:w-12 md:w-16 lg:w-24 xl:w-52 2xl:w-64 flex-grow flex-shrink-0 mr-3" />
             <div>
               {scheduleDay.venueScheduleDays.map((venueScheduleDay) => (
@@ -41,6 +44,8 @@ export default function ScheduleDays({
             </div>
             <div className="w-4 xs:w-6 sm:w-12 md:w-16 lg:w-24 xl:w-52 2xl:w-64 flex-grow flex-shrink" />
           </div>
+
+          <ScheduleDayTimeline scheduleDay={scheduleDay} />
         </div>
       ))}
     </div>
