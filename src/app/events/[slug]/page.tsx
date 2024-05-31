@@ -161,7 +161,7 @@ export default async function Event({
                 {event.schedule_organisation.description}
               </p>
 
-              <ul>
+              <ul className="clear-both">
                 {event.schedule_organisation.website_url && (
                   <li>
                     <a
