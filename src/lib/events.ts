@@ -36,7 +36,11 @@ export async function getEvent(
   slug: string,
 ): Promise<schedule_event_with_relations_and_instances_and_children | null> {
   return prisma.schedule_event.findFirst({
-    where: { slug, published: true },
+    where: {
+      slug,
+      published: true,
+      schedule_eventinstance: { some: { published: true } },
+    },
     include: {
       schedule_organisation: true,
       schedule_category: true,
@@ -73,6 +77,7 @@ export async function getEvents(
   let events = await prisma.schedule_event.findMany({
     where: {
       published: true,
+      schedule_eventinstance: { some: { published: true } },
     },
     include: {
       schedule_organisation: true,
@@ -101,6 +106,7 @@ export async function getEventTinyDescriptions(): Promise<
     where: {
       published: true,
       tiny_description: { not: null },
+      schedule_eventinstance: { some: { published: true } },
     },
     include: {
       schedule_category: true,
