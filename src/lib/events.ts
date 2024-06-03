@@ -49,6 +49,12 @@ export async function getEvent(
         where: { published: true },
         include: {
           schedule_venue: true,
+          schedule_eventinstance: {
+            where: { published: true },
+            include: {
+              schedule_event: true,
+            },
+          },
           other_schedule_eventinstance: {
             where: { published: true },
             orderBy: { start: 'asc' },
@@ -161,6 +167,12 @@ export type schedule_event_with_relations_and_instances_and_children =
         schedule_eventinstance: {
           include: {
             schedule_venue: true;
+            schedule_eventinstance: {
+              where: { published: true };
+              include: {
+                schedule_event: true;
+              };
+            };
             other_schedule_eventinstance: {
               include: {
                 schedule_venue: true;

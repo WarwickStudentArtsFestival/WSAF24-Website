@@ -9,9 +9,11 @@ import dayjs from 'dayjs';
 export default function ScheduleEventInstance({
   eventInstance,
   eventPage,
+  bookingUrl,
 }: {
   eventInstance: schedule_eventinstance_with_relations;
   eventPage?: boolean;
+  bookingUrl?: string | null;
 }) {
   return (
     <a
@@ -56,6 +58,16 @@ export default function ScheduleEventInstance({
               .join(' | ')}
           </div>
         </div>
+
+        {bookingUrl && (
+          <a
+            href={bookingUrl}
+            target="_blank"
+            className="inline-block bg-secondary text-white uppercase font-bold text-sm mt-2 px-2 py-0.5 drop-shadow-sm hover:scale-105"
+          >
+            Book
+          </a>
+        )}
       </article>
     </a>
   );

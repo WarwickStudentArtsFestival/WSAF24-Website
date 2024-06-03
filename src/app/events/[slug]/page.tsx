@@ -99,14 +99,16 @@ export default async function Event({
             >
               {event.schedule_eventinstance.map((instance) => (
                 <div key={instance.id}>
-                  <a
-                    href={`/venues/${instance.schedule_venue.slug}`}
-                    className="bg-accent"
-                  >
-                    <article className="bg-accent p-2 text-black">
+                  <article className="bg-accent p-2 text-black">
+                    <a
+                      href={`/venues/${instance.schedule_venue.slug}`}
+                      className="bg-accent block hover:scale-105"
+                    >
                       <p className="uppercase text-sm font-bold">
                         {instance.schedule_venue.name}
                       </p>
+                    </a>
+                    <p>
                       <time
                         dateTime={instance.start.toISOString()}
                         className="text-sm"
@@ -120,8 +122,26 @@ export default async function Event({
                       >
                         {formatShowTime(instance.end)}
                       </time>
-                    </article>
-                  </a>
+                    </p>
+                    {instance.schedule_eventinstance && (
+                      <a
+                        href={`/events/${instance.schedule_eventinstance.schedule_event.slug}`}
+                        className="bg-accent block hover:scale-105 italic text-xs leading-tight mb-1"
+                      >
+                        as part of{' '}
+                        {instance.schedule_eventinstance.schedule_event.title}
+                      </a>
+                    )}
+                    {instance.booking_url && (
+                      <a
+                        href={instance.booking_url}
+                        target="_blank"
+                        className="inline-block bg-secondary text-white uppercase font-bold text-sm mt-1 px-2 py-0.5 drop-shadow-sm hover:scale-105"
+                      >
+                        Book
+                      </a>
+                    )}
+                  </article>
                   {instance.other_schedule_eventinstance.length > 0 && (
                     <div
                       className={`mt-2 flex flex-wrap gap-2 justify-center ${event.schedule_organisation ? 'justify-center lg:justify-start' : 'justify-center'}`}
@@ -132,6 +152,7 @@ export default async function Event({
                             eventInstance={childInstance}
                             key={childInstance.id}
                             eventPage
+                            bookingUrl={childInstance.booking_url}
                           />
                         ),
                       )}

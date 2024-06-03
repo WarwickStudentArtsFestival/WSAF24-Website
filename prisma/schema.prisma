@@ -265,6 +265,7 @@ model schedule_eventinstance {
   parent_id                    BigInt?
   venue_id                     BigInt
   published                    Boolean
+  booking_url                  String?                  @db.VarChar(200)
   schedule_eventinstance       schedule_eventinstance?  @relation("schedule_eventinstanceToschedule_eventinstance", fields: [parent_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "schedule_eventinstan_parent_id_56de69e9_fk_schedule_")
   other_schedule_eventinstance schedule_eventinstance[] @relation("schedule_eventinstanceToschedule_eventinstance")
   schedule_event               schedule_event           @relation(fields: [event_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "schedule_eventinstance_event_id_f44b749e_fk_schedule_event_id")
