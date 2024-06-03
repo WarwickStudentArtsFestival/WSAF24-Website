@@ -45,6 +45,16 @@ const nextConfig = {
       source: '/volunteer',
       destination: '/team',
       permanent: true,
+    },
+    {
+      source: '/qr/d62',
+      destination: 'https://wsaf.org.uk/schedule?utm_campaign=schedule&utm_medium=ds&utm_source=screens',
+      permanent: true,
+    },
+    {
+      source: '/qr/2d2',
+      destination: 'https://wsaf.org.uk/schedule?utm_campaign=schedule&utm_medium=ds&utm_source=oculus',
+      permanent: true,
     }
   ])
 };
