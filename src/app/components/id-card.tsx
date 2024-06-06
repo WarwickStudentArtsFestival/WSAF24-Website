@@ -7,6 +7,7 @@ export type IdCardProps = {
   role?: string;
   pronouns?: string;
   image?: StaticImageData;
+  isBothOrganiserAndVolunteer?: boolean;
 };
 
 export default function IdCard({

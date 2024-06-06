@@ -6,8 +6,10 @@ import JoshPhoto from '@/assets/people/josh.jpg';
 import ElliePhoto from '@/assets/people/ellie.jpg';
 import EthanPhoto from '@/assets/people/ethan.jpg';
 import HollyPhoto from '@/assets/people/holly.jpg';
+import KitPhoto from '@/assets/people/kit.jpg';
 import { IdCardProps } from '@/app/components/id-card';
 import DannyPhoto from '@/assets/people/danny.jpg';
+import JoelPhoto from '@/assets/people/joel.jpg';
 
 const organisers: IdCardProps[] = [
   {
@@ -51,6 +53,18 @@ const organisers: IdCardProps[] = [
     role: 'Head of\nTeam Catering',
     description: '3rd Year Mechanical Engineering',
     image: EthanPhoto,
+  },
+  {
+    name: 'Joel',
+    role: 'Head of Streaming',
+    description: '2nd Year Computer Science',
+    image: JoelPhoto,
+  },
+  {
+    name: 'Kit',
+    role: 'Communications',
+    description: '2nd Year Politics and Sociology',
+    image: KitPhoto,
   },
   {
     name: 'Holly',

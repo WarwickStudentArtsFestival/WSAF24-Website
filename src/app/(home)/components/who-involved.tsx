@@ -28,15 +28,17 @@ export default function KeyDates() {
             image={person.image}
           />
         ))}
-        {volunteers.map((person) => (
-          <IdCard
-            key={person.name}
-            name={person.name}
-            description={person.description}
-            role={person.role}
-            image={person.image}
-          />
-        ))}
+        {volunteers
+          .filter((volunteer) => !volunteer.isBothOrganiserAndVolunteer)
+          .map((person) => (
+            <IdCard
+              key={person.name}
+              name={person.name}
+              description={person.description}
+              role={person.role}
+              image={person.image}
+            />
+          ))}
         <IdCard
           name="You?"
           role="Volunteer"

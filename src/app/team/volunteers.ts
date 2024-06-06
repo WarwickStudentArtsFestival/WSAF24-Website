@@ -2,25 +2,95 @@ import { IdCardProps } from '@/app/components/id-card';
 import DallonPhoto from '@/assets/people/dallon.jpg';
 import EchoPhoto from '@/assets/people/echo.jpg';
 import KishanPhoto from '@/assets/people/kishan.jpg';
+import EthanPhoto from '@/assets/people/ethan.jpg';
+import JoshPhoto from '@/assets/people/josh.jpg';
+import KitPhoto from '@/assets/people/kit.jpg';
+import DannyPhoto from '@/assets/people/danny.jpg';
+import DaePhoto from '@/assets/people/dae.jpg';
+import AdamPhoto from '@/assets/people/adam.jpg';
+import GeorgePhoto from '@/assets/people/george.jpg';
+import StanPhoto from '@/assets/people/stan.jpg';
+import JoelPhoto from '@/assets/people/joel.jpg';
 
 const volunteers: IdCardProps[] = [
   {
-    name: 'Dallon',
-    role: 'Crew',
-    description: '2nd Year Spanish, Italian and Linguistics',
-    image: DallonPhoto,
+    name: 'Stan',
+    role: 'Venue Manager',
+    description: '1st Year Maths',
+    image: StanPhoto,
+  },
+  {
+    name: 'George',
+    role: 'Venue Manager',
+    description: '1st Year Film Studies',
+    image: GeorgePhoto,
+  },
+  {
+    name: 'Danny',
+    role: 'Sound, LX & Tech',
+    description: '2nd Year Biological Sciences',
+    image: DannyPhoto,
+    isBothOrganiserAndVolunteer: true,
   },
   {
     name: 'Echo',
-    role: 'Crew',
+    role: 'Sound, LX & Tech',
     description: '1st Year Cyber Security',
     image: EchoPhoto,
   },
   {
+    name: 'Dallon',
+    role: 'LX & Tech',
+    description: '2nd Year Spanish, Italian and Linguistics',
+    image: DallonPhoto,
+  },
+  {
     name: 'Kishan',
-    role: 'Crew',
+    role: 'Sound & Tech',
     description: '2nd Year Discrete Maths',
     image: KishanPhoto,
+  },
+  {
+    name: 'Kit',
+    role: 'Sound & Tech',
+    description: '2nd Year Politics and Sociology',
+    image: KitPhoto,
+    isBothOrganiserAndVolunteer: true,
+  },
+  {
+    name: 'Josh',
+    role: 'Sound & Tech',
+    description: '2nd Year Computer Science',
+    image: JoshPhoto,
+    isBothOrganiserAndVolunteer: true,
+  },
+  {
+    name: 'Joel',
+    role: 'Video & Tech',
+    description: '2nd Year Computer Science',
+    image: JoelPhoto,
+    isBothOrganiserAndVolunteer: true,
+  },
+  {
+    name: 'Ethan',
+    role: 'Tech',
+    description: '3rd Year Mechanical Engineering',
+    image: EthanPhoto,
+    isBothOrganiserAndVolunteer: true,
+  },
+  {
+    name: 'Dae',
+    role: 'Tech',
+    description: '2nd Year\nLiberal Arts',
+    image: DaePhoto,
+    isBothOrganiserAndVolunteer: true,
+  },
+  {
+    name: 'Adam',
+    role: 'Tech',
+    description: '4th Year Computer Systems Engineering',
+    image: AdamPhoto,
+    isBothOrganiserAndVolunteer: true,
   },
 ];
 
