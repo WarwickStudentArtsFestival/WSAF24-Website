@@ -24,8 +24,12 @@ export default function PageHeader({
           className="absolute h-full object-cover"
           priority
         />
-        <Link href="/">
-          <div className="p-6 relative flex flex-wrap sm:flex-nowrap justify-center items-center hover:scale-105">
+
+        <div className="p-6 relative flex justify-center items-center">
+          <Link
+            href="/"
+            className="hover:scale-105 flex flex-wrap sm:flex-nowrap justify-center items-center"
+          >
             <Image
               src={Logo}
               alt="WSAF 2024 logo"
@@ -45,8 +49,8 @@ export default function PageHeader({
                 <time dateTime="2024-06-10T22:00:00.000">Mon 10th June</time>
               </span>
             </div>
-          </div>
-        </Link>
+          </Link>
+        </div>
       </div>
 
       <div className="relative -mt-16 text-center">
