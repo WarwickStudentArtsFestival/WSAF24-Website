@@ -9,6 +9,16 @@ export default function Faq() {
         className={`max-w-7xl mx-auto px-8 my-2 leading-tight space-y-6 ${styles.faq}`}
       >
         <div>
+          <h3>What&apos;s going on?</h3>
+          <p>
+            Throughout Saturday, Sunday and Monday, we&apos;ll be hosting over
+            60 free events across Warwick University. You can find our full{' '}
+            <a href="/schedule">schedule</a> and{' '}
+            <a href="/events">event list here</a>.
+          </p>
+        </div>
+
+        <div>
           <h3>Why are you putting on this event?</h3>
           <p>
             The University of Warwick has a wealth of highly motivated student
@@ -59,14 +69,13 @@ export default function Faq() {
         <div>
           <h3>Where will everything take place?</h3>
           <p>
-            WSAF will take place all over the University of Warwick campus. Our
-            preliminary list includes an outdoor stage, Curiositea and the FAB
-            Studios in addition to the performance spaces in Avon and Milburn
-            House - however this is subject to change.
+            WSAF will take place all over the University of Warwick campus,
+            however we will primarily be located around the Piazza and FAB. You
+            can view all our venues <a href="/venues">here</a>.
           </p>
         </div>
 
-        <div>
+        {/* <div>
           <h3>Is there any funding available for production costs?</h3>
           <p>
             There may be a limited amount of funding available - please{' '}
@@ -77,9 +86,9 @@ export default function Faq() {
             and video) will be provided by WSAF in collaboration with Tech Crew
             and does not need to be individually budgeted for.
           </p>
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <h3>How long can my performance be?</h3>
           <p>
             We&apos;re hoping for most shows to be shorter than 60 minutes, to
@@ -90,9 +99,9 @@ export default function Faq() {
             </a>{' '}
             and we can work something out.
           </p>
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <h3>
             I&apos;d just like to perform a short set individually. Is this
             possible?
@@ -110,7 +119,7 @@ export default function Faq() {
             there&apos;s a lot of interest, but if not we&apos;ll try to find a
             place to slot you into the schedule anyway.
           </p>
-        </div>
+        </div> */}
 
         <div>
           <h3>
