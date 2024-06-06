@@ -11,6 +11,7 @@ import AdamPhoto from '@/assets/people/adam.jpg';
 import GeorgePhoto from '@/assets/people/george.jpg';
 import StanPhoto from '@/assets/people/stan.jpg';
 import JoelPhoto from '@/assets/people/joel.jpg';
+import AlicePhoto from '@/assets/people/alice.jpg';
 
 const volunteers: IdCardProps[] = [
   {
@@ -24,6 +25,12 @@ const volunteers: IdCardProps[] = [
     role: 'Venue Manager',
     description: '1st Year Film Studies',
     image: GeorgePhoto,
+  },
+  {
+    name: 'Alice',
+    role: 'Venue Manager',
+    description: '3rd Year Manufacturing & Mechanical Engineering',
+    image: AlicePhoto,
   },
   {
     name: 'Danny',
