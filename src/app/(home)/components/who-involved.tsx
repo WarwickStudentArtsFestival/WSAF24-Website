@@ -1,6 +1,7 @@
 import IdCard from '@/app/components/id-card';
 import AvatarImage from '@/assets/people/avatar.jpg';
 import organisers from '@/app/team/organisers';
+import volunteers from '@/app/team/volunteers';
 import { FiArrowRight } from 'react-icons/fi';
 
 export default function KeyDates() {
@@ -19,6 +20,15 @@ export default function KeyDates() {
 
       <div className="flex justify-center flex-wrap mb-4">
         {organisers.map((person) => (
+          <IdCard
+            key={person.name}
+            name={person.name}
+            description={person.description}
+            role={person.role}
+            image={person.image}
+          />
+        ))}
+        {volunteers.map((person) => (
           <IdCard
             key={person.name}
             name={person.name}
