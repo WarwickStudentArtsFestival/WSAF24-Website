@@ -4,7 +4,7 @@ import Wsaf2015StandImage from '@/assets/history/wsaf-2015-stand.jpg';
 
 export default function History() {
   return (
-    <section className="mb-4 md:mb-12">
+    <section className="mb-4 md:mb-8">
       <h2 className="mb-4">History</h2>
 
       <figure className="mx-4">

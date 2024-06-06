@@ -6,7 +6,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 export default function KeyDates() {
   return (
-    <section className="mb-4 md:mb-12">
+    <section className="mb-4 md:mb-8">
       <h2>Who&apos;s Involved?</h2>
       <p className="mt-2 mb-1 mx-4">
         This year&apos;s WSAF is being organised by the following volunteers, in

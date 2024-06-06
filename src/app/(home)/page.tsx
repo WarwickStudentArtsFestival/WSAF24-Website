@@ -5,6 +5,7 @@ import React from 'react';
 import About from './components/about';
 import History from './components/history';
 import WhatsOn from '@/app/(home)/components/whats-on';
+import FabTerrace from '@/app/(home)/components/fab-terrace';
 
 export const dynamic = 'force-dynamic';
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <About />
       <WhatsOn />
+      <FabTerrace />
       <WhoInvolved />
       <History />
       <Faq />

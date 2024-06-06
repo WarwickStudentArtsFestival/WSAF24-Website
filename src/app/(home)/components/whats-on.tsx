@@ -6,7 +6,7 @@ export default async function WhatsOn() {
   const events = (await getEvents(true)).slice(0, 6);
 
   return (
-    <section className="mb-12">
+    <section className="mb-8">
       <h2>What&apos;s On?</h2>
       <p className="max-w-6xl mx-auto px-4 mb-2">
         Across <strong>Saturday 8th June</strong>,{' '}
