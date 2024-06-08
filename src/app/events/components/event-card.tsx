@@ -10,15 +10,17 @@ export default function EventCard({
   event,
   className,
   spacingClasses,
+  pastEvent,
 }: {
   event: schedule_event_with_relations_and_instances;
   className?: string;
   spacingClasses?: string;
+  pastEvent?: boolean;
 }) {
   return (
     <a
       href={`/events/${event.slug}`}
-      className={`block break-inside-avoid hover:scale-105 ${className || ''}`}
+      className={`block break-inside-avoid hover:scale-105 ${className || ''} ${pastEvent ? 'opacity-60' : ''}`}
     >
       <article
         className={`group p-4 ${getEventColourClasses(event)} drop-shadow-md ${spacingClasses || 'mb-4 mx-2'} h-full`}

@@ -22,7 +22,9 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Events() {
-  const events = await getEvents(true);
+  const eventCount = await getEventCount();
+  const events = await getEvents(true, 1);
+  const pastEvents = await getEvents(true, 2);
   const venueCount = await getVenueCount();
 
   const eventTinyDescriptions = await getEventTinyDescriptions();
@@ -35,7 +37,7 @@ export default async function Events() {
           Warwick Student Arts Festival 2024 will take place across{' '}
           <strong>Saturday 8th June</strong>, <strong>Sunday 9th June</strong>{' '}
           and <strong>Monday 10th June</strong>, with{' '}
-          <strong> {events.length} events</strong> across our{' '}
+          <strong> {eventCount} events</strong> across our{' '}
           <strong>
             <a href="/venues" className="text-accent">
               {venueCount} venues
@@ -116,6 +118,17 @@ export default async function Events() {
           ))}
         </div>
       </div>
+
+      {pastEvents.length > 0 && (
+        <div className="max-w-screen-6xl mx-auto mt-4">
+          <h2>Past Events</h2>
+          <div className="xs:columns-2 md:columns-3 xl:columns-4 2xl:columns-5 3xl:columns-6 4xl:columns-7 gap-0 m-4">
+            {pastEvents.map((event) => (
+              <EventCard event={event} key={event.id} pastEvent />
+            ))}
+          </div>
+        </div>
+      )}
     </main>
   );
 }

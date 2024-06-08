@@ -79,11 +79,21 @@ export async function getEvent(
 
 export async function getEvents(
   randomise: boolean = false,
+  pastEvents: number = 0, // 0 = All, 1 = future only, 2 = past only
 ): Promise<schedule_event_with_relations_and_instances[]> {
   let events = await prisma.schedule_event.findMany({
     where: {
       published: true,
-      schedule_eventinstance: { some: { published: true } },
+      schedule_eventinstance: {
+        some: {
+          published: true,
+          start: pastEvents
+            ? pastEvents === 1
+              ? { gte: new Date() }
+              : { lte: new Date() }
+            : {},
+        },
+      },
     },
     include: {
       schedule_organisation: true,
