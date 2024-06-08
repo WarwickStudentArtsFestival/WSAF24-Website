@@ -55,6 +55,11 @@ const nextConfig = {
       source: '/qr/2d2',
       destination: 'https://wsaf.org.uk/schedule?utm_campaign=schedule&utm_medium=ds&utm_source=oculus',
       permanent: true,
+    },
+    {
+      source: '/qr/ee4',
+      destination: 'https://wsaf.org.uk/schedule?utm_campaign=slides&utm_medium=ds&utm_source=tv',
+      permanent: true,
     }
   ])
 };
