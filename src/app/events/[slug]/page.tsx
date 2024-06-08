@@ -103,7 +103,7 @@ export default async function Event({
                   <article className="bg-accent p-2 text-black">
                     <a
                       href={`/venues/${instance.schedule_venue.slug}`}
-                      className="bg-accent block hover:scale-105"
+                      className={`block ${instance.other_schedule_eventinstance.length ? '' : 'hover:scale-105'}`}
                     >
                       <p className="uppercase text-sm font-bold">
                         {instance.schedule_venue.name}
