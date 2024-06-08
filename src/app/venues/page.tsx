@@ -53,7 +53,7 @@ export default async function Venues() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 flex gap-4 flex-wrap justify-center">
+      <div className="max-w-7xl mx-auto px-4 flex gap-4 flex-wrap justify-center mb-4">
         {venues.map((venue) => (
           <a
             key={venue.id}
