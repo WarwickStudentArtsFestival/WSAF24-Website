@@ -17,6 +17,7 @@ export default function EventCard({
   spacingClasses?: string;
   pastEvent?: boolean;
 }) {
+  const currentTime = new Date().getTime();
   return (
     <a
       href={`/events/${event.slug}`}
@@ -27,7 +28,12 @@ export default function EventCard({
       >
         <div className="text-xs">
           {event.schedule_eventinstance.map((instance) => (
-            <p key={instance.id}>
+            <p
+              key={instance.id}
+              className={
+                instance.end.getTime() < currentTime ? 'line-through' : ''
+              }
+            >
               <time dateTime={instance.start.toISOString()}>
                 {formatShowDateTime(instance.start)}
               </time>{' '}

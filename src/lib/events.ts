@@ -87,7 +87,7 @@ export async function getEvents(
       schedule_eventinstance: {
         some: {
           published: true,
-          start: pastEvents
+          end: pastEvents
             ? pastEvents === 1
               ? { gte: new Date() }
               : { lte: new Date() }
@@ -102,6 +102,7 @@ export async function getEvents(
       schedule_eventinstance: {
         where: { published: true },
         include: { schedule_venue: true },
+        orderBy: { start: 'asc' },
       },
     },
   });
@@ -109,6 +110,20 @@ export async function getEvents(
     events = events
       .map((val) => ({ val, sort: Math.random() }))
       .sort((a, b) => a.sort - b.sort)
+      .map((val) => val.val);
+  } else {
+    const currentTime = new Date().getTime();
+    events = events
+      .map((val) => ({
+        val,
+        earliest:
+          (pastEvents !== 1 && false
+            ? val.schedule_eventinstance[0]?.start?.getTime()
+            : val.schedule_eventinstance
+                .filter((instance) => instance.end.getTime() >= currentTime)[0]
+                ?.start?.getTime()) || 0,
+      }))
+      .sort((a, b) => a.earliest - b.earliest)
       .map((val) => val.val);
   }
 

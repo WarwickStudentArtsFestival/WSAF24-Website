@@ -3,7 +3,7 @@ import { getEvents } from '@/lib/events';
 import EventCard from '@/app/events/components/event-card';
 
 export default async function WhatsOn() {
-  const events = (await getEvents(true, 1)).slice(0, 6);
+  const events = (await getEvents(false, 1)).slice(0, 6);
 
   return (
     <section className="mb-8">
@@ -26,6 +26,7 @@ export default async function WhatsOn() {
         .
       </p>
 
+      <p className="font-bold mb-1">Coming up Next:</p>
       <div className="mx-4 mb-4 flex justify-center flex-wrap gap-4">
         {events.map((event) => (
           <EventCard
