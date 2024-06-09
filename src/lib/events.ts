@@ -87,7 +87,7 @@ export async function getEvents(
       schedule_eventinstance: {
         some: {
           published: true,
-          start: pastEvents
+          end: pastEvents
             ? pastEvents === 1
               ? { gte: new Date() }
               : { lte: new Date() }
@@ -117,10 +117,10 @@ export async function getEvents(
       .map((val) => ({
         val,
         earliest:
-          (pastEvents !== 1
+          (pastEvents !== 1 && false
             ? val.schedule_eventinstance[0]?.start?.getTime()
             : val.schedule_eventinstance
-                .filter((instance) => instance.end.getTime() < currentTime)[0]
+                .filter((instance) => instance.end.getTime() >= currentTime)[0]
                 ?.start?.getTime()) || 0,
       }))
       .sort((a, b) => a.earliest - b.earliest)

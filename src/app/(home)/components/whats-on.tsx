@@ -26,6 +26,7 @@ export default async function WhatsOn() {
         .
       </p>
 
+      <p className="font-bold mb-1">Coming up Next:</p>
       <div className="mx-4 mb-4 flex justify-center flex-wrap gap-4">
         {events.map((event) => (
           <EventCard
