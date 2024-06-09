@@ -47,6 +47,16 @@ const nextConfig = {
       permanent: true,
     },
     {
+      source: '/youtube',
+      destination: 'https://www.youtube.com/channel/UCCFESD5QMLnlgKQjkBLuv3A',
+      permanent: true
+    },
+    {
+      source: '/stream',
+      destination: 'https://www.youtube.com/channel/UCCFESD5QMLnlgKQjkBLuv3A',
+      permanent: true
+    },
+    {
       source: '/qr/d62',
       destination: 'https://wsaf.org.uk/schedule?utm_campaign=schedule&utm_medium=ds&utm_source=screens',
       permanent: true,

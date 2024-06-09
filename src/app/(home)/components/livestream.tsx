@@ -1,4 +1,4 @@
-import { FiTv } from 'react-icons/fi';
+import { FiTv, FiVideo } from 'react-icons/fi';
 
 export default function Livestream() {
   return (
@@ -25,24 +25,49 @@ export default function Livestream() {
           className="text-accent"
         >
           FAB Terrace
-        </a>
-        will be livestreamed and recorded in collaboration with{' '}
-        <a href="https://www.youtube.com/c/RAWVisual" className="text-accent">
+        </a>{' '}
+        will be{' '}
+        <a
+          href="https://www.youtube.com/channel/UCCFESD5QMLnlgKQjkBLuv3A"
+          className="text-accent"
+        >
+          livestreamed and recorded
+        </a>{' '}
+        in collaboration with{' '}
+        <a
+          href="https://www.youtube.com/@RAWVisual/streams"
+          className="text-accent"
+        >
           RAW Visual
         </a>
         .
       </p>
 
-      <a
-        href="https://www.youtube.com/c/RAWVisual"
-        target="_blank"
-        className="inline-block bg-tertiary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mb-4 mx-4"
-      >
-        <span className="text-xl uppercase font-bold">
-          <FiTv className="inline mr-2 mb-1" />
-          Watch the Livestreams
-        </span>
-      </a>
+      <div>
+        <a
+          href="https://www.youtube.com/channel/UCCFESD5QMLnlgKQjkBLuv3A"
+          target="_blank"
+          className="inline-block bg-tertiary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mb-2 mx-4"
+        >
+          <span className="text-xl uppercase font-bold">
+            <FiTv className="inline mr-2 mb-1" />
+            Watch the Livestreams
+          </span>
+        </a>
+      </div>
+
+      <div>
+        <a
+          href="https://www.youtube.com/@RAWVisual/streams"
+          target="_blank"
+          className="inline-block bg-tertiary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mb-4 mx-4"
+        >
+          <span className="text-sm uppercase font-bold">
+            <FiVideo className="inline mr-2 mb-1" />
+            Watch the Day One Recap
+          </span>
+        </a>
+      </div>
     </section>
   );
 }
