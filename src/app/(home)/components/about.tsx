@@ -1,5 +1,9 @@
-import { FiArrowRight, FiExternalLink, FiInstagram } from 'react-icons/fi';
+import { FiArrowRight, FiInstagram } from 'react-icons/fi';
 import { FaDiscord } from 'react-icons/fa';
+import Image from 'next/image';
+import PiazzaStage from '@/assets/images/stage.jpg';
+import Dance from '@/assets/images/dance.jpg';
+import Curiositea from '@/assets/images/curiositea.jpg';
 
 export default function About() {
   return (
@@ -16,12 +20,12 @@ export default function About() {
           across the entirety of campus.
         </p>
         <a
-          href="/team"
+          href="/schedule"
           className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mt-2"
         >
           <span className="text-xl lg:text-2xl uppercase font-bold">
             <FiArrowRight className="inline-block mb-1 mr-2" />
-            Join the Team
+            What&apos;s On
           </span>
         </a>
         <p className="flex gap-2 justify-center mb-2">
@@ -43,6 +47,23 @@ export default function About() {
             Discord
           </a>
         </p>
+        <div className="flex gap-4 h-32 md:h-40 justify-center items-center mt-2">
+          <Image
+            src={PiazzaStage}
+            alt="Piazza Stage"
+            className="object-contain h-full w-auto max-w-1/3 hidden sm:block"
+          />
+          <Image
+            src={Curiositea}
+            alt="Curiositea"
+            className="object-contain h-full w-auto max-w-1/3"
+          />
+          <Image
+            src={Dance}
+            alt="Dance"
+            className="object-contain h-full w-auto max-w-1/3"
+          />
+        </div>
       </div>
     </section>
   );
