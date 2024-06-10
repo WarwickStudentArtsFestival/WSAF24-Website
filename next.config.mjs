@@ -49,12 +49,17 @@ const nextConfig = {
     {
       source: '/youtube',
       destination: 'https://www.youtube.com/channel/UCCFESD5QMLnlgKQjkBLuv3A',
-      permanent: true
+      permanent: true,
     },
     {
       source: '/stream',
       destination: 'https://www.youtube.com/channel/UCCFESD5QMLnlgKQjkBLuv3A',
-      permanent: true
+      permanent: true,
+    },
+    {
+      source: '/feedback',
+      destination: 'https://forms.gle/kpL6q6M1ZGV6Dzao7',
+      permanent: true,
     },
     {
       source: '/qr/d62',
