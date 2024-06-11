@@ -95,7 +95,7 @@ export default function Team() {
                   Join Discord
                 </span>
               </a>
-              <a
+              {/* <a
                 href="/helfertool"
                 target="_blank"
                 className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105"
@@ -104,7 +104,7 @@ export default function Team() {
                   <FiArrowRight className="inline-block mb-1 mr-2" />
                   Sign Up
                 </span>
-              </a>
+              </a> */}
             </div>
           </div>
           <Image

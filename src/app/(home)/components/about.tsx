@@ -20,12 +20,13 @@ export default function About() {
           across the entirety of campus.
         </p>
         <a
-          href="/schedule"
+          href="/feedback"
           className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mt-2"
+          target="_blank"
         >
           <span className="text-xl lg:text-2xl uppercase font-bold">
             <FiArrowRight className="inline-block mb-1 mr-2" />
-            What&apos;s On
+            Feedback
           </span>
         </a>
         <p className="flex gap-2 justify-center mb-2">
