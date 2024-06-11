@@ -16,6 +16,9 @@ import AlasdairPhoto from '@/assets/people/alasdair.jpg';
 import GleiPhoto from '@/assets/people/glei.jpg';
 import IndiePhoto from '@/assets/people/indie.jpg';
 import KieranPhoto from '@/assets/people/kieran.jpg';
+import AnisPhoto from '@/assets/people/anis.jpg';
+import HannahPhoto from '@/assets/people/hannah.jpg';
+import AdinaPhoto from '@/assets/people/adina.jpg';
 
 const volunteers: IdCardProps[] = [
   {
@@ -89,6 +92,12 @@ const volunteers: IdCardProps[] = [
     isBothOrganiserAndVolunteer: true,
   },
   {
+    name: 'Anis',
+    role: 'LX',
+    description: '3rd Year Philosophy with Psychology',
+    image: AnisPhoto,
+  },
+  {
     name: 'Glei',
     role: 'Video',
     description: '3rd Year English Literature',
@@ -126,6 +135,18 @@ const volunteers: IdCardProps[] = [
     role: 'Steward',
     description: '1st Year Maths',
     image: KieranPhoto,
+  },
+  {
+    name: 'Hannah',
+    role: 'Steward',
+    description: '1st Year Film and Television',
+    image: HannahPhoto,
+  },
+  {
+    name: 'Adina',
+    role: 'Steward',
+    description: '2nd Year Sociology and Criminology',
+    image: AdinaPhoto,
   },
 ];
 

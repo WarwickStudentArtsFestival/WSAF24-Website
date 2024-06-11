@@ -143,7 +143,7 @@ export default function Team() {
 
       <section className="md:mb-16">
         <h2>Organiser Team</h2>
-        <p className="mb-1  max-w-6xl mx-auto px-4">
+        <p className="mb-1 max-w-6xl mx-auto px-4">
           Our organiser team, led by the four founders, have been central in the
           preparation and coordination of WSAF.
         </p>
@@ -161,7 +161,7 @@ export default function Team() {
         </div>
       </section>
 
-      <section className="md:mb-16 mx-4">
+      <section className="md:mb-16">
         <h2>Volunteer Team</h2>
         <p className="mb-1 max-w-6xl mx-auto px-4">
           Our volunteer team are also essential to the running of WSAF, and
