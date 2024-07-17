@@ -19,6 +19,7 @@ import KieranPhoto from '@/assets/people/kieran.jpg';
 import AnisPhoto from '@/assets/people/anis.jpg';
 import HannahPhoto from '@/assets/people/hannah.jpg';
 import AdinaPhoto from '@/assets/people/adina.jpg';
+import VeronicaPhoto from '@/assets/people/veronica.jpg';
 
 const volunteers: IdCardProps[] = [
   {
@@ -147,6 +148,12 @@ const volunteers: IdCardProps[] = [
     role: 'Steward',
     description: '2nd Year Sociology and Criminology',
     image: AdinaPhoto,
+  },
+  {
+    name: 'Veronica',
+    role: 'Steward',
+    description: '1st Year Film Studies',
+    image: VeronicaPhoto,
   },
 ];
 
