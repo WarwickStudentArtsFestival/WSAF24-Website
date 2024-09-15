@@ -1,0 +1,95 @@
+{
+  "id": "59",
+  "title": "Poetry Reading",
+  "short_description": "Poetry reading :)",
+  "organisation_id": "19",
+  "submission_id": 61,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "4",
+  "slug": "poetry-reading",
+  "digital_signage": false,
+  "published": true,
+  "logo": "",
+  "long_description": "Hope for Health is an upcoming poetry pamphlet focussed on promoting positive and hopeful messages surrounding mental health - join us as we showcase potential entries for the first edition and find our voice as a publication!",
+  "tiny_description": "poetry reading",
+  "schedule_organisation": {
+    "id": "19",
+    "name": "Hope for health",
+    "description": "",
+    "slug": "vance",
+    "logo": "",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "4",
+    "name": "Spoken Word",
+    "colour_theme": "ORANGE",
+    "image": "images/category-icons/microphone_3KaC7Yw.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "60",
+      "event_id": "59",
+      "category_id": "4",
+      "schedule_category": {
+        "id": "4",
+        "name": "Spoken Word",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_3KaC7Yw.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "142",
+      "start": "2024-06-10T17:47:00.000Z",
+      "end": "2024-06-10T18:07:00.000Z",
+      "event_id": "59",
+      "parent_id": "7",
+      "venue_id": "5",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "5",
+        "name": "Curiositea",
+        "description": "Curiositea will feature free, evening entertainment",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+        "slug": "curiositea",
+        "image": null
+      },
+      "schedule_eventinstance": {
+        "id": "7",
+        "start": "2024-06-10T17:30:00.000Z",
+        "end": "2024-06-10T19:20:00.000Z",
+        "event_id": "63",
+        "parent_id": null,
+        "venue_id": "5",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "63",
+          "title": "Literature at Curiositea",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "4",
+          "slug": "curiositea-literature",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

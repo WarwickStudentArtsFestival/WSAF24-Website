@@ -1,0 +1,70 @@
+{
+  "id": "36",
+  "title": "Flute Choir",
+  "short_description": "A selection of pieces covering a wide variety of styles, arranged for flute.",
+  "organisation_id": "6",
+  "submission_id": 40,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "flute-choir",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "6",
+    "name": "Wind Orchestra",
+    "description": "Welcome to the University of Warwick Wind Orchestra! The Wind Orchestra is a fully non-auditioned ensemble, so if you play wind, brass, percussion, string bass or even fancy trying a bit of conducting, why not give Wind Orchestra a try? We are a friendly bunch of people who enjoy performing and socialising together in a group.",
+    "slug": "wind-orchestra",
+    "logo": "images/organisation-logos/Wind_Orchestra.png",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "36",
+      "event_id": "36",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "119",
+      "start": "2024-06-08T15:45:00.000Z",
+      "end": "2024-06-08T16:15:00.000Z",
+      "event_id": "36",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

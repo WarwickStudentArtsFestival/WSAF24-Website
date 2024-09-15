@@ -1,0 +1,60 @@
+{
+  "id": "52",
+  "title": "Kawai: Mashup of Indian and English songs",
+  "short_description": "We are a group of postgraduate students passionate about music. We get together and jam on songs with different genres.",
+  "organisation_id": null,
+  "submission_id": 54,
+  "preferred_occurrences": 2,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "kawai",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "52",
+      "event_id": "52",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "136",
+      "start": "2024-06-08T15:00:00.000Z",
+      "end": "2024-06-08T15:30:00.000Z",
+      "event_id": "52",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

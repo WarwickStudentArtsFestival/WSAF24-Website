@@ -1,0 +1,80 @@
+{
+  "id": "23",
+  "title": "DJ: Eyes on the Fire",
+  "short_description": "DJ and composer of electronic dance music. Features performances on Boiler Room and Rinse FM.",
+  "organisation_id": null,
+  "submission_id": 26,
+  "preferred_occurrences": 3,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "eyes-on-the-fire",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "21",
+      "event_id": "23",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "100",
+      "start": "2024-06-08T19:30:00.000Z",
+      "end": "2024-06-08T20:30:00.000Z",
+      "event_id": "23",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "101",
+      "start": "2024-06-09T11:45:00.000Z",
+      "end": "2024-06-09T12:15:00.000Z",
+      "event_id": "23",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

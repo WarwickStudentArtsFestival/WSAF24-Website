@@ -1,0 +1,70 @@
+{
+  "id": "37",
+  "title": "Filmmaking Script Workshop",
+  "short_description": "Teaching the basics of script writing, and for the more advanced writers to do a practical small one page script which is able to get feedback immediately.",
+  "organisation_id": "12",
+  "submission_id": 41,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "6",
+  "slug": "screenwriting",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "Filmmaking Society presents a Script Writing Workshop on Saturday 2:30PM, to teach you the tools necessary in making your own script and for those who are more advanced in their writing there is a chance to gain feedback from experienced teachers in a practical element of writing a one page script in the workshop.",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "12",
+    "name": "Filmmaking Society",
+    "description": "Uplifting people to create what they want!",
+    "slug": "filmmaking-society",
+    "logo": "images/organisation-logos/Filmmaking_Society.png",
+    "instagram_handle": "warwickfilmmaking",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "6",
+    "name": "Workshop",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_7p99sFR.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "37",
+      "event_id": "37",
+      "category_id": "6",
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "146",
+      "start": "2024-06-08T13:30:00.000Z",
+      "end": "2024-06-08T14:30:00.000Z",
+      "event_id": "37",
+      "parent_id": null,
+      "venue_id": "8",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "8",
+        "name": "FAB0.23",
+        "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+        "slug": "fab-023",
+        "image": null
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

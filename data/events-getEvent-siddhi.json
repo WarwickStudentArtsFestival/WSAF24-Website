@@ -1,0 +1,95 @@
+{
+  "id": "10",
+  "title": "Indian Classical Dance",
+  "short_description": "Bharatanatyam is a classical Indian dance known for its expressive hand gestures, story telling themes and vibrant costumes. It’s a beautiful art form that combines music, rhythm, and emotions",
+  "organisation_id": "29",
+  "submission_id": 12,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "2",
+  "slug": "siddhi",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "29",
+    "name": "Siddhi",
+    "description": "Bharatanatyam is a classical Indian dance known for its expressive hand gestures, story telling themes and vibrant costumes. It’s a beautiful art form that combines music, rhythm, and emotions",
+    "slug": "siddhi",
+    "logo": "",
+    "instagram_handle": "siddhhyyyyy",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "2",
+    "name": "Dance",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/ballet_shoes.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "68",
+      "event_id": "10",
+      "category_id": "2",
+      "schedule_category": {
+        "id": "2",
+        "name": "Dance",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/ballet_shoes.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "86",
+      "start": "2024-06-08T16:57:00.000Z",
+      "end": "2024-06-08T17:02:00.000Z",
+      "event_id": "10",
+      "parent_id": "8",
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": {
+        "id": "8",
+        "start": "2024-06-08T16:30:00.000Z",
+        "end": "2024-06-08T17:45:00.000Z",
+        "event_id": "62",
+        "parent_id": null,
+        "venue_id": "1",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "62",
+          "title": "International Dance Showcase",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "2",
+          "slug": "international-dance-showcase",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

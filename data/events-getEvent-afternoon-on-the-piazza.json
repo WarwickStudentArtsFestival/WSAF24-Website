@@ -1,0 +1,361 @@
+{
+  "id": "65",
+  "title": "Afternoon on The Piazza",
+  "short_description": "",
+  "organisation_id": "20",
+  "submission_id": null,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "afternoon-on-the-piazza",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "20",
+    "name": "WSAF",
+    "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+    "slug": "wsaf",
+    "logo": "images/organisation-logos/WSAF.png",
+    "instagram_handle": "wsaf24",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "64",
+      "event_id": "65",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "9",
+      "start": "2024-06-08T12:45:00.000Z",
+      "end": "2024-06-08T14:00:00.000Z",
+      "event_id": "65",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": [
+        {
+          "id": "94",
+          "start": "2024-06-08T12:45:00.000Z",
+          "end": "2024-06-08T13:20:00.000Z",
+          "event_id": "17",
+          "parent_id": "9",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "17",
+            "title": "Prav’s Originals",
+            "short_description": "It’s me and my guitar, can get a band together performing some of my original music and maybe a few covers.",
+            "organisation_id": null,
+            "submission_id": 20,
+            "preferred_occurrences": 5,
+            "advertisement_weight": 1,
+            "primary_category_id": "3",
+            "slug": "pravs-originals",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "3",
+              "name": "Music",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/trumpet.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "16",
+                "event_id": "17",
+                "category_id": "3",
+                "schedule_category": {
+                  "id": "3",
+                  "name": "Music",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/trumpet.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "96",
+          "start": "2024-06-08T13:25:00.000Z",
+          "end": "2024-06-08T13:40:00.000Z",
+          "event_id": "18",
+          "parent_id": "9",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "18",
+            "title": "Poetry by Apurva Wahul",
+            "short_description": "I have been writing poems for a long time and I would love to share them with everyone.",
+            "organisation_id": null,
+            "submission_id": 21,
+            "preferred_occurrences": 2,
+            "advertisement_weight": 1,
+            "primary_category_id": "4",
+            "slug": "apurva-wahul-poetry",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "4",
+              "name": "Spoken Word",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/microphone_3KaC7Yw.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "17",
+                "event_id": "18",
+                "category_id": "4",
+                "schedule_category": {
+                  "id": "4",
+                  "name": "Spoken Word",
+                  "colour_theme": "ORANGE",
+                  "image": "images/category-icons/microphone_3KaC7Yw.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "99",
+          "start": "2024-06-08T13:42:00.000Z",
+          "end": "2024-06-08T13:45:00.000Z",
+          "event_id": "22",
+          "parent_id": "9",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "22",
+            "title": "Yiming Liu: Traditional Chinese folk song",
+            "short_description": "A traditional Chinese song with accompaniment",
+            "organisation_id": null,
+            "submission_id": 25,
+            "preferred_occurrences": 2,
+            "advertisement_weight": 1,
+            "primary_category_id": "3",
+            "slug": "chinese-folk-song",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "3",
+              "name": "Music",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/trumpet.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "20",
+                "event_id": "22",
+                "category_id": "3",
+                "schedule_category": {
+                  "id": "3",
+                  "name": "Music",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/trumpet.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "104",
+          "start": "2024-06-08T13:50:00.000Z",
+          "end": "2024-06-08T13:53:00.000Z",
+          "event_id": "25",
+          "parent_id": "9",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "25",
+            "title": "South Indian Tollywood Dance Fusion",
+            "short_description": "2-3 minute dance to a medley of energetic south-indian songs to bring energy to the audience.",
+            "organisation_id": null,
+            "submission_id": 28,
+            "preferred_occurrences": 3,
+            "advertisement_weight": 1,
+            "primary_category_id": "2",
+            "slug": "south-indian-street-dance",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "2",
+              "name": "Dance",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/ballet_shoes.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "24",
+                "event_id": "25",
+                "category_id": "2",
+                "schedule_category": {
+                  "id": "2",
+                  "name": "Dance",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/ballet_shoes.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "135",
+          "start": "2024-06-08T13:55:00.000Z",
+          "end": "2024-06-08T14:00:00.000Z",
+          "event_id": "51",
+          "parent_id": "9",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "51",
+            "title": "Healing in Real Time",
+            "short_description": "Spoken word - healing in real time",
+            "organisation_id": "27",
+            "submission_id": 53,
+            "preferred_occurrences": 2,
+            "advertisement_weight": 1,
+            "primary_category_id": "4",
+            "slug": "adele",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "Sharing a few spoken word peaces touching on emotions from healing to hurt, and self discovery.",
+            "tiny_description": null,
+            "schedule_organisation": {
+              "id": "27",
+              "name": "Adèle Beecham",
+              "description": "Adèle is a multi-award winning Filmmaker, musician and spoken word artist. Writing since a young age, Spoken word and poetry are particularly special to her because they give her a space to express her emotions differently. she aims to share her heart in every poem and hopes that each piece brings a little healing and peace to all those who read them.",
+              "slug": "adele-beecham",
+              "logo": "",
+              "instagram_handle": "adeled_official",
+              "is_society": false,
+              "website_name": "Website",
+              "website_url": "https://youth-perspective.wixsite.com/youthperspective"
+            },
+            "schedule_category": {
+              "id": "4",
+              "name": "Spoken Word",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/microphone_3KaC7Yw.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "51",
+                "event_id": "51",
+                "category_id": "4",
+                "schedule_category": {
+                  "id": "4",
+                  "name": "Spoken Word",
+                  "colour_theme": "ORANGE",
+                  "image": "images/category-icons/microphone_3KaC7Yw.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

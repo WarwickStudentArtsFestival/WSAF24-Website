@@ -1,0 +1,115 @@
+{
+  "id": "40",
+  "title": "An Evening of Modern Guitar",
+  "short_description": "A performance of solo electric guitar, playing modern pieces by world-renowned guitar virtuoso Ichika Nito, as well as new composed pieces inspired by him being brought to the light.",
+  "organisation_id": "30",
+  "submission_id": 42,
+  "preferred_occurrences": 2,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "an-evening-of-modern-guitar",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "A unique performance of solo electric guitar and singing, featuring solo pieces by world renowned guitarist Ichika Nito, and originals inspired by both him and Laufey. \r\n\r\nExpect to see some of the pieces that helped make Ichika known world-wide such as Orb and Homesick, and a few extra songs you'll have to turn up to hear!\r\n\r\nListen to a few originals from Sean Cabatana's in-progress unreleased album too.",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "30",
+    "name": "Sean Cabatana",
+    "description": "Sean Cabatana is an electric guitarist, and singer-songwriter, writing new music inspired by artists who are changing the world of music today, such as Ichika Nito and Laufey. Open to collabs in the future! Reach out to him at: @skcabatana skcabatana@gmail.com",
+    "slug": "sean-cabatana",
+    "logo": "images/organisation-logos/Sean_Cabatana.png",
+    "instagram_handle": "skcabatana",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "40",
+      "event_id": "40",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "121",
+      "start": "2024-06-09T20:45:00.000Z",
+      "end": "2024-06-09T21:15:00.000Z",
+      "event_id": "40",
+      "parent_id": "163",
+      "venue_id": "4",
+      "published": true,
+      "booking_url": "https://www.ticketsource.co.uk/wsaf",
+      "schedule_venue": {
+        "id": "4",
+        "name": "FAB Terrace",
+        "description": "Come and join us on the FAB Terrace on Sunday evening. Make sure to reserve your spot at https://www.ticketsource.co.uk/wsaf!",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c896d421e6f5928c0fdeb",
+        "slug": "fab-terrace",
+        "image": ""
+      },
+      "schedule_eventinstance": {
+        "id": "163",
+        "start": "2024-06-09T20:00:00.000Z",
+        "end": "2024-06-09T21:15:00.000Z",
+        "event_id": "76",
+        "parent_id": null,
+        "venue_id": "4",
+        "published": true,
+        "booking_url": "https://www.ticketsource.co.uk/wsaf",
+        "schedule_event": {
+          "id": "76",
+          "title": "Sunset Session 2 on FAB Terrace",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "3",
+          "slug": "sunset-session-2",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "120",
+      "start": "2024-06-08T18:45:00.000Z",
+      "end": "2024-06-08T19:15:00.000Z",
+      "event_id": "40",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

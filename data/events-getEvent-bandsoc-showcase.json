@@ -1,0 +1,70 @@
+{
+  "id": "5",
+  "title": "BandSoc Showcase",
+  "short_description": "Several student bands will perform originals and covers of their choice, belonging to different genres such as rock, funk, indie, and more!",
+  "organisation_id": "3",
+  "submission_id": 6,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "bandsoc-showcase",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": "student bands",
+  "schedule_organisation": {
+    "id": "3",
+    "name": "Bandsoc",
+    "description": "BandSoc is a society for music lovers and bands - whatever your preferred genre we have the widest variety of bands and people as one of the university's largest and most active societies. Whether you're already making music or looking to get started, there will always be someone to jam with. We embrace all genres of music, whether it's folk or funk, rock or punk, jazz, blues, metal, latin, whatever. Come and make some music!",
+    "slug": "bandsoc",
+    "logo": "images/organisation-logos/BandSoc.png",
+    "instagram_handle": "warwickbandsoc",
+    "is_society": true,
+    "website_name": "warwickbandsoc.co.uk",
+    "website_url": "https://www.warwickbandsoc.co.uk/"
+  },
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "6",
+      "event_id": "5",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "82",
+      "start": "2024-06-09T16:45:00.000Z",
+      "end": "2024-06-09T17:30:00.000Z",
+      "event_id": "5",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

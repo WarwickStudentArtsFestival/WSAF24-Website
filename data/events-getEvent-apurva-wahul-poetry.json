@@ -1,0 +1,130 @@
+{
+  "id": "18",
+  "title": "Poetry by Apurva Wahul",
+  "short_description": "I have been writing poems for a long time and I would love to share them with everyone.",
+  "organisation_id": null,
+  "submission_id": 21,
+  "preferred_occurrences": 2,
+  "advertisement_weight": 1,
+  "primary_category_id": "4",
+  "slug": "apurva-wahul-poetry",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "4",
+    "name": "Spoken Word",
+    "colour_theme": "ORANGE",
+    "image": "images/category-icons/microphone_3KaC7Yw.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "17",
+      "event_id": "18",
+      "category_id": "4",
+      "schedule_category": {
+        "id": "4",
+        "name": "Spoken Word",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_3KaC7Yw.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "95",
+      "start": "2024-06-10T18:18:00.000Z",
+      "end": "2024-06-10T18:33:00.000Z",
+      "event_id": "18",
+      "parent_id": "7",
+      "venue_id": "5",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "5",
+        "name": "Curiositea",
+        "description": "Curiositea will feature free, evening entertainment",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+        "slug": "curiositea",
+        "image": null
+      },
+      "schedule_eventinstance": {
+        "id": "7",
+        "start": "2024-06-10T17:30:00.000Z",
+        "end": "2024-06-10T19:20:00.000Z",
+        "event_id": "63",
+        "parent_id": null,
+        "venue_id": "5",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "63",
+          "title": "Literature at Curiositea",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "4",
+          "slug": "curiositea-literature",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "96",
+      "start": "2024-06-08T13:25:00.000Z",
+      "end": "2024-06-08T13:40:00.000Z",
+      "event_id": "18",
+      "parent_id": "9",
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": {
+        "id": "9",
+        "start": "2024-06-08T12:45:00.000Z",
+        "end": "2024-06-08T14:00:00.000Z",
+        "event_id": "65",
+        "parent_id": null,
+        "venue_id": "1",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "65",
+          "title": "Afternoon on The Piazza",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "3",
+          "slug": "afternoon-on-the-piazza",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

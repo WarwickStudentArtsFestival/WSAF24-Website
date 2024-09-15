@@ -1,0 +1,85 @@
+{
+  "id": "21",
+  "title": "Nikkon Banerjee: Singing",
+  "short_description": "",
+  "organisation_id": null,
+  "submission_id": 23,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "nikkon-banerjee-singing",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "19",
+      "event_id": "21",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "148",
+      "start": "2024-06-08T19:30:00.000Z",
+      "end": "2024-06-08T19:35:00.000Z",
+      "event_id": "21",
+      "parent_id": "6",
+      "venue_id": "5",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "5",
+        "name": "Curiositea",
+        "description": "Curiositea will feature free, evening entertainment",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+        "slug": "curiositea",
+        "image": null
+      },
+      "schedule_eventinstance": {
+        "id": "6",
+        "start": "2024-06-08T17:45:00.000Z",
+        "end": "2024-06-08T20:45:00.000Z",
+        "event_id": "61",
+        "parent_id": null,
+        "venue_id": "5",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "61",
+          "title": "Music Nights at Curiositea",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "3",
+          "slug": "curiositea-music-nights",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

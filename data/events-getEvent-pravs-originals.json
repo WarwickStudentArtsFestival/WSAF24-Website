@@ -1,0 +1,105 @@
+{
+  "id": "17",
+  "title": "Prav’s Originals",
+  "short_description": "It’s me and my guitar, can get a band together performing some of my original music and maybe a few covers.",
+  "organisation_id": null,
+  "submission_id": 20,
+  "preferred_occurrences": 5,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "pravs-originals",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "16",
+      "event_id": "17",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "154",
+      "start": "2024-06-09T15:45:00.000Z",
+      "end": "2024-06-09T16:15:00.000Z",
+      "event_id": "17",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "94",
+      "start": "2024-06-08T12:45:00.000Z",
+      "end": "2024-06-08T13:20:00.000Z",
+      "event_id": "17",
+      "parent_id": "9",
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": {
+        "id": "9",
+        "start": "2024-06-08T12:45:00.000Z",
+        "end": "2024-06-08T14:00:00.000Z",
+        "event_id": "65",
+        "parent_id": null,
+        "venue_id": "1",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "65",
+          "title": "Afternoon on The Piazza",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "3",
+          "slug": "afternoon-on-the-piazza",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

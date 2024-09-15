@@ -1,0 +1,1043 @@
+[
+  {
+    "id": "129",
+    "start": "2024-06-08T11:50:00.000Z",
+    "end": "2024-06-08T12:45:00.000Z",
+    "event_id": "47",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "47",
+      "title": "The Brwn Space",
+      "short_description": "plethora of performers from singing to rapping to spoken word and comedy",
+      "organisation_id": null,
+      "submission_id": 49,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "the-brwn-space",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "47",
+          "event_id": "47",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "9",
+    "start": "2024-06-08T12:45:00.000Z",
+    "end": "2024-06-08T14:00:00.000Z",
+    "event_id": "65",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "65",
+      "title": "Afternoon on The Piazza",
+      "short_description": "",
+      "organisation_id": "20",
+      "submission_id": null,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "afternoon-on-the-piazza",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "20",
+        "name": "WSAF",
+        "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+        "slug": "wsaf",
+        "logo": "images/organisation-logos/WSAF.png",
+        "instagram_handle": "wsaf24",
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "64",
+          "event_id": "65",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "124",
+    "start": "2024-06-08T14:30:00.000Z",
+    "end": "2024-06-08T15:00:00.000Z",
+    "event_id": "43",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "43",
+      "title": "Pole/Aerial Arts",
+      "short_description": "There will be 2 aerial hoop dance performers and 4 pole dance performers. They would each have a 2-4 minute routine to perform in their chosen area. Some routines would be artistic and tell a mini story, and others would show off their strength and flexibility.",
+      "organisation_id": "14",
+      "submission_id": 45,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "2",
+      "slug": "pole-aerial-arts",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": "aerial arts",
+      "schedule_organisation": {
+        "id": "14",
+        "name": "Warwick Pole and Aerial Arts",
+        "description": "Cheaper than the gym and an amazing way to get fit - Warwick Pole and Aerial Arts is the perfect society to build strength, get more flexible, build confidence and make lifelong friends. We're a supportive and inclusive society that anyone is welcome to join regardless of gender, level of fitness or previous experience.",
+        "slug": "pole-and-aerial-arts",
+        "logo": "images/organisation-logos/Warwick_Pole_and_Aerial_Arts.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "2",
+        "name": "Dance",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/ballet_shoes.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "43",
+          "event_id": "43",
+          "category_id": "2",
+          "schedule_category": {
+            "id": "2",
+            "name": "Dance",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/ballet_shoes.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "136",
+    "start": "2024-06-08T15:00:00.000Z",
+    "end": "2024-06-08T15:30:00.000Z",
+    "event_id": "52",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "52",
+      "title": "Kawai: Mashup of Indian and English songs",
+      "short_description": "We are a group of postgraduate students passionate about music. We get together and jam on songs with different genres.",
+      "organisation_id": null,
+      "submission_id": 54,
+      "preferred_occurrences": 2,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "kawai",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "52",
+          "event_id": "52",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "119",
+    "start": "2024-06-08T15:45:00.000Z",
+    "end": "2024-06-08T16:15:00.000Z",
+    "event_id": "36",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "36",
+      "title": "Flute Choir",
+      "short_description": "A selection of pieces covering a wide variety of styles, arranged for flute.",
+      "organisation_id": "6",
+      "submission_id": 40,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "flute-choir",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "6",
+        "name": "Wind Orchestra",
+        "description": "Welcome to the University of Warwick Wind Orchestra! The Wind Orchestra is a fully non-auditioned ensemble, so if you play wind, brass, percussion, string bass or even fancy trying a bit of conducting, why not give Wind Orchestra a try? We are a friendly bunch of people who enjoy performing and socialising together in a group.",
+        "slug": "wind-orchestra",
+        "logo": "images/organisation-logos/Wind_Orchestra.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "36",
+          "event_id": "36",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "8",
+    "start": "2024-06-08T16:30:00.000Z",
+    "end": "2024-06-08T17:45:00.000Z",
+    "event_id": "62",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "62",
+      "title": "International Dance Showcase",
+      "short_description": "",
+      "organisation_id": "20",
+      "submission_id": null,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "2",
+      "slug": "international-dance-showcase",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "20",
+        "name": "WSAF",
+        "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+        "slug": "wsaf",
+        "logo": "images/organisation-logos/WSAF.png",
+        "instagram_handle": "wsaf24",
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "2",
+        "name": "Dance",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/ballet_shoes.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "63",
+          "event_id": "62",
+          "category_id": "2",
+          "schedule_category": {
+            "id": "2",
+            "name": "Dance",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/ballet_shoes.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "151",
+    "start": "2024-06-08T18:00:00.000Z",
+    "end": "2024-06-08T18:30:00.000Z",
+    "event_id": "67",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "67",
+      "title": "Student Life in the UK (in Hindi)",
+      "short_description": "This performance will be in Hindi!\r\n\r\nStand up comedy about student life in the UK.",
+      "organisation_id": null,
+      "submission_id": 64,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "4",
+      "slug": "student-life-comedy",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "4",
+        "name": "Spoken Word",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_3KaC7Yw.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": []
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "120",
+    "start": "2024-06-08T18:45:00.000Z",
+    "end": "2024-06-08T19:15:00.000Z",
+    "event_id": "40",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "40",
+      "title": "An Evening of Modern Guitar",
+      "short_description": "A performance of solo electric guitar, playing modern pieces by world-renowned guitar virtuoso Ichika Nito, as well as new composed pieces inspired by him being brought to the light.",
+      "organisation_id": "30",
+      "submission_id": 42,
+      "preferred_occurrences": 2,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "an-evening-of-modern-guitar",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "A unique performance of solo electric guitar and singing, featuring solo pieces by world renowned guitarist Ichika Nito, and originals inspired by both him and Laufey. \r\n\r\nExpect to see some of the pieces that helped make Ichika known world-wide such as Orb and Homesick, and a few extra songs you'll have to turn up to hear!\r\n\r\nListen to a few originals from Sean Cabatana's in-progress unreleased album too.",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "30",
+        "name": "Sean Cabatana",
+        "description": "Sean Cabatana is an electric guitarist, and singer-songwriter, writing new music inspired by artists who are changing the world of music today, such as Ichika Nito and Laufey. Open to collabs in the future! Reach out to him at: @skcabatana skcabatana@gmail.com",
+        "slug": "sean-cabatana",
+        "logo": "images/organisation-logos/Sean_Cabatana.png",
+        "instagram_handle": "skcabatana",
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "40",
+          "event_id": "40",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "100",
+    "start": "2024-06-08T19:30:00.000Z",
+    "end": "2024-06-08T20:30:00.000Z",
+    "event_id": "23",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "23",
+      "title": "DJ: Eyes on the Fire",
+      "short_description": "DJ and composer of electronic dance music. Features performances on Boiler Room and Rinse FM.",
+      "organisation_id": null,
+      "submission_id": 26,
+      "preferred_occurrences": 3,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "eyes-on-the-fire",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "21",
+          "event_id": "23",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "101",
+    "start": "2024-06-09T11:45:00.000Z",
+    "end": "2024-06-09T12:15:00.000Z",
+    "event_id": "23",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "23",
+      "title": "DJ: Eyes on the Fire",
+      "short_description": "DJ and composer of electronic dance music. Features performances on Boiler Room and Rinse FM.",
+      "organisation_id": null,
+      "submission_id": 26,
+      "preferred_occurrences": 3,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "eyes-on-the-fire",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "21",
+          "event_id": "23",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "154",
+    "start": "2024-06-09T15:45:00.000Z",
+    "end": "2024-06-09T16:15:00.000Z",
+    "event_id": "17",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "17",
+      "title": "Prav’s Originals",
+      "short_description": "It’s me and my guitar, can get a band together performing some of my original music and maybe a few covers.",
+      "organisation_id": null,
+      "submission_id": 20,
+      "preferred_occurrences": 5,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "pravs-originals",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "16",
+          "event_id": "17",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "82",
+    "start": "2024-06-09T16:45:00.000Z",
+    "end": "2024-06-09T17:30:00.000Z",
+    "event_id": "5",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "5",
+      "title": "BandSoc Showcase",
+      "short_description": "Several student bands will perform originals and covers of their choice, belonging to different genres such as rock, funk, indie, and more!",
+      "organisation_id": "3",
+      "submission_id": 6,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "bandsoc-showcase",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": "student bands",
+      "schedule_organisation": {
+        "id": "3",
+        "name": "Bandsoc",
+        "description": "BandSoc is a society for music lovers and bands - whatever your preferred genre we have the widest variety of bands and people as one of the university's largest and most active societies. Whether you're already making music or looking to get started, there will always be someone to jam with. We embrace all genres of music, whether it's folk or funk, rock or punk, jazz, blues, metal, latin, whatever. Come and make some music!",
+        "slug": "bandsoc",
+        "logo": "images/organisation-logos/BandSoc.png",
+        "instagram_handle": "warwickbandsoc",
+        "is_society": true,
+        "website_name": "warwickbandsoc.co.uk",
+        "website_url": "https://www.warwickbandsoc.co.uk/"
+      },
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "6",
+          "event_id": "5",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "85",
+    "start": "2024-06-09T18:00:00.000Z",
+    "end": "2024-06-09T18:30:00.000Z",
+    "event_id": "9",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "9",
+      "title": "Mirage",
+      "short_description": "Rock/pop/indie band named Mirage. Energetic, upbeat band. Will likely play 3/4 originals alongside a cover.",
+      "organisation_id": null,
+      "submission_id": 11,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "mirage",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "9",
+          "event_id": "9",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "90",
+    "start": "2024-06-10T09:00:00.000Z",
+    "end": "2024-06-10T17:45:00.000Z",
+    "event_id": "14",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "14",
+      "title": "Wind Orchestra Charity Playathon",
+      "short_description": "We are an unauditioned band made up of students and people from the community, who perform a wide variety of music from wind band classics to pop medleys and film music. We are playing continuously for several hours to raise money for charity as part of our annual Playathon!",
+      "organisation_id": "6",
+      "submission_id": 17,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "wind-orchestra-charity-playathon",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "6",
+        "name": "Wind Orchestra",
+        "description": "Welcome to the University of Warwick Wind Orchestra! The Wind Orchestra is a fully non-auditioned ensemble, so if you play wind, brass, percussion, string bass or even fancy trying a bit of conducting, why not give Wind Orchestra a try? We are a friendly bunch of people who enjoy performing and socialising together in a group.",
+        "slug": "wind-orchestra",
+        "logo": "images/organisation-logos/Wind_Orchestra.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "13",
+          "event_id": "14",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "116",
+    "start": "2024-06-10T18:00:00.000Z",
+    "end": "2024-06-10T18:15:00.000Z",
+    "event_id": "34",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "34",
+      "title": "Symphonic Brass",
+      "short_description": "We play a mixture of film scores, traditional brass music and more. We are a small ensemble of high level players who sound amazing when we perform.",
+      "organisation_id": "11",
+      "submission_id": 37,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "symphonic-brass",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "11",
+        "name": "BrassSoc",
+        "description": "The University of Warwick Brass Society or BrassSoc for short is a fun, friendly and lively group to get involved with. The society welcomes all brass players, percussionists and even those who have never picked up a brass instrument before! Our award winning ensembles (which include a brass band, a symphonic brass ensemble and a beginners brass group) welcome all standards of musicians, and (apart from symphonic brass) are all non-auditioned. With over 50 members, we provide opportunities for all brass players to rehearse, perform and socialise regularly.",
+        "slug": "brass-society",
+        "logo": "images/organisation-logos/Brass_Society.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "34",
+          "event_id": "34",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "132",
+    "start": "2024-06-10T18:30:00.000Z",
+    "end": "2024-06-10T18:45:00.000Z",
+    "event_id": "49",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "49",
+      "title": "Chaotic Spice",
+      "short_description": "Fusion between Indian and Western music with vocals piano and guitar.",
+      "organisation_id": null,
+      "submission_id": 51,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "chaotic-spice",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "49",
+          "event_id": "49",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  },
+  {
+    "id": "102",
+    "start": "2024-06-10T19:00:00.000Z",
+    "end": "2024-06-10T21:00:00.000Z",
+    "event_id": "24",
+    "parent_id": null,
+    "venue_id": "1",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "24",
+      "title": "Summer Ceilidh",
+      "short_description": "We’ll be playing a variety of folk tunes for you to dance to!",
+      "organisation_id": "7",
+      "submission_id": 27,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "2",
+      "slug": "summer-ceilidh",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": "ceilidhs",
+      "schedule_organisation": {
+        "id": "7",
+        "name": "Warwick Folk",
+        "description": "Warwick Folk Society is a very relaxed music group for musicians of any age ability, or instrument. We play different styles of folk from across the world, usually from the British Isles and run various dances, ceilidhs and gigs throughout the year. Our style of playing tends to focus more on the enthusiasm than keeping to the dots. The sheet music acts as a guide to what we play.",
+        "slug": "folk-society",
+        "logo": "images/organisation-logos/Warwick_Folk.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "2",
+        "name": "Dance",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/ballet_shoes.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "22",
+          "event_id": "24",
+          "category_id": "2",
+          "schedule_category": {
+            "id": "2",
+            "name": "Dance",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/ballet_shoes.png",
+            "icon": "MASK"
+          }
+        },
+        {
+          "id": "23",
+          "event_id": "24",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "1",
+      "name": "Piazza Stage",
+      "description": "Our big stage on Benefactors place next to the Piazza.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+      "slug": "benefactors-place",
+      "image": ""
+    }
+  }
+]

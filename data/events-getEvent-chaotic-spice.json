@@ -1,0 +1,60 @@
+{
+  "id": "49",
+  "title": "Chaotic Spice",
+  "short_description": "Fusion between Indian and Western music with vocals piano and guitar.",
+  "organisation_id": null,
+  "submission_id": 51,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "chaotic-spice",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "49",
+      "event_id": "49",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "132",
+      "start": "2024-06-10T18:30:00.000Z",
+      "end": "2024-06-10T18:45:00.000Z",
+      "event_id": "49",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

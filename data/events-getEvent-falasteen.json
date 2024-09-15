@@ -1,0 +1,60 @@
+{
+  "id": "19",
+  "title": "Falasteen (tapestry)",
+  "short_description": "I crochet tapestry wall-hangings which have arabic calligraphy and/or other designs which are used as decoration or art pieces. This piece is called Falasteen, and is has aspects of the Palestinian identity, a white dove, and olive branches, as well as some calligraphy. What my pieces do is show Islam, or Islamic concepts as something artistic. This piece is both a piece of activism, and something artistic.",
+  "organisation_id": null,
+  "submission_id": 22,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "8",
+  "slug": "falasteen",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "8",
+    "name": "Exhibition",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_RwmAFqg.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "18",
+      "event_id": "19",
+      "category_id": "8",
+      "schedule_category": {
+        "id": "8",
+        "name": "Exhibition",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_RwmAFqg.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "97",
+      "start": "2024-06-08T12:45:00.000Z",
+      "end": "2024-06-08T14:30:00.000Z",
+      "event_id": "19",
+      "parent_id": null,
+      "venue_id": "7",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "7",
+        "name": "FAB0.19 Gallery",
+        "description": "The FAB Gallery will provide a variety of student art",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
+        "slug": "fab-019",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

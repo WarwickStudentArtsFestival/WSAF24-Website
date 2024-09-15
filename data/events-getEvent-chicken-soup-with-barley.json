@@ -1,0 +1,80 @@
+{
+  "id": "4",
+  "title": "Chicken Soup with Barley",
+  "short_description": "Chicken Soup with Barley is a 1956 play by Arnold Wesker that grapples with the breakdown of an ideology and a family in parallel, synthesising the personal, political, and philosophical into an odyssey across decades that reveals the power of brotherhood even in a country that always seems in decline. Our production would modernise the text and give it a queer edge to explore the prescience of community and caring in the modern age.",
+  "organisation_id": null,
+  "submission_id": 5,
+  "preferred_occurrences": 2,
+  "advertisement_weight": 1,
+  "primary_category_id": "1",
+  "slug": "chicken-soup-with-barley",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "1",
+    "name": "Theatre",
+    "colour_theme": "PURPLE",
+    "image": "images/category-icons/mask_oXCdVVv.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "5",
+      "event_id": "4",
+      "category_id": "1",
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "81",
+      "start": "2024-06-10T13:00:00.000Z",
+      "end": "2024-06-10T14:30:00.000Z",
+      "event_id": "4",
+      "parent_id": null,
+      "venue_id": "2",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "2",
+        "name": "FAB0.20",
+        "description": "All theatre performances at WSAF will be held here.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+        "slug": "fab-020",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "80",
+      "start": "2024-06-08T17:00:00.000Z",
+      "end": "2024-06-08T18:30:00.000Z",
+      "event_id": "4",
+      "parent_id": null,
+      "venue_id": "2",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "2",
+        "name": "FAB0.20",
+        "description": "All theatre performances at WSAF will be held here.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+        "slug": "fab-020",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

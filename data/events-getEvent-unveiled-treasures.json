@@ -1,0 +1,70 @@
+{
+  "id": "8",
+  "title": "Unveiled Treasures Creativity Workshop",
+  "short_description": "In this workshop, participants are invited to create pieces—ranging from photography and poetry to recipes and visual art—for our forthcoming magazine issue titled \"Unveiled Treasures.\" This issue aims to spotlight the hidden gems crafted by Warwick students, offering a platform to showcase their diverse talents that may not have had prior exposure.",
+  "organisation_id": "5",
+  "submission_id": 10,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "6",
+  "slug": "unveiled-treasures",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "5",
+    "name": "Cobalt Magazine Society",
+    "description": "",
+    "slug": "cobalt-magazine-society",
+    "logo": null,
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "6",
+    "name": "Workshop",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_7p99sFR.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "8",
+      "event_id": "8",
+      "category_id": "6",
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "84",
+      "start": "2024-06-08T12:00:00.000Z",
+      "end": "2024-06-08T13:00:00.000Z",
+      "event_id": "8",
+      "parent_id": null,
+      "venue_id": "8",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "8",
+        "name": "FAB0.23",
+        "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+        "slug": "fab-023",
+        "image": null
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

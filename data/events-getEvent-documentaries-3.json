@@ -1,0 +1,82 @@
+{
+  "id": "71",
+  "title": "Being a 419er",
+  "short_description": "",
+  "organisation_id": "25",
+  "submission_id": 9433,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "5",
+  "slug": "documentaries-3",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "419 Football Club is an independent intramural football team split from the Warwick Nigerian Society. It is not just about football, but also about brotherhood and a safe community for minority voices to be heard.",
+  "tiny_description": "\"Being a 419er\" by Vanessa Kweto",
+  "schedule_organisation": {
+    "id": "25",
+    "name": "Vanessa Kweto",
+    "description": "",
+    "slug": "vanessa-kweto",
+    "logo": "",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "5",
+    "name": "Film",
+    "colour_theme": "ORANGE",
+    "image": "images/category-icons/mask.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [],
+  "schedule_eventinstance": [
+    {
+      "id": "157",
+      "start": "2024-06-09T15:15:00.000Z",
+      "end": "2024-06-09T15:43:00.000Z",
+      "event_id": "71",
+      "parent_id": "122",
+      "venue_id": "9",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "9",
+        "name": "L3",
+        "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+        "slug": "l3",
+        "image": null
+      },
+      "schedule_eventinstance": {
+        "id": "122",
+        "start": "2024-06-09T14:30:00.000Z",
+        "end": "2024-06-09T16:07:00.000Z",
+        "event_id": "41",
+        "parent_id": null,
+        "venue_id": "9",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "41",
+          "title": "Art and Reality: Warwick Student Documentaries",
+          "short_description": "Five documentaries made by Warwick student in total. They cover different themes, including the use of AI in art, marine life, student activism and a football team at Warwick. They are all the entries to the Warwick Documentary Society, but we would like to ensure that credits are given to all student filmmakers. We hope that the screening can encourage students to create their own documentaries and appreciate creative talents around them.",
+          "organisation_id": "13",
+          "submission_id": 43,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "5",
+          "slug": "art-and-reality",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

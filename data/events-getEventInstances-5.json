@@ -1,0 +1,200 @@
+[
+  {
+    "id": "6",
+    "start": "2024-06-08T17:45:00.000Z",
+    "end": "2024-06-08T20:45:00.000Z",
+    "event_id": "61",
+    "parent_id": null,
+    "venue_id": "5",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "61",
+      "title": "Music Nights at Curiositea",
+      "short_description": "",
+      "organisation_id": "20",
+      "submission_id": null,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "3",
+      "slug": "curiositea-music-nights",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "20",
+        "name": "WSAF",
+        "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+        "slug": "wsaf",
+        "logo": "images/organisation-logos/WSAF.png",
+        "instagram_handle": "wsaf24",
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "62",
+          "event_id": "61",
+          "category_id": "3",
+          "schedule_category": {
+            "id": "3",
+            "name": "Music",
+            "colour_theme": "PINK",
+            "image": "images/category-icons/trumpet.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "5",
+      "name": "Curiositea",
+      "description": "Curiositea will feature free, evening entertainment",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+      "slug": "curiositea",
+      "image": null
+    }
+  },
+  {
+    "id": "7",
+    "start": "2024-06-10T17:30:00.000Z",
+    "end": "2024-06-10T19:20:00.000Z",
+    "event_id": "63",
+    "parent_id": null,
+    "venue_id": "5",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "63",
+      "title": "Literature at Curiositea",
+      "short_description": "",
+      "organisation_id": "20",
+      "submission_id": null,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "4",
+      "slug": "curiositea-literature",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "20",
+        "name": "WSAF",
+        "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+        "slug": "wsaf",
+        "logo": "images/organisation-logos/WSAF.png",
+        "instagram_handle": "wsaf24",
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "4",
+        "name": "Spoken Word",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_3KaC7Yw.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "66",
+          "event_id": "63",
+          "category_id": "4",
+          "schedule_category": {
+            "id": "4",
+            "name": "Spoken Word",
+            "colour_theme": "ORANGE",
+            "image": "images/category-icons/microphone_3KaC7Yw.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "5",
+      "name": "Curiositea",
+      "description": "Curiositea will feature free, evening entertainment",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+      "slug": "curiositea",
+      "image": null
+    }
+  },
+  {
+    "id": "150",
+    "start": "2024-06-10T19:20:00.000Z",
+    "end": "2024-06-10T20:45:00.000Z",
+    "event_id": "66",
+    "parent_id": null,
+    "venue_id": "5",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "66",
+      "title": "Warwick Student Comedy Show",
+      "short_description": "Warwick Comedy present a mixed bill stand up show with the funniest comedians from the university.",
+      "organisation_id": "22",
+      "submission_id": 65,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "4",
+      "slug": "wcs-1",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "22",
+        "name": "Warwick Comedy",
+        "description": "Warwick Comedy Society offers the opportunity to write, perform and direct comedy -  from sketch to stand-up - putting on shows throughout the year and then taking them to the Edinburgh Fringe, Leicester Comedy Festival and elsewhere. But there's no pressure to perform - all of our sessions are welcoming and laid back. We also have plenty of trips just to watch comedy as well as many socials to attend. We welcome all new members, from freshers to PhD students, regardless of previous comedic experience!",
+        "slug": "warwick-comedy",
+        "logo": "images/organisation-logos/Warwick_Comedy.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "4",
+        "name": "Spoken Word",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_3KaC7Yw.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "70",
+          "event_id": "66",
+          "category_id": "7",
+          "schedule_category": {
+            "id": "7",
+            "name": "Comedy",
+            "colour_theme": "ORANGE",
+            "image": "images/category-icons/microphone_mmhbYJa.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "5",
+      "name": "Curiositea",
+      "description": "Curiositea will feature free, evening entertainment",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+      "slug": "curiositea",
+      "image": null
+    }
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "id": "24",
+  "title": "Summer Ceilidh",
+  "short_description": "We’ll be playing a variety of folk tunes for you to dance to!",
+  "organisation_id": "7",
+  "submission_id": 27,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "2",
+  "slug": "summer-ceilidh",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": "ceilidhs",
+  "schedule_organisation": {
+    "id": "7",
+    "name": "Warwick Folk",
+    "description": "Warwick Folk Society is a very relaxed music group for musicians of any age ability, or instrument. We play different styles of folk from across the world, usually from the British Isles and run various dances, ceilidhs and gigs throughout the year. Our style of playing tends to focus more on the enthusiasm than keeping to the dots. The sheet music acts as a guide to what we play.",
+    "slug": "folk-society",
+    "logo": "images/organisation-logos/Warwick_Folk.png",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "2",
+    "name": "Dance",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/ballet_shoes.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "22",
+      "event_id": "24",
+      "category_id": "2",
+      "schedule_category": {
+        "id": "2",
+        "name": "Dance",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/ballet_shoes.png",
+        "icon": "MASK"
+      }
+    },
+    {
+      "id": "23",
+      "event_id": "24",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "102",
+      "start": "2024-06-10T19:00:00.000Z",
+      "end": "2024-06-10T21:00:00.000Z",
+      "event_id": "24",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

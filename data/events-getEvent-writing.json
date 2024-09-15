@@ -1,0 +1,70 @@
+{
+  "id": "57",
+  "title": "Writing Workshop",
+  "short_description": "Workshop will help develop potential submissions for the summer edition of Kamena.",
+  "organisation_id": "18",
+  "submission_id": 59,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "8",
+  "slug": "writing",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "18",
+    "name": "Writing Society",
+    "description": "Welcome to The Writing Society!\r\n\r\nIf you love to read, then you can learn to write, and if you love to write- then you have come to the right place.\r\n\r\nYou're already a writer! Most people use language each day without contemplating what they’ve done, Writing Society offers you a space, not only to continue to manoeuvre the language choices that you make, but to understand why you make them.\r\n\r\nBy writing fiction, poetry, scripts, and plays you can explore how to manipulate language in a meaningful way- all alongside people who share your passion!",
+    "slug": "writing-society",
+    "logo": "images/organisation-logos/Writing_Society.png",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "8",
+    "name": "Exhibition",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_RwmAFqg.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "58",
+      "event_id": "57",
+      "category_id": "8",
+      "schedule_category": {
+        "id": "8",
+        "name": "Exhibition",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_RwmAFqg.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "140",
+      "start": "2024-06-10T10:45:00.000Z",
+      "end": "2024-06-10T11:45:00.000Z",
+      "event_id": "57",
+      "parent_id": null,
+      "venue_id": "8",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "8",
+        "name": "FAB0.23",
+        "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+        "slug": "fab-023",
+        "image": null
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

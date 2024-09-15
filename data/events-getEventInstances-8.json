@@ -1,0 +1,398 @@
+[
+  {
+    "id": "89",
+    "start": "2024-06-08T09:30:00.000Z",
+    "end": "2024-06-08T11:30:00.000Z",
+    "event_id": "13",
+    "parent_id": null,
+    "venue_id": "8",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "13",
+      "title": "Crocheting Workshop",
+      "short_description": "Intro to Crocheting - a beginners crocheting class.",
+      "organisation_id": "2",
+      "submission_id": 16,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "6",
+      "slug": "crocheting",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "On Saturday 8th of June from 10:30 until 12:30 we will be running an 'Intro to crocheting workshop' in Fab 0.23. This is a special session tailored specifically to complete newbies and beginners where we will be teaching the compete basics in an environment full of other beginners. This is a drop in so come along at any time.",
+      "tiny_description": "crocheting workshops",
+      "schedule_organisation": {
+        "id": "2",
+        "name": "Knitsoc",
+        "description": "Have a knack for knitting? Wanna improve your crochet skills? Come join Warwick Knitting and Crochet Soc - all levels welcome! 🧣🧶",
+        "slug": "knitsoc",
+        "logo": "images/organisation-logos/Knitsoc.png",
+        "instagram_handle": "warwickknitsoc",
+        "is_society": false,
+        "website_name": "Warwick SU",
+        "website_url": "https://www.warwicksu.com/societies-sports/societies/knitsoc/"
+      },
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "12",
+          "event_id": "13",
+          "category_id": "6",
+          "schedule_category": {
+            "id": "6",
+            "name": "Workshop",
+            "colour_theme": "YELLOW",
+            "image": "images/category-icons/paintbrush_7p99sFR.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "8",
+      "name": "FAB0.23",
+      "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+      "slug": "fab-023",
+      "image": null
+    }
+  },
+  {
+    "id": "84",
+    "start": "2024-06-08T12:00:00.000Z",
+    "end": "2024-06-08T13:00:00.000Z",
+    "event_id": "8",
+    "parent_id": null,
+    "venue_id": "8",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "8",
+      "title": "Unveiled Treasures Creativity Workshop",
+      "short_description": "In this workshop, participants are invited to create pieces—ranging from photography and poetry to recipes and visual art—for our forthcoming magazine issue titled \"Unveiled Treasures.\" This issue aims to spotlight the hidden gems crafted by Warwick students, offering a platform to showcase their diverse talents that may not have had prior exposure.",
+      "organisation_id": "5",
+      "submission_id": 10,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "6",
+      "slug": "unveiled-treasures",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "5",
+        "name": "Cobalt Magazine Society",
+        "description": "",
+        "slug": "cobalt-magazine-society",
+        "logo": null,
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "8",
+          "event_id": "8",
+          "category_id": "6",
+          "schedule_category": {
+            "id": "6",
+            "name": "Workshop",
+            "colour_theme": "YELLOW",
+            "image": "images/category-icons/paintbrush_7p99sFR.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "8",
+      "name": "FAB0.23",
+      "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+      "slug": "fab-023",
+      "image": null
+    }
+  },
+  {
+    "id": "146",
+    "start": "2024-06-08T13:30:00.000Z",
+    "end": "2024-06-08T14:30:00.000Z",
+    "event_id": "37",
+    "parent_id": null,
+    "venue_id": "8",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "37",
+      "title": "Filmmaking Script Workshop",
+      "short_description": "Teaching the basics of script writing, and for the more advanced writers to do a practical small one page script which is able to get feedback immediately.",
+      "organisation_id": "12",
+      "submission_id": 41,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "6",
+      "slug": "screenwriting",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "Filmmaking Society presents a Script Writing Workshop on Saturday 2:30PM, to teach you the tools necessary in making your own script and for those who are more advanced in their writing there is a chance to gain feedback from experienced teachers in a practical element of writing a one page script in the workshop.",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "12",
+        "name": "Filmmaking Society",
+        "description": "Uplifting people to create what they want!",
+        "slug": "filmmaking-society",
+        "logo": "images/organisation-logos/Filmmaking_Society.png",
+        "instagram_handle": "warwickfilmmaking",
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "37",
+          "event_id": "37",
+          "category_id": "6",
+          "schedule_category": {
+            "id": "6",
+            "name": "Workshop",
+            "colour_theme": "YELLOW",
+            "image": "images/category-icons/paintbrush_7p99sFR.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "8",
+      "name": "FAB0.23",
+      "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+      "slug": "fab-023",
+      "image": null
+    }
+  },
+  {
+    "id": "141",
+    "start": "2024-06-10T09:30:00.000Z",
+    "end": "2024-06-10T10:30:00.000Z",
+    "event_id": "58",
+    "parent_id": null,
+    "venue_id": "8",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "58",
+      "title": "Poetry Workshop",
+      "short_description": "poetry workshop :)",
+      "organisation_id": "19",
+      "submission_id": 60,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "4",
+      "slug": "poetry",
+      "digital_signage": false,
+      "published": true,
+      "logo": "",
+      "long_description": "Hope for Health is an upcoming poetry pamphlet focussed on promoting positive and hopeful messages surrounding mental health - join us as we begin to write and workshop poems for the first edition!",
+      "tiny_description": "poetry workshops",
+      "schedule_organisation": {
+        "id": "19",
+        "name": "Hope for health",
+        "description": "",
+        "slug": "vance",
+        "logo": "",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "4",
+        "name": "Spoken Word",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_3KaC7Yw.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "59",
+          "event_id": "58",
+          "category_id": "6",
+          "schedule_category": {
+            "id": "6",
+            "name": "Workshop",
+            "colour_theme": "YELLOW",
+            "image": "images/category-icons/paintbrush_7p99sFR.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "8",
+      "name": "FAB0.23",
+      "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+      "slug": "fab-023",
+      "image": null
+    }
+  },
+  {
+    "id": "140",
+    "start": "2024-06-10T10:45:00.000Z",
+    "end": "2024-06-10T11:45:00.000Z",
+    "event_id": "57",
+    "parent_id": null,
+    "venue_id": "8",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "57",
+      "title": "Writing Workshop",
+      "short_description": "Workshop will help develop potential submissions for the summer edition of Kamena.",
+      "organisation_id": "18",
+      "submission_id": 59,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "8",
+      "slug": "writing",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "18",
+        "name": "Writing Society",
+        "description": "Welcome to The Writing Society!\r\n\r\nIf you love to read, then you can learn to write, and if you love to write- then you have come to the right place.\r\n\r\nYou're already a writer! Most people use language each day without contemplating what they’ve done, Writing Society offers you a space, not only to continue to manoeuvre the language choices that you make, but to understand why you make them.\r\n\r\nBy writing fiction, poetry, scripts, and plays you can explore how to manipulate language in a meaningful way- all alongside people who share your passion!",
+        "slug": "writing-society",
+        "logo": "images/organisation-logos/Writing_Society.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "8",
+        "name": "Exhibition",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_RwmAFqg.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "58",
+          "event_id": "57",
+          "category_id": "8",
+          "schedule_category": {
+            "id": "8",
+            "name": "Exhibition",
+            "colour_theme": "YELLOW",
+            "image": "images/category-icons/paintbrush_RwmAFqg.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "8",
+      "name": "FAB0.23",
+      "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+      "slug": "fab-023",
+      "image": null
+    }
+  },
+  {
+    "id": "145",
+    "start": "2024-06-10T12:15:00.000Z",
+    "end": "2024-06-10T14:15:00.000Z",
+    "event_id": "38",
+    "parent_id": null,
+    "venue_id": "8",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "38",
+      "title": "Camera Workshop",
+      "short_description": "Learn the basics of using a camera with teachers with hands on training, Monday 10th 1:15PM",
+      "organisation_id": "12",
+      "submission_id": 41,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "6",
+      "slug": "practical-filmmaking",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "Come by to learn how to use a camera, hands on training with 3 teachers.",
+      "tiny_description": "filmmaking",
+      "schedule_organisation": {
+        "id": "12",
+        "name": "Filmmaking Society",
+        "description": "Uplifting people to create what they want!",
+        "slug": "filmmaking-society",
+        "logo": "images/organisation-logos/Filmmaking_Society.png",
+        "instagram_handle": "warwickfilmmaking",
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "38",
+          "event_id": "38",
+          "category_id": "6",
+          "schedule_category": {
+            "id": "6",
+            "name": "Workshop",
+            "colour_theme": "YELLOW",
+            "image": "images/category-icons/paintbrush_7p99sFR.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "8",
+      "name": "FAB0.23",
+      "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+      "slug": "fab-023",
+      "image": null
+    }
+  }
+]

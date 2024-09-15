@@ -1,0 +1,70 @@
+{
+  "id": "34",
+  "title": "Symphonic Brass",
+  "short_description": "We play a mixture of film scores, traditional brass music and more. We are a small ensemble of high level players who sound amazing when we perform.",
+  "organisation_id": "11",
+  "submission_id": 37,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "symphonic-brass",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "11",
+    "name": "BrassSoc",
+    "description": "The University of Warwick Brass Society or BrassSoc for short is a fun, friendly and lively group to get involved with. The society welcomes all brass players, percussionists and even those who have never picked up a brass instrument before! Our award winning ensembles (which include a brass band, a symphonic brass ensemble and a beginners brass group) welcome all standards of musicians, and (apart from symphonic brass) are all non-auditioned. With over 50 members, we provide opportunities for all brass players to rehearse, perform and socialise regularly.",
+    "slug": "brass-society",
+    "logo": "images/organisation-logos/Brass_Society.png",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "34",
+      "event_id": "34",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "116",
+      "start": "2024-06-10T18:00:00.000Z",
+      "end": "2024-06-10T18:15:00.000Z",
+      "event_id": "34",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

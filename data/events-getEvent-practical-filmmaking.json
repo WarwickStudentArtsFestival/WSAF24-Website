@@ -1,0 +1,70 @@
+{
+  "id": "38",
+  "title": "Camera Workshop",
+  "short_description": "Learn the basics of using a camera with teachers with hands on training, Monday 10th 1:15PM",
+  "organisation_id": "12",
+  "submission_id": 41,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "6",
+  "slug": "practical-filmmaking",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "Come by to learn how to use a camera, hands on training with 3 teachers.",
+  "tiny_description": "filmmaking",
+  "schedule_organisation": {
+    "id": "12",
+    "name": "Filmmaking Society",
+    "description": "Uplifting people to create what they want!",
+    "slug": "filmmaking-society",
+    "logo": "images/organisation-logos/Filmmaking_Society.png",
+    "instagram_handle": "warwickfilmmaking",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "6",
+    "name": "Workshop",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_7p99sFR.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "38",
+      "event_id": "38",
+      "category_id": "6",
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "145",
+      "start": "2024-06-10T12:15:00.000Z",
+      "end": "2024-06-10T14:15:00.000Z",
+      "event_id": "38",
+      "parent_id": null,
+      "venue_id": "8",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "8",
+        "name": "FAB0.23",
+        "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+        "slug": "fab-023",
+        "image": null
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

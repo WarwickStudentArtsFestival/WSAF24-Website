@@ -1,0 +1,60 @@
+{
+  "id": "16",
+  "title": "Art By Balqis: Spring Exclusive 2024",
+  "short_description": "",
+  "organisation_id": null,
+  "submission_id": 19,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "8",
+  "slug": "art-by-balqis",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "Hi there! I'm a self-taught watercolour, acrylic, acrylic paint pouring and oil painter for the past 6 years. Recently, I just released a watercolour Eid card collection for Eid. The designs range from Malaysian Batik motives, floral wreaths and traditional Malay delicacies. For WSAF especially, I am unveiling 4 new watercolour pieces as this year's Spring Exclusive. To know more, do head to @artbybalqis on Instagram. Be sure to drop by, I hope to see you there!",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "8",
+    "name": "Exhibition",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_RwmAFqg.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "15",
+      "event_id": "16",
+      "category_id": "8",
+      "schedule_category": {
+        "id": "8",
+        "name": "Exhibition",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_RwmAFqg.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "92",
+      "start": "2024-06-10T09:00:00.000Z",
+      "end": "2024-06-10T17:45:00.000Z",
+      "event_id": "16",
+      "parent_id": null,
+      "venue_id": "7",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "7",
+        "name": "FAB0.19 Gallery",
+        "description": "The FAB Gallery will provide a variety of student art",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
+        "slug": "fab-019",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "26",
+  "title": "elixir",
+  "short_description": "elixir - Original Music Performance",
+  "organisation_id": "8",
+  "submission_id": 29,
+  "preferred_occurrences": 2,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "elixir",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "We are a newly formed duo of student musicians debuting stripped back versions of some original songs - all written and composed by us.",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "8",
+    "name": "elixir",
+    "description": "Emma Joy Stockton and Felix van Oordt",
+    "slug": "elixir",
+    "logo": "images/organisation-logos/elixir.jpg",
+    "instagram_handle": "elixir_music_",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "25",
+      "event_id": "26",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "105",
+      "start": "2024-06-08T18:18:00.000Z",
+      "end": "2024-06-08T18:38:00.000Z",
+      "event_id": "26",
+      "parent_id": "6",
+      "venue_id": "5",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "5",
+        "name": "Curiositea",
+        "description": "Curiositea will feature free, evening entertainment",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+        "slug": "curiositea",
+        "image": null
+      },
+      "schedule_eventinstance": {
+        "id": "6",
+        "start": "2024-06-08T17:45:00.000Z",
+        "end": "2024-06-08T20:45:00.000Z",
+        "event_id": "61",
+        "parent_id": null,
+        "venue_id": "5",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "61",
+          "title": "Music Nights at Curiositea",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "3",
+          "slug": "curiositea-music-nights",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "106",
+      "start": "2024-06-09T18:00:00.000Z",
+      "end": "2024-06-09T18:35:00.000Z",
+      "event_id": "26",
+      "parent_id": "5",
+      "venue_id": "4",
+      "published": true,
+      "booking_url": "https://www.ticketsource.co.uk/wsaf",
+      "schedule_venue": {
+        "id": "4",
+        "name": "FAB Terrace",
+        "description": "Come and join us on the FAB Terrace on Sunday evening. Make sure to reserve your spot at https://www.ticketsource.co.uk/wsaf!",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c896d421e6f5928c0fdeb",
+        "slug": "fab-terrace",
+        "image": ""
+      },
+      "schedule_eventinstance": {
+        "id": "5",
+        "start": "2024-06-09T18:00:00.000Z",
+        "end": "2024-06-09T19:30:00.000Z",
+        "event_id": "64",
+        "parent_id": null,
+        "venue_id": "4",
+        "published": true,
+        "booking_url": "https://www.ticketsource.co.uk/wsaf",
+        "schedule_event": {
+          "id": "64",
+          "title": "Sunset Session 1 on FAB Terrace",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "3",
+          "slug": "sunset-session-1",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

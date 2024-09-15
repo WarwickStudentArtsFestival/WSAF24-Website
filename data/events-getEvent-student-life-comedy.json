@@ -1,0 +1,47 @@
+{
+  "id": "67",
+  "title": "Student Life in the UK (in Hindi)",
+  "short_description": "This performance will be in Hindi!\r\n\r\nStand up comedy about student life in the UK.",
+  "organisation_id": null,
+  "submission_id": 64,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "4",
+  "slug": "student-life-comedy",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "4",
+    "name": "Spoken Word",
+    "colour_theme": "ORANGE",
+    "image": "images/category-icons/microphone_3KaC7Yw.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [],
+  "schedule_eventinstance": [
+    {
+      "id": "151",
+      "start": "2024-06-08T18:00:00.000Z",
+      "end": "2024-06-08T18:30:00.000Z",
+      "event_id": "67",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

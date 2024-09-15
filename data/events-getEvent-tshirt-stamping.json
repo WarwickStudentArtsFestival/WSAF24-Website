@@ -1,0 +1,70 @@
+{
+  "id": "80",
+  "title": "T-Shirt Stamping",
+  "short_description": "",
+  "organisation_id": "20",
+  "submission_id": null,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "6",
+  "slug": "tshirt-stamping",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": "t-shirt making",
+  "schedule_organisation": {
+    "id": "20",
+    "name": "WSAF",
+    "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+    "slug": "wsaf",
+    "logo": "images/organisation-logos/WSAF.png",
+    "instagram_handle": "wsaf24",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "6",
+    "name": "Workshop",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_7p99sFR.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "75",
+      "event_id": "80",
+      "category_id": "6",
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "169",
+      "start": "2024-06-09T10:30:00.000Z",
+      "end": "2024-06-09T16:00:00.000Z",
+      "event_id": "80",
+      "parent_id": null,
+      "venue_id": "11",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "11",
+        "name": "FAB Agora",
+        "description": "Head to the the FAB Atrium to design your very own custom t-shirt!",
+        "campus_map_url": null,
+        "slug": "fab-agora",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

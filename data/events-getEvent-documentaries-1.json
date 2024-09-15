@@ -1,0 +1,82 @@
+{
+  "id": "69",
+  "title": "Our Lives: A Pandemic Story",
+  "short_description": "",
+  "organisation_id": "27",
+  "submission_id": 9431,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "5",
+  "slug": "documentaries-1",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "It is an intimate chat with young people forced to stay in their bedrooms because of the COVID pandemic. Six voices, from six places, with countless struggles and self-growth when the world abruptly changed.",
+  "tiny_description": "documentaries",
+  "schedule_organisation": {
+    "id": "27",
+    "name": "Adèle Beecham",
+    "description": "Adèle is a multi-award winning Filmmaker, musician and spoken word artist. Writing since a young age, Spoken word and poetry are particularly special to her because they give her a space to express her emotions differently. she aims to share her heart in every poem and hopes that each piece brings a little healing and peace to all those who read them.",
+    "slug": "adele-beecham",
+    "logo": "",
+    "instagram_handle": "adeled_official",
+    "is_society": false,
+    "website_name": "Website",
+    "website_url": "https://youth-perspective.wixsite.com/youthperspective"
+  },
+  "schedule_category": {
+    "id": "5",
+    "name": "Film",
+    "colour_theme": "ORANGE",
+    "image": "images/category-icons/mask.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [],
+  "schedule_eventinstance": [
+    {
+      "id": "155",
+      "start": "2024-06-09T14:30:00.000Z",
+      "end": "2024-06-09T15:02:00.000Z",
+      "event_id": "69",
+      "parent_id": "122",
+      "venue_id": "9",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "9",
+        "name": "L3",
+        "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+        "slug": "l3",
+        "image": null
+      },
+      "schedule_eventinstance": {
+        "id": "122",
+        "start": "2024-06-09T14:30:00.000Z",
+        "end": "2024-06-09T16:07:00.000Z",
+        "event_id": "41",
+        "parent_id": null,
+        "venue_id": "9",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "41",
+          "title": "Art and Reality: Warwick Student Documentaries",
+          "short_description": "Five documentaries made by Warwick student in total. They cover different themes, including the use of AI in art, marine life, student activism and a football team at Warwick. They are all the entries to the Warwick Documentary Society, but we would like to ensure that credits are given to all student filmmakers. We hope that the screening can encourage students to create their own documentaries and appreciate creative talents around them.",
+          "organisation_id": "13",
+          "submission_id": 43,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "5",
+          "slug": "art-and-reality",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "9",
+    "name": "L3",
+    "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+    "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+    "slug": "l3",
+    "image": null,
+    "_count": {
+      "schedule_eventinstance": 2
+    }
+  },
+  {
+    "id": "8",
+    "name": "FAB0.23",
+    "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+    "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+    "slug": "fab-023",
+    "image": null,
+    "_count": {
+      "schedule_eventinstance": 6
+    }
+  },
+  {
+    "id": "5",
+    "name": "Curiositea",
+    "description": "Curiositea will feature free, evening entertainment",
+    "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+    "slug": "curiositea",
+    "image": null,
+    "_count": {
+      "schedule_eventinstance": 3
+    }
+  },
+  {
+    "id": "1",
+    "name": "Piazza Stage",
+    "description": "Our big stage on Benefactors place next to the Piazza.",
+    "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+    "slug": "benefactors-place",
+    "image": "",
+    "_count": {
+      "schedule_eventinstance": 17
+    }
+  },
+  {
+    "id": "2",
+    "name": "FAB0.20",
+    "description": "All theatre performances at WSAF will be held here.",
+    "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+    "slug": "fab-020",
+    "image": "",
+    "_count": {
+      "schedule_eventinstance": 11
+    }
+  },
+  {
+    "id": "10",
+    "name": "FAB1.14",
+    "description": "FAB0.14 Is our calm space for WSAF, if you need a break from the festivities but aren't quite ready to go home, have a break here. Relaxing vibes will be created :)",
+    "campus_map_url": null,
+    "slug": "FAB1.14",
+    "image": "",
+    "_count": {
+      "schedule_eventinstance": 0
+    }
+  },
+  {
+    "id": "4",
+    "name": "FAB Terrace",
+    "description": "Come and join us on the FAB Terrace on Sunday evening. Make sure to reserve your spot at https://www.ticketsource.co.uk/wsaf!",
+    "campus_map_url": "https://campus.warwick.ac.uk/search/623c896d421e6f5928c0fdeb",
+    "slug": "fab-terrace",
+    "image": "",
+    "_count": {
+      "schedule_eventinstance": 2
+    }
+  },
+  {
+    "id": "11",
+    "name": "FAB Agora",
+    "description": "Head to the the FAB Atrium to design your very own custom t-shirt!",
+    "campus_map_url": null,
+    "slug": "fab-agora",
+    "image": "",
+    "_count": {
+      "schedule_eventinstance": 2
+    }
+  },
+  {
+    "id": "7",
+    "name": "FAB0.19 Gallery",
+    "description": "The FAB Gallery will provide a variety of student art",
+    "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
+    "slug": "fab-019",
+    "image": "",
+    "_count": {
+      "schedule_eventinstance": 8
+    }
+  }
+]

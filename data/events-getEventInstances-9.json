@@ -1,0 +1,134 @@
+[
+  {
+    "id": "122",
+    "start": "2024-06-09T14:30:00.000Z",
+    "end": "2024-06-09T16:07:00.000Z",
+    "event_id": "41",
+    "parent_id": null,
+    "venue_id": "9",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "41",
+      "title": "Art and Reality: Warwick Student Documentaries",
+      "short_description": "Five documentaries made by Warwick student in total. They cover different themes, including the use of AI in art, marine life, student activism and a football team at Warwick. They are all the entries to the Warwick Documentary Society, but we would like to ensure that credits are given to all student filmmakers. We hope that the screening can encourage students to create their own documentaries and appreciate creative talents around them.",
+      "organisation_id": "13",
+      "submission_id": 43,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "5",
+      "slug": "art-and-reality",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "13",
+        "name": "Warwick Documentary Society",
+        "description": "Warwick Documentary Society is where you can watch, discuss, and make documentaries!\r\n\r\nWe watch a wide spectrum of documentaries, from 5-minute experimental to Oscar-winning blockbusters, from politics and animals to cults. No experience or knowledge related to documentary production is required, just come and watch wonderful productions of all times and all places!",
+        "slug": "documentary-society",
+        "logo": "images/organisation-logos/DocSoc.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "5",
+        "name": "Film",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/mask.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "41",
+          "event_id": "41",
+          "category_id": "5",
+          "schedule_category": {
+            "id": "5",
+            "name": "Film",
+            "colour_theme": "ORANGE",
+            "image": "images/category-icons/mask.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "9",
+      "name": "L3",
+      "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+      "slug": "l3",
+      "image": null
+    }
+  },
+  {
+    "id": "144",
+    "start": "2024-06-09T16:15:00.000Z",
+    "end": "2024-06-09T17:15:00.000Z",
+    "event_id": "39",
+    "parent_id": null,
+    "venue_id": "9",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "39",
+      "title": "Filmmaking Screening",
+      "short_description": "A Screening of all the talent in Filmmaking Soc, 5:15PM 9th Sunday !!",
+      "organisation_id": "12",
+      "submission_id": 41,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "5",
+      "slug": "24-hour-film-competition",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "Watch all of the talent produced by filmmaking society, take a look at what work the creatives of Warwick have.",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "12",
+        "name": "Filmmaking Society",
+        "description": "Uplifting people to create what they want!",
+        "slug": "filmmaking-society",
+        "logo": "images/organisation-logos/Filmmaking_Society.png",
+        "instagram_handle": "warwickfilmmaking",
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "5",
+        "name": "Film",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/mask.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "39",
+          "event_id": "39",
+          "category_id": "5",
+          "schedule_category": {
+            "id": "5",
+            "name": "Film",
+            "colour_theme": "ORANGE",
+            "image": "images/category-icons/mask.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "9",
+      "name": "L3",
+      "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+      "slug": "l3",
+      "image": null
+    }
+  }
+]

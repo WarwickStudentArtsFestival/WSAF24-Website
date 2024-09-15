@@ -1,0 +1,82 @@
+{
+  "id": "2",
+  "title": "Last Orders",
+  "short_description": "Last Orders is a student written show that was first put on at University of Warwick via Freshblood New Writing Society. Since the success of the first sold out run, we have made a few tweaks and refinements to take this magnificent show to Edinburgh Fringe! A brilliant opportunity for all involved with some first time Fringe goers.\r\n\r\nOur show follows Kenneth's first day working at the McGonagall Tavern, though as we are introduced to witches, a couple rats, the uptight manager, the creative yet unstable chef and the critic. Well, we are in for a ride.",
+  "organisation_id": "1",
+  "submission_id": 3,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "1",
+  "slug": "last-orders",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "1",
+    "name": "Penaultimate Customers",
+    "description": "",
+    "slug": "penaultimate-customers",
+    "logo": null,
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "1",
+    "name": "Theatre",
+    "colour_theme": "PURPLE",
+    "image": "images/category-icons/mask_oXCdVVv.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "2",
+      "event_id": "2",
+      "category_id": "1",
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      }
+    },
+    {
+      "id": "3",
+      "event_id": "2",
+      "category_id": "7",
+      "schedule_category": {
+        "id": "7",
+        "name": "Comedy",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_mmhbYJa.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "78",
+      "start": "2024-06-10T15:00:00.000Z",
+      "end": "2024-06-10T16:00:00.000Z",
+      "event_id": "2",
+      "parent_id": null,
+      "venue_id": "2",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "2",
+        "name": "FAB0.20",
+        "description": "All theatre performances at WSAF will be held here.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+        "slug": "fab-020",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

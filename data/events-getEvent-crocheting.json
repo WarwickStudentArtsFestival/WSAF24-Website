@@ -1,0 +1,70 @@
+{
+  "id": "13",
+  "title": "Crocheting Workshop",
+  "short_description": "Intro to Crocheting - a beginners crocheting class.",
+  "organisation_id": "2",
+  "submission_id": 16,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "6",
+  "slug": "crocheting",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "On Saturday 8th of June from 10:30 until 12:30 we will be running an 'Intro to crocheting workshop' in Fab 0.23. This is a special session tailored specifically to complete newbies and beginners where we will be teaching the compete basics in an environment full of other beginners. This is a drop in so come along at any time.",
+  "tiny_description": "crocheting workshops",
+  "schedule_organisation": {
+    "id": "2",
+    "name": "Knitsoc",
+    "description": "Have a knack for knitting? Wanna improve your crochet skills? Come join Warwick Knitting and Crochet Soc - all levels welcome! 🧣🧶",
+    "slug": "knitsoc",
+    "logo": "images/organisation-logos/Knitsoc.png",
+    "instagram_handle": "warwickknitsoc",
+    "is_society": false,
+    "website_name": "Warwick SU",
+    "website_url": "https://www.warwicksu.com/societies-sports/societies/knitsoc/"
+  },
+  "schedule_category": {
+    "id": "6",
+    "name": "Workshop",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_7p99sFR.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "12",
+      "event_id": "13",
+      "category_id": "6",
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "89",
+      "start": "2024-06-08T09:30:00.000Z",
+      "end": "2024-06-08T11:30:00.000Z",
+      "event_id": "13",
+      "parent_id": null,
+      "venue_id": "8",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "8",
+        "name": "FAB0.23",
+        "description": "Based in the FAB, FAB0.23 is our workshop hub for WSAF",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
+        "slug": "fab-023",
+        "image": null
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

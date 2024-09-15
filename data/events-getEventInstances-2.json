@@ -1,0 +1,724 @@
+[
+  {
+    "id": "80",
+    "start": "2024-06-08T17:00:00.000Z",
+    "end": "2024-06-08T18:30:00.000Z",
+    "event_id": "4",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "4",
+      "title": "Chicken Soup with Barley",
+      "short_description": "Chicken Soup with Barley is a 1956 play by Arnold Wesker that grapples with the breakdown of an ideology and a family in parallel, synthesising the personal, political, and philosophical into an odyssey across decades that reveals the power of brotherhood even in a country that always seems in decline. Our production would modernise the text and give it a queer edge to explore the prescience of community and caring in the modern age.",
+      "organisation_id": null,
+      "submission_id": 5,
+      "preferred_occurrences": 2,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "chicken-soup-with-barley",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "5",
+          "event_id": "4",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "128",
+    "start": "2024-06-08T19:00:00.000Z",
+    "end": "2024-06-08T20:00:00.000Z",
+    "event_id": "46",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "46",
+      "title": "Bird Watching",
+      "short_description": "Bird Watching is a highly physical devised performance exploring the exhaustion of trying to adapt to the male gaze. Part nature documentary, part rave, it questions what it means to be looked at and the complexities of wanting to be desired.",
+      "organisation_id": "15",
+      "submission_id": 48,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "bird-watching",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "15",
+        "name": "Pigeon Theatre",
+        "description": "",
+        "slug": "pigeon-theatre",
+        "logo": null,
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "46",
+          "event_id": "46",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "152",
+    "start": "2024-06-09T15:00:00.000Z",
+    "end": "2024-06-09T15:30:00.000Z",
+    "event_id": "68",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "68",
+      "title": "You’re in Arcadia, I’m still here.",
+      "short_description": "Short play - about thirty minutes about an actor who loses themselves in a role",
+      "organisation_id": null,
+      "submission_id": 66,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "arcadia-still-here",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "71",
+          "event_id": "68",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "113",
+    "start": "2024-06-09T16:00:00.000Z",
+    "end": "2024-06-09T16:30:00.000Z",
+    "event_id": "31",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "31",
+      "title": "Blue Moon",
+      "short_description": "A heartwarming story of acceptance and grief. When Robin's best friend Devitt dies of a terminal illness, Robin copes with the help of Devitt's childhood imaginary friend Gwen.",
+      "organisation_id": "10",
+      "submission_id": 34,
+      "preferred_occurrences": 2,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "blue-moon",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "10",
+        "name": "Freshblood",
+        "description": "Freshblood New Writing is a drama and writing society that has specialised in new, student written theatre for over fifteen years. Across more than a decade of producing original student work we have done everything from full-length plays in the Warwick Arts Centre to radio plays, monologues, scratch nights, and so much more!",
+        "slug": "freshblood",
+        "logo": "images/organisation-logos/Freshblood.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "31",
+          "event_id": "31",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "112",
+    "start": "2024-06-09T17:00:00.000Z",
+    "end": "2024-06-09T17:30:00.000Z",
+    "event_id": "30",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "30",
+      "title": "Jack and the Beanstalk",
+      "short_description": "A 15-20 min version of Jack and the Beanstalk with some possible twists along the way!",
+      "organisation_id": "9",
+      "submission_id": 33,
+      "preferred_occurrences": 3,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "jack-and-the-beanstalk",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": "pantomimes",
+      "schedule_organisation": {
+        "id": "9",
+        "name": "Panto Soc",
+        "description": "Founded on the basis of inclusiveness, Warwick Pantomime Society invites anyone and everyone to join in and have a go! Whether you're a seasoned stage presence or have never set foot on one before, there's always a part for you. We put on a pantomime every term, so there are lots of chances to get involved!",
+        "slug": "pantomime-society",
+        "logo": "images/organisation-logos/Panto_Soc.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "29",
+          "event_id": "30",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        },
+        {
+          "id": "30",
+          "event_id": "30",
+          "category_id": "7",
+          "schedule_category": {
+            "id": "7",
+            "name": "Comedy",
+            "colour_theme": "ORANGE",
+            "image": "images/category-icons/microphone_mmhbYJa.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "149",
+    "start": "2024-06-10T11:30:00.000Z",
+    "end": "2024-06-10T12:00:00.000Z",
+    "event_id": "46",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "46",
+      "title": "Bird Watching",
+      "short_description": "Bird Watching is a highly physical devised performance exploring the exhaustion of trying to adapt to the male gaze. Part nature documentary, part rave, it questions what it means to be looked at and the complexities of wanting to be desired.",
+      "organisation_id": "15",
+      "submission_id": 48,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "bird-watching",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "15",
+        "name": "Pigeon Theatre",
+        "description": "",
+        "slug": "pigeon-theatre",
+        "logo": null,
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "46",
+          "event_id": "46",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "81",
+    "start": "2024-06-10T13:00:00.000Z",
+    "end": "2024-06-10T14:30:00.000Z",
+    "event_id": "4",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "4",
+      "title": "Chicken Soup with Barley",
+      "short_description": "Chicken Soup with Barley is a 1956 play by Arnold Wesker that grapples with the breakdown of an ideology and a family in parallel, synthesising the personal, political, and philosophical into an odyssey across decades that reveals the power of brotherhood even in a country that always seems in decline. Our production would modernise the text and give it a queer edge to explore the prescience of community and caring in the modern age.",
+      "organisation_id": null,
+      "submission_id": 5,
+      "preferred_occurrences": 2,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "chicken-soup-with-barley",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "5",
+          "event_id": "4",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "78",
+    "start": "2024-06-10T15:00:00.000Z",
+    "end": "2024-06-10T16:00:00.000Z",
+    "event_id": "2",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "2",
+      "title": "Last Orders",
+      "short_description": "Last Orders is a student written show that was first put on at University of Warwick via Freshblood New Writing Society. Since the success of the first sold out run, we have made a few tweaks and refinements to take this magnificent show to Edinburgh Fringe! A brilliant opportunity for all involved with some first time Fringe goers.\r\n\r\nOur show follows Kenneth's first day working at the McGonagall Tavern, though as we are introduced to witches, a couple rats, the uptight manager, the creative yet unstable chef and the critic. Well, we are in for a ride.",
+      "organisation_id": "1",
+      "submission_id": 3,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "last-orders",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "1",
+        "name": "Penaultimate Customers",
+        "description": "",
+        "slug": "penaultimate-customers",
+        "logo": null,
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "2",
+          "event_id": "2",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        },
+        {
+          "id": "3",
+          "event_id": "2",
+          "category_id": "7",
+          "schedule_category": {
+            "id": "7",
+            "name": "Comedy",
+            "colour_theme": "ORANGE",
+            "image": "images/category-icons/microphone_mmhbYJa.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "114",
+    "start": "2024-06-10T16:30:00.000Z",
+    "end": "2024-06-10T17:00:00.000Z",
+    "event_id": "31",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "31",
+      "title": "Blue Moon",
+      "short_description": "A heartwarming story of acceptance and grief. When Robin's best friend Devitt dies of a terminal illness, Robin copes with the help of Devitt's childhood imaginary friend Gwen.",
+      "organisation_id": "10",
+      "submission_id": 34,
+      "preferred_occurrences": 2,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "blue-moon",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": {
+        "id": "10",
+        "name": "Freshblood",
+        "description": "Freshblood New Writing is a drama and writing society that has specialised in new, student written theatre for over fifteen years. Across more than a decade of producing original student work we have done everything from full-length plays in the Warwick Arts Centre to radio plays, monologues, scratch nights, and so much more!",
+        "slug": "freshblood",
+        "logo": "images/organisation-logos/Freshblood.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "31",
+          "event_id": "31",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "111",
+    "start": "2024-06-10T17:30:00.000Z",
+    "end": "2024-06-10T18:00:00.000Z",
+    "event_id": "30",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "30",
+      "title": "Jack and the Beanstalk",
+      "short_description": "A 15-20 min version of Jack and the Beanstalk with some possible twists along the way!",
+      "organisation_id": "9",
+      "submission_id": 33,
+      "preferred_occurrences": 3,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "jack-and-the-beanstalk",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": "pantomimes",
+      "schedule_organisation": {
+        "id": "9",
+        "name": "Panto Soc",
+        "description": "Founded on the basis of inclusiveness, Warwick Pantomime Society invites anyone and everyone to join in and have a go! Whether you're a seasoned stage presence or have never set foot on one before, there's always a part for you. We put on a pantomime every term, so there are lots of chances to get involved!",
+        "slug": "pantomime-society",
+        "logo": "images/organisation-logos/Panto_Soc.png",
+        "instagram_handle": null,
+        "is_society": false,
+        "website_name": null,
+        "website_url": null
+      },
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "29",
+          "event_id": "30",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        },
+        {
+          "id": "30",
+          "event_id": "30",
+          "category_id": "7",
+          "schedule_category": {
+            "id": "7",
+            "name": "Comedy",
+            "colour_theme": "ORANGE",
+            "image": "images/category-icons/microphone_mmhbYJa.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  },
+  {
+    "id": "153",
+    "start": "2024-06-10T18:30:00.000Z",
+    "end": "2024-06-10T19:00:00.000Z",
+    "event_id": "68",
+    "parent_id": null,
+    "venue_id": "2",
+    "published": true,
+    "booking_url": null,
+    "schedule_event": {
+      "id": "68",
+      "title": "You’re in Arcadia, I’m still here.",
+      "short_description": "Short play - about thirty minutes about an actor who loses themselves in a role",
+      "organisation_id": null,
+      "submission_id": 66,
+      "preferred_occurrences": 1,
+      "advertisement_weight": 1,
+      "primary_category_id": "1",
+      "slug": "arcadia-still-here",
+      "digital_signage": true,
+      "published": true,
+      "logo": "",
+      "long_description": "",
+      "tiny_description": null,
+      "schedule_organisation": null,
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      },
+      "schedule_event_categories": [
+        {
+          "id": "71",
+          "event_id": "68",
+          "category_id": "1",
+          "schedule_category": {
+            "id": "1",
+            "name": "Theatre",
+            "colour_theme": "PURPLE",
+            "image": "images/category-icons/mask_oXCdVVv.png",
+            "icon": "MASK"
+          }
+        }
+      ]
+    },
+    "schedule_venue": {
+      "id": "2",
+      "name": "FAB0.20",
+      "description": "All theatre performances at WSAF will be held here.",
+      "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+      "slug": "fab-020",
+      "image": ""
+    }
+  }
+]

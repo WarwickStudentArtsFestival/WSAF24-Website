@@ -1,0 +1,90 @@
+{
+  "id": "31",
+  "title": "Blue Moon",
+  "short_description": "A heartwarming story of acceptance and grief. When Robin's best friend Devitt dies of a terminal illness, Robin copes with the help of Devitt's childhood imaginary friend Gwen.",
+  "organisation_id": "10",
+  "submission_id": 34,
+  "preferred_occurrences": 2,
+  "advertisement_weight": 1,
+  "primary_category_id": "1",
+  "slug": "blue-moon",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "10",
+    "name": "Freshblood",
+    "description": "Freshblood New Writing is a drama and writing society that has specialised in new, student written theatre for over fifteen years. Across more than a decade of producing original student work we have done everything from full-length plays in the Warwick Arts Centre to radio plays, monologues, scratch nights, and so much more!",
+    "slug": "freshblood",
+    "logo": "images/organisation-logos/Freshblood.png",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "1",
+    "name": "Theatre",
+    "colour_theme": "PURPLE",
+    "image": "images/category-icons/mask_oXCdVVv.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "31",
+      "event_id": "31",
+      "category_id": "1",
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "113",
+      "start": "2024-06-09T16:00:00.000Z",
+      "end": "2024-06-09T16:30:00.000Z",
+      "event_id": "31",
+      "parent_id": null,
+      "venue_id": "2",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "2",
+        "name": "FAB0.20",
+        "description": "All theatre performances at WSAF will be held here.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+        "slug": "fab-020",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "114",
+      "start": "2024-06-10T16:30:00.000Z",
+      "end": "2024-06-10T17:00:00.000Z",
+      "event_id": "31",
+      "parent_id": null,
+      "venue_id": "2",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "2",
+        "name": "FAB0.20",
+        "description": "All theatre performances at WSAF will be held here.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+        "slug": "fab-020",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

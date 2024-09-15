@@ -1,0 +1,80 @@
+{
+  "id": "68",
+  "title": "You’re in Arcadia, I’m still here.",
+  "short_description": "Short play - about thirty minutes about an actor who loses themselves in a role",
+  "organisation_id": null,
+  "submission_id": 66,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "1",
+  "slug": "arcadia-still-here",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "1",
+    "name": "Theatre",
+    "colour_theme": "PURPLE",
+    "image": "images/category-icons/mask_oXCdVVv.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "71",
+      "event_id": "68",
+      "category_id": "1",
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "152",
+      "start": "2024-06-09T15:00:00.000Z",
+      "end": "2024-06-09T15:30:00.000Z",
+      "event_id": "68",
+      "parent_id": null,
+      "venue_id": "2",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "2",
+        "name": "FAB0.20",
+        "description": "All theatre performances at WSAF will be held here.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+        "slug": "fab-020",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "153",
+      "start": "2024-06-10T18:30:00.000Z",
+      "end": "2024-06-10T19:00:00.000Z",
+      "event_id": "68",
+      "parent_id": null,
+      "venue_id": "2",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "2",
+        "name": "FAB0.20",
+        "description": "All theatre performances at WSAF will be held here.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+        "slug": "fab-020",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

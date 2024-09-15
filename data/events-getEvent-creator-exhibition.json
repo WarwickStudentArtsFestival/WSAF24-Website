@@ -1,0 +1,90 @@
+{
+  "id": "48",
+  "title": "Creator Exhibition",
+  "short_description": "We would like to set up a room of stalls displaying the work of our society members, with a central table for art + crafts:\r\n- The work shown will be a mix of art forms, including some showcases of 2D/3D models, cosplay projects and traditional/digital art pieces.\r\n- As well as this, we're setting up a table with some arts + crafting supplies for people to come and try out on Sunday",
+  "organisation_id": "16",
+  "submission_id": 50,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "8",
+  "slug": "creator-exhibition",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "16",
+    "name": "Content Creation Society",
+    "description": "Wonder what Content Creation Society is all about ? Well, it's a place for all sorts of media, where we aim to cater to a wide variety of creators!",
+    "slug": "content-creation-society",
+    "logo": "images/organisation-logos/Content_Creation_Society.png",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "8",
+    "name": "Exhibition",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_RwmAFqg.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "48",
+      "event_id": "48",
+      "category_id": "8",
+      "schedule_category": {
+        "id": "8",
+        "name": "Exhibition",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_RwmAFqg.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "130",
+      "start": "2024-06-08T09:00:00.000Z",
+      "end": "2024-06-08T21:00:00.000Z",
+      "event_id": "48",
+      "parent_id": null,
+      "venue_id": "7",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "7",
+        "name": "FAB0.19 Gallery",
+        "description": "The FAB Gallery will provide a variety of student art",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
+        "slug": "fab-019",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "131",
+      "start": "2024-06-09T09:00:00.000Z",
+      "end": "2024-06-09T21:00:00.000Z",
+      "event_id": "48",
+      "parent_id": null,
+      "venue_id": "7",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "7",
+        "name": "FAB0.19 Gallery",
+        "description": "The FAB Gallery will provide a variety of student art",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
+        "slug": "fab-019",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

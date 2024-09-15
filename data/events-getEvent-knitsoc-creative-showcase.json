@@ -1,0 +1,70 @@
+{
+  "id": "3",
+  "title": "KnitSoc creative showcase",
+  "short_description": "This will be an art gallery of knitted and crocheted/sewn or embroidered art that we can display on behalf of knitsoc.",
+  "organisation_id": "2",
+  "submission_id": 4,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "8",
+  "slug": "knitsoc-creative-showcase",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": "knitting exhibitions",
+  "schedule_organisation": {
+    "id": "2",
+    "name": "Knitsoc",
+    "description": "Have a knack for knitting? Wanna improve your crochet skills? Come join Warwick Knitting and Crochet Soc - all levels welcome! 🧣🧶",
+    "slug": "knitsoc",
+    "logo": "images/organisation-logos/Knitsoc.png",
+    "instagram_handle": "warwickknitsoc",
+    "is_society": false,
+    "website_name": "Warwick SU",
+    "website_url": "https://www.warwicksu.com/societies-sports/societies/knitsoc/"
+  },
+  "schedule_category": {
+    "id": "8",
+    "name": "Exhibition",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_RwmAFqg.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "4",
+      "event_id": "3",
+      "category_id": "8",
+      "schedule_category": {
+        "id": "8",
+        "name": "Exhibition",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_RwmAFqg.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "79",
+      "start": "2024-06-10T15:00:00.000Z",
+      "end": "2024-06-10T16:00:00.000Z",
+      "event_id": "3",
+      "parent_id": null,
+      "venue_id": "7",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "7",
+        "name": "FAB0.19 Gallery",
+        "description": "The FAB Gallery will provide a variety of student art",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
+        "slug": "fab-019",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

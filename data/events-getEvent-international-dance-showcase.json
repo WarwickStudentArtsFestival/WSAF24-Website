@@ -1,0 +1,513 @@
+{
+  "id": "62",
+  "title": "International Dance Showcase",
+  "short_description": "",
+  "organisation_id": "20",
+  "submission_id": null,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "2",
+  "slug": "international-dance-showcase",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "20",
+    "name": "WSAF",
+    "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+    "slug": "wsaf",
+    "logo": "images/organisation-logos/WSAF.png",
+    "instagram_handle": "wsaf24",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "2",
+    "name": "Dance",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/ballet_shoes.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "63",
+      "event_id": "62",
+      "category_id": "2",
+      "schedule_category": {
+        "id": "2",
+        "name": "Dance",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/ballet_shoes.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "8",
+      "start": "2024-06-08T16:30:00.000Z",
+      "end": "2024-06-08T17:45:00.000Z",
+      "event_id": "62",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": [
+        {
+          "id": "166",
+          "start": "2024-06-08T16:40:00.000Z",
+          "end": "2024-06-08T16:45:00.000Z",
+          "event_id": "77",
+          "parent_id": "8",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "77",
+            "title": "Coquettish",
+            "short_description": "",
+            "organisation_id": "32",
+            "submission_id": 46,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "2",
+            "slug": "coquettish",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": "chinese dance",
+            "schedule_organisation": {
+              "id": "32",
+              "name": "Chinese Dance",
+              "description": "",
+              "slug": "chinese-dance",
+              "logo": "",
+              "instagram_handle": null,
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "2",
+              "name": "Dance",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/ballet_shoes.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "72",
+                "event_id": "77",
+                "category_id": "2",
+                "schedule_category": {
+                  "id": "2",
+                  "name": "Dance",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/ballet_shoes.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "167",
+          "start": "2024-06-08T16:47:00.000Z",
+          "end": "2024-06-08T16:50:00.000Z",
+          "event_id": "78",
+          "parent_id": "8",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "78",
+            "title": "Wind on the Hill",
+            "short_description": "",
+            "organisation_id": "32",
+            "submission_id": 46,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "2",
+            "slug": "wind-on-the-hill",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": "chinese dance",
+            "schedule_organisation": {
+              "id": "32",
+              "name": "Chinese Dance",
+              "description": "",
+              "slug": "chinese-dance",
+              "logo": "",
+              "instagram_handle": null,
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "2",
+              "name": "Dance",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/ballet_shoes.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "73",
+                "event_id": "78",
+                "category_id": "2",
+                "schedule_category": {
+                  "id": "2",
+                  "name": "Dance",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/ballet_shoes.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "103",
+          "start": "2024-06-08T16:52:00.000Z",
+          "end": "2024-06-08T16:56:00.000Z",
+          "event_id": "25",
+          "parent_id": "8",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "25",
+            "title": "South Indian Tollywood Dance Fusion",
+            "short_description": "2-3 minute dance to a medley of energetic south-indian songs to bring energy to the audience.",
+            "organisation_id": null,
+            "submission_id": 28,
+            "preferred_occurrences": 3,
+            "advertisement_weight": 1,
+            "primary_category_id": "2",
+            "slug": "south-indian-street-dance",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "2",
+              "name": "Dance",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/ballet_shoes.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "24",
+                "event_id": "25",
+                "category_id": "2",
+                "schedule_category": {
+                  "id": "2",
+                  "name": "Dance",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/ballet_shoes.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "86",
+          "start": "2024-06-08T16:57:00.000Z",
+          "end": "2024-06-08T17:02:00.000Z",
+          "event_id": "10",
+          "parent_id": "8",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "10",
+            "title": "Indian Classical Dance",
+            "short_description": "Bharatanatyam is a classical Indian dance known for its expressive hand gestures, story telling themes and vibrant costumes. It’s a beautiful art form that combines music, rhythm, and emotions",
+            "organisation_id": "29",
+            "submission_id": 12,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "2",
+            "slug": "siddhi",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": {
+              "id": "29",
+              "name": "Siddhi",
+              "description": "Bharatanatyam is a classical Indian dance known for its expressive hand gestures, story telling themes and vibrant costumes. It’s a beautiful art form that combines music, rhythm, and emotions",
+              "slug": "siddhi",
+              "logo": "",
+              "instagram_handle": "siddhhyyyyy",
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "2",
+              "name": "Dance",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/ballet_shoes.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "68",
+                "event_id": "10",
+                "category_id": "2",
+                "schedule_category": {
+                  "id": "2",
+                  "name": "Dance",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/ballet_shoes.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "117",
+          "start": "2024-06-08T17:03:00.000Z",
+          "end": "2024-06-08T17:07:00.000Z",
+          "event_id": "32",
+          "parent_id": "8",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "32",
+            "title": "Bollywood-Kollywood Dance Fusion",
+            "short_description": "Bollywood - Kollywood Dance Fusion",
+            "organisation_id": "28",
+            "submission_id": 38,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "2",
+            "slug": "sreekeerthana-kamalesh",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "Experience the electric fusion of Bollywood and Kollywood with a high-energy and entertaining dance performance!",
+            "tiny_description": null,
+            "schedule_organisation": {
+              "id": "28",
+              "name": "Sreekeerthana Kamalesh",
+              "description": "",
+              "slug": "sreekeerthana",
+              "logo": "",
+              "instagram_handle": null,
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "2",
+              "name": "Dance",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/ballet_shoes.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "32",
+                "event_id": "32",
+                "category_id": "2",
+                "schedule_category": {
+                  "id": "2",
+                  "name": "Dance",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/ballet_shoes.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "168",
+          "start": "2024-06-08T17:08:00.000Z",
+          "end": "2024-06-08T17:12:00.000Z",
+          "event_id": "79",
+          "parent_id": "8",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "79",
+            "title": "Enigmatic Heart",
+            "short_description": "",
+            "organisation_id": "32",
+            "submission_id": 46,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "2",
+            "slug": "enigmatic-heart",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": "chinese dance",
+            "schedule_organisation": {
+              "id": "32",
+              "name": "Chinese Dance",
+              "description": "",
+              "slug": "chinese-dance",
+              "logo": "",
+              "instagram_handle": null,
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "2",
+              "name": "Dance",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/ballet_shoes.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "74",
+                "event_id": "79",
+                "category_id": "2",
+                "schedule_category": {
+                  "id": "2",
+                  "name": "Dance",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/ballet_shoes.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "147",
+          "start": "2024-06-08T17:13:00.000Z",
+          "end": "2024-06-08T17:16:00.000Z",
+          "event_id": "20",
+          "parent_id": "8",
+          "venue_id": "1",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "1",
+            "name": "Piazza Stage",
+            "description": "Our big stage on Benefactors place next to the Piazza.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+            "slug": "benefactors-place",
+            "image": ""
+          },
+          "schedule_event": {
+            "id": "20",
+            "title": "Nikkon Banerjee: Classical Dance",
+            "short_description": "",
+            "organisation_id": null,
+            "submission_id": 23,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "2",
+            "slug": "nikkon-banerjee-dance",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": "classical dance",
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "2",
+              "name": "Dance",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/ballet_shoes.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "67",
+                "event_id": "20",
+                "category_id": "2",
+                "schedule_category": {
+                  "id": "2",
+                  "name": "Dance",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/ballet_shoes.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

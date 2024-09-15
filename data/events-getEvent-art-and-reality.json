@@ -1,0 +1,336 @@
+{
+  "id": "41",
+  "title": "Art and Reality: Warwick Student Documentaries",
+  "short_description": "Five documentaries made by Warwick student in total. They cover different themes, including the use of AI in art, marine life, student activism and a football team at Warwick. They are all the entries to the Warwick Documentary Society, but we would like to ensure that credits are given to all student filmmakers. We hope that the screening can encourage students to create their own documentaries and appreciate creative talents around them.",
+  "organisation_id": "13",
+  "submission_id": 43,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "5",
+  "slug": "art-and-reality",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "13",
+    "name": "Warwick Documentary Society",
+    "description": "Warwick Documentary Society is where you can watch, discuss, and make documentaries!\r\n\r\nWe watch a wide spectrum of documentaries, from 5-minute experimental to Oscar-winning blockbusters, from politics and animals to cults. No experience or knowledge related to documentary production is required, just come and watch wonderful productions of all times and all places!",
+    "slug": "documentary-society",
+    "logo": "images/organisation-logos/DocSoc.png",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "5",
+    "name": "Film",
+    "colour_theme": "ORANGE",
+    "image": "images/category-icons/mask.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "41",
+      "event_id": "41",
+      "category_id": "5",
+      "schedule_category": {
+        "id": "5",
+        "name": "Film",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/mask.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "122",
+      "start": "2024-06-09T14:30:00.000Z",
+      "end": "2024-06-09T16:07:00.000Z",
+      "event_id": "41",
+      "parent_id": null,
+      "venue_id": "9",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "9",
+        "name": "L3",
+        "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+        "slug": "l3",
+        "image": null
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": [
+        {
+          "id": "155",
+          "start": "2024-06-09T14:30:00.000Z",
+          "end": "2024-06-09T15:02:00.000Z",
+          "event_id": "69",
+          "parent_id": "122",
+          "venue_id": "9",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "9",
+            "name": "L3",
+            "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+            "slug": "l3",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "69",
+            "title": "Our Lives: A Pandemic Story",
+            "short_description": "",
+            "organisation_id": "27",
+            "submission_id": 9431,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "5",
+            "slug": "documentaries-1",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "It is an intimate chat with young people forced to stay in their bedrooms because of the COVID pandemic. Six voices, from six places, with countless struggles and self-growth when the world abruptly changed.",
+            "tiny_description": "documentaries",
+            "schedule_organisation": {
+              "id": "27",
+              "name": "Adèle Beecham",
+              "description": "Adèle is a multi-award winning Filmmaker, musician and spoken word artist. Writing since a young age, Spoken word and poetry are particularly special to her because they give her a space to express her emotions differently. she aims to share her heart in every poem and hopes that each piece brings a little healing and peace to all those who read them.",
+              "slug": "adele-beecham",
+              "logo": "",
+              "instagram_handle": "adeled_official",
+              "is_society": false,
+              "website_name": "Website",
+              "website_url": "https://youth-perspective.wixsite.com/youthperspective"
+            },
+            "schedule_category": {
+              "id": "5",
+              "name": "Film",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/mask.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": []
+          }
+        },
+        {
+          "id": "156",
+          "start": "2024-06-09T15:02:00.000Z",
+          "end": "2024-06-09T15:07:00.000Z",
+          "event_id": "70",
+          "parent_id": "122",
+          "venue_id": "9",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "9",
+            "name": "L3",
+            "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+            "slug": "l3",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "70",
+            "title": "A Search for Answer",
+            "short_description": "",
+            "organisation_id": "26",
+            "submission_id": 9432,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "5",
+            "slug": "documentaries-2",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "“No functional vision in the right eye”, “hypersensitivity in the left leg”...she goes on a charity walk to search for the answer behind the mysterious diagnosis.",
+            "tiny_description": "documentaries",
+            "schedule_organisation": {
+              "id": "26",
+              "name": "Mehnaz Akhtar",
+              "description": "",
+              "slug": "mehnaz-akhtar",
+              "logo": "",
+              "instagram_handle": null,
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "5",
+              "name": "Film",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/mask.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": []
+          }
+        },
+        {
+          "id": "157",
+          "start": "2024-06-09T15:15:00.000Z",
+          "end": "2024-06-09T15:43:00.000Z",
+          "event_id": "71",
+          "parent_id": "122",
+          "venue_id": "9",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "9",
+            "name": "L3",
+            "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+            "slug": "l3",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "71",
+            "title": "Being a 419er",
+            "short_description": "",
+            "organisation_id": "25",
+            "submission_id": 9433,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "5",
+            "slug": "documentaries-3",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "419 Football Club is an independent intramural football team split from the Warwick Nigerian Society. It is not just about football, but also about brotherhood and a safe community for minority voices to be heard.",
+            "tiny_description": "\"Being a 419er\" by Vanessa Kweto",
+            "schedule_organisation": {
+              "id": "25",
+              "name": "Vanessa Kweto",
+              "description": "",
+              "slug": "vanessa-kweto",
+              "logo": "",
+              "instagram_handle": null,
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "5",
+              "name": "Film",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/mask.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": []
+          }
+        },
+        {
+          "id": "158",
+          "start": "2024-06-09T15:43:00.000Z",
+          "end": "2024-06-09T15:48:00.000Z",
+          "event_id": "72",
+          "parent_id": "122",
+          "venue_id": "9",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "9",
+            "name": "L3",
+            "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+            "slug": "l3",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "72",
+            "title": "Saving the Black Rhino",
+            "short_description": "",
+            "organisation_id": "24",
+            "submission_id": 9434,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "5",
+            "slug": "documentaries-4",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "In 2022, Chat GPT struck the world with its supernatural intelligence. One day, the lovely AI robot told me to make a documentary.",
+            "tiny_description": "documentaries",
+            "schedule_organisation": {
+              "id": "24",
+              "name": "Angel Sun",
+              "description": "",
+              "slug": "angel-sun",
+              "logo": "",
+              "instagram_handle": null,
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "5",
+              "name": "Film",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/mask.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": []
+          }
+        },
+        {
+          "id": "159",
+          "start": "2024-06-09T15:48:00.000Z",
+          "end": "2024-06-09T16:07:00.000Z",
+          "event_id": "73",
+          "parent_id": "122",
+          "venue_id": "9",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "9",
+            "name": "L3",
+            "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+            "slug": "l3",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "73",
+            "title": "Marine Life of the Medes Islands in Spring",
+            "short_description": "",
+            "organisation_id": "23",
+            "submission_id": 9435,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "5",
+            "slug": "documentaries-5",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "The Medes Islands are considered one of the best areas to go diving in Spain. Jump, dive, and soak in the magnificent marine paradise of our mother nature.",
+            "tiny_description": "documentaries",
+            "schedule_organisation": {
+              "id": "23",
+              "name": "Thomas Smith",
+              "description": "",
+              "slug": "thomas-smith",
+              "logo": "",
+              "instagram_handle": null,
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "5",
+              "name": "Film",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/mask.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": []
+          }
+        }
+      ]
+    }
+  ]
+}

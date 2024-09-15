@@ -1,0 +1,473 @@
+{
+  "id": "61",
+  "title": "Music Nights at Curiositea",
+  "short_description": "",
+  "organisation_id": "20",
+  "submission_id": null,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "3",
+  "slug": "curiositea-music-nights",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "20",
+    "name": "WSAF",
+    "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+    "slug": "wsaf",
+    "logo": "images/organisation-logos/WSAF.png",
+    "instagram_handle": "wsaf24",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "3",
+    "name": "Music",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/trumpet.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "62",
+      "event_id": "61",
+      "category_id": "3",
+      "schedule_category": {
+        "id": "3",
+        "name": "Music",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/trumpet.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "6",
+      "start": "2024-06-08T17:45:00.000Z",
+      "end": "2024-06-08T20:45:00.000Z",
+      "event_id": "61",
+      "parent_id": null,
+      "venue_id": "5",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "5",
+        "name": "Curiositea",
+        "description": "Curiositea will feature free, evening entertainment",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+        "slug": "curiositea",
+        "image": null
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": [
+        {
+          "id": "109",
+          "start": "2024-06-08T17:45:00.000Z",
+          "end": "2024-06-08T17:50:00.000Z",
+          "event_id": "29",
+          "parent_id": "6",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "29",
+            "title": "Chufan Wang",
+            "short_description": "I want to sing my favourite song from my favourite singer - I surrender",
+            "organisation_id": null,
+            "submission_id": 32,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "3",
+            "slug": "chufan-wang",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "3",
+              "name": "Music",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/trumpet.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "28",
+                "event_id": "29",
+                "category_id": "3",
+                "schedule_category": {
+                  "id": "3",
+                  "name": "Music",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/trumpet.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "107",
+          "start": "2024-06-08T17:53:00.000Z",
+          "end": "2024-06-08T17:58:00.000Z",
+          "event_id": "27",
+          "parent_id": "6",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "27",
+            "title": "Yang Zhao",
+            "short_description": "Song: Young and Beautiful",
+            "organisation_id": null,
+            "submission_id": 30,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "3",
+            "slug": "yang-zhao",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "3",
+              "name": "Music",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/trumpet.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "26",
+                "event_id": "27",
+                "category_id": "3",
+                "schedule_category": {
+                  "id": "3",
+                  "name": "Music",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/trumpet.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "105",
+          "start": "2024-06-08T18:18:00.000Z",
+          "end": "2024-06-08T18:38:00.000Z",
+          "event_id": "26",
+          "parent_id": "6",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "26",
+            "title": "elixir",
+            "short_description": "elixir - Original Music Performance",
+            "organisation_id": "8",
+            "submission_id": 29,
+            "preferred_occurrences": 2,
+            "advertisement_weight": 1,
+            "primary_category_id": "3",
+            "slug": "elixir",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "We are a newly formed duo of student musicians debuting stripped back versions of some original songs - all written and composed by us.",
+            "tiny_description": null,
+            "schedule_organisation": {
+              "id": "8",
+              "name": "elixir",
+              "description": "Emma Joy Stockton and Felix van Oordt",
+              "slug": "elixir",
+              "logo": "images/organisation-logos/elixir.jpg",
+              "instagram_handle": "elixir_music_",
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "3",
+              "name": "Music",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/trumpet.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "25",
+                "event_id": "26",
+                "category_id": "3",
+                "schedule_category": {
+                  "id": "3",
+                  "name": "Music",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/trumpet.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "133",
+          "start": "2024-06-08T18:36:00.000Z",
+          "end": "2024-06-08T18:40:00.000Z",
+          "event_id": "50",
+          "parent_id": "6",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "50",
+            "title": "Alex Lukic",
+            "short_description": "",
+            "organisation_id": null,
+            "submission_id": 52,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "3",
+            "slug": "alex-lukic",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "3",
+              "name": "Music",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/trumpet.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "50",
+                "event_id": "50",
+                "category_id": "3",
+                "schedule_category": {
+                  "id": "3",
+                  "name": "Music",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/trumpet.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "139",
+          "start": "2024-06-08T18:45:00.000Z",
+          "end": "2024-06-08T19:15:00.000Z",
+          "event_id": "56",
+          "parent_id": "6",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "56",
+            "title": "Gabriel Carvalho: Brazilian piano",
+            "short_description": "Classic and modern Brazilian music played on piano",
+            "organisation_id": null,
+            "submission_id": 58,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "3",
+            "slug": "brazilian-piano",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": "brazilian piano",
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "3",
+              "name": "Music",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/trumpet.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "57",
+                "event_id": "56",
+                "category_id": "3",
+                "schedule_category": {
+                  "id": "3",
+                  "name": "Music",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/trumpet.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "137",
+          "start": "2024-06-08T19:18:00.000Z",
+          "end": "2024-06-08T19:28:00.000Z",
+          "event_id": "54",
+          "parent_id": "6",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "54",
+            "title": "Kieran Persaud: Piano Favs Compilation",
+            "short_description": "Piano performance of an array of hip hop tunes within the last 20 years",
+            "organisation_id": null,
+            "submission_id": 56,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "3",
+            "slug": "kieran-persaud",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "3",
+              "name": "Music",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/trumpet.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "54",
+                "event_id": "54",
+                "category_id": "3",
+                "schedule_category": {
+                  "id": "3",
+                  "name": "Music",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/trumpet.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "148",
+          "start": "2024-06-08T19:30:00.000Z",
+          "end": "2024-06-08T19:35:00.000Z",
+          "event_id": "21",
+          "parent_id": "6",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "21",
+            "title": "Nikkon Banerjee: Singing",
+            "short_description": "",
+            "organisation_id": null,
+            "submission_id": 23,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "3",
+            "slug": "nikkon-banerjee-singing",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "3",
+              "name": "Music",
+              "colour_theme": "PINK",
+              "image": "images/category-icons/trumpet.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "19",
+                "event_id": "21",
+                "category_id": "3",
+                "schedule_category": {
+                  "id": "3",
+                  "name": "Music",
+                  "colour_theme": "PINK",
+                  "image": "images/category-icons/trumpet.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

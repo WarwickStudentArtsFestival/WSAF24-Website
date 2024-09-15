@@ -1,0 +1,82 @@
+{
+  "id": "73",
+  "title": "Marine Life of the Medes Islands in Spring",
+  "short_description": "",
+  "organisation_id": "23",
+  "submission_id": 9435,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "5",
+  "slug": "documentaries-5",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "The Medes Islands are considered one of the best areas to go diving in Spain. Jump, dive, and soak in the magnificent marine paradise of our mother nature.",
+  "tiny_description": "documentaries",
+  "schedule_organisation": {
+    "id": "23",
+    "name": "Thomas Smith",
+    "description": "",
+    "slug": "thomas-smith",
+    "logo": "",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "5",
+    "name": "Film",
+    "colour_theme": "ORANGE",
+    "image": "images/category-icons/mask.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [],
+  "schedule_eventinstance": [
+    {
+      "id": "159",
+      "start": "2024-06-09T15:48:00.000Z",
+      "end": "2024-06-09T16:07:00.000Z",
+      "event_id": "73",
+      "parent_id": "122",
+      "venue_id": "9",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "9",
+        "name": "L3",
+        "description": "L3 is located on the Science Concourse and is home to Warwick Student Cinema.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c88ba421e6f5928c0d9ad",
+        "slug": "l3",
+        "image": null
+      },
+      "schedule_eventinstance": {
+        "id": "122",
+        "start": "2024-06-09T14:30:00.000Z",
+        "end": "2024-06-09T16:07:00.000Z",
+        "event_id": "41",
+        "parent_id": null,
+        "venue_id": "9",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "41",
+          "title": "Art and Reality: Warwick Student Documentaries",
+          "short_description": "Five documentaries made by Warwick student in total. They cover different themes, including the use of AI in art, marine life, student activism and a football team at Warwick. They are all the entries to the Warwick Documentary Society, but we would like to ensure that credits are given to all student filmmakers. We hope that the screening can encourage students to create their own documentaries and appreciate creative talents around them.",
+          "organisation_id": "13",
+          "submission_id": 43,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "5",
+          "slug": "art-and-reality",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

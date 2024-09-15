@@ -1,0 +1,60 @@
+{
+  "id": "60",
+  "title": "T-Shirt Tie Dye Workshop",
+  "short_description": "Participants will have the opportunity to tie dye and walk away with their very own tie dye shirt!",
+  "organisation_id": null,
+  "submission_id": 62,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "6",
+  "slug": "tshirt-tie-dye",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "6",
+    "name": "Workshop",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_7p99sFR.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "61",
+      "event_id": "60",
+      "category_id": "6",
+      "schedule_category": {
+        "id": "6",
+        "name": "Workshop",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_7p99sFR.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "143",
+      "start": "2024-06-09T13:30:00.000Z",
+      "end": "2024-06-09T15:30:00.000Z",
+      "event_id": "60",
+      "parent_id": null,
+      "venue_id": "11",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "11",
+        "name": "FAB Agora",
+        "description": "Head to the the FAB Atrium to design your very own custom t-shirt!",
+        "campus_map_url": null,
+        "slug": "fab-agora",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

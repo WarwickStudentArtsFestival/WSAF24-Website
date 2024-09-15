@@ -1,0 +1,102 @@
+{
+  "id": "30",
+  "title": "Jack and the Beanstalk",
+  "short_description": "A 15-20 min version of Jack and the Beanstalk with some possible twists along the way!",
+  "organisation_id": "9",
+  "submission_id": 33,
+  "preferred_occurrences": 3,
+  "advertisement_weight": 1,
+  "primary_category_id": "1",
+  "slug": "jack-and-the-beanstalk",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": "pantomimes",
+  "schedule_organisation": {
+    "id": "9",
+    "name": "Panto Soc",
+    "description": "Founded on the basis of inclusiveness, Warwick Pantomime Society invites anyone and everyone to join in and have a go! Whether you're a seasoned stage presence or have never set foot on one before, there's always a part for you. We put on a pantomime every term, so there are lots of chances to get involved!",
+    "slug": "pantomime-society",
+    "logo": "images/organisation-logos/Panto_Soc.png",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "1",
+    "name": "Theatre",
+    "colour_theme": "PURPLE",
+    "image": "images/category-icons/mask_oXCdVVv.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "29",
+      "event_id": "30",
+      "category_id": "1",
+      "schedule_category": {
+        "id": "1",
+        "name": "Theatre",
+        "colour_theme": "PURPLE",
+        "image": "images/category-icons/mask_oXCdVVv.png",
+        "icon": "MASK"
+      }
+    },
+    {
+      "id": "30",
+      "event_id": "30",
+      "category_id": "7",
+      "schedule_category": {
+        "id": "7",
+        "name": "Comedy",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_mmhbYJa.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "111",
+      "start": "2024-06-10T17:30:00.000Z",
+      "end": "2024-06-10T18:00:00.000Z",
+      "event_id": "30",
+      "parent_id": null,
+      "venue_id": "2",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "2",
+        "name": "FAB0.20",
+        "description": "All theatre performances at WSAF will be held here.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+        "slug": "fab-020",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    },
+    {
+      "id": "112",
+      "start": "2024-06-09T17:00:00.000Z",
+      "end": "2024-06-09T17:30:00.000Z",
+      "event_id": "30",
+      "parent_id": null,
+      "venue_id": "2",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "2",
+        "name": "FAB0.20",
+        "description": "All theatre performances at WSAF will be held here.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+        "slug": "fab-020",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "11",
+  "title": "The Catharsis Project",
+  "short_description": "the catharsis project is my proudest collection of original poetry with stories of love and loss. soon, i will share my secret with the world.",
+  "organisation_id": "31",
+  "submission_id": 13,
+  "preferred_occurrences": 2,
+  "advertisement_weight": 1,
+  "primary_category_id": "4",
+  "slug": "the-catharsis-project",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "31",
+    "name": "Tia Shrivastava",
+    "description": "for me, poetry is to take your voice and let escape the rumble of phrases lying at the bottom of your belly. to string metaphors no one has ever known and fathomed. to weave a tapestry of everything you are and everything you can be.",
+    "slug": "tia-shrivastava",
+    "logo": "images/organisation-logos/the_catharsis_project.png",
+    "instagram_handle": "tiasavage711",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "4",
+    "name": "Spoken Word",
+    "colour_theme": "ORANGE",
+    "image": "images/category-icons/microphone_3KaC7Yw.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "10",
+      "event_id": "11",
+      "category_id": "4",
+      "schedule_category": {
+        "id": "4",
+        "name": "Spoken Word",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_3KaC7Yw.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "87",
+      "start": "2024-06-10T18:08:00.000Z",
+      "end": "2024-06-10T18:16:00.000Z",
+      "event_id": "11",
+      "parent_id": "7",
+      "venue_id": "5",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "5",
+        "name": "Curiositea",
+        "description": "Curiositea will feature free, evening entertainment",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+        "slug": "curiositea",
+        "image": null
+      },
+      "schedule_eventinstance": {
+        "id": "7",
+        "start": "2024-06-10T17:30:00.000Z",
+        "end": "2024-06-10T19:20:00.000Z",
+        "event_id": "63",
+        "parent_id": null,
+        "venue_id": "5",
+        "published": true,
+        "booking_url": null,
+        "schedule_event": {
+          "id": "63",
+          "title": "Literature at Curiositea",
+          "short_description": "",
+          "organisation_id": "20",
+          "submission_id": null,
+          "preferred_occurrences": 1,
+          "advertisement_weight": 1,
+          "primary_category_id": "4",
+          "slug": "curiositea-literature",
+          "digital_signage": true,
+          "published": true,
+          "logo": "",
+          "long_description": "",
+          "tiny_description": null
+        }
+      },
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "id": "63",
+  "title": "Literature at Curiositea",
+  "short_description": "",
+  "organisation_id": "20",
+  "submission_id": null,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "4",
+  "slug": "curiositea-literature",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": {
+    "id": "20",
+    "name": "WSAF",
+    "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+    "slug": "wsaf",
+    "logo": "images/organisation-logos/WSAF.png",
+    "instagram_handle": "wsaf24",
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "4",
+    "name": "Spoken Word",
+    "colour_theme": "ORANGE",
+    "image": "images/category-icons/microphone_3KaC7Yw.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "66",
+      "event_id": "63",
+      "category_id": "4",
+      "schedule_category": {
+        "id": "4",
+        "name": "Spoken Word",
+        "colour_theme": "ORANGE",
+        "image": "images/category-icons/microphone_3KaC7Yw.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "7",
+      "start": "2024-06-10T17:30:00.000Z",
+      "end": "2024-06-10T19:20:00.000Z",
+      "event_id": "63",
+      "parent_id": null,
+      "venue_id": "5",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "5",
+        "name": "Curiositea",
+        "description": "Curiositea will feature free, evening entertainment",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+        "slug": "curiositea",
+        "image": null
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": [
+        {
+          "id": "134",
+          "start": "2024-06-10T17:30:00.000Z",
+          "end": "2024-06-10T17:45:00.000Z",
+          "event_id": "51",
+          "parent_id": "7",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "51",
+            "title": "Healing in Real Time",
+            "short_description": "Spoken word - healing in real time",
+            "organisation_id": "27",
+            "submission_id": 53,
+            "preferred_occurrences": 2,
+            "advertisement_weight": 1,
+            "primary_category_id": "4",
+            "slug": "adele",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "Sharing a few spoken word peaces touching on emotions from healing to hurt, and self discovery.",
+            "tiny_description": null,
+            "schedule_organisation": {
+              "id": "27",
+              "name": "Adèle Beecham",
+              "description": "Adèle is a multi-award winning Filmmaker, musician and spoken word artist. Writing since a young age, Spoken word and poetry are particularly special to her because they give her a space to express her emotions differently. she aims to share her heart in every poem and hopes that each piece brings a little healing and peace to all those who read them.",
+              "slug": "adele-beecham",
+              "logo": "",
+              "instagram_handle": "adeled_official",
+              "is_society": false,
+              "website_name": "Website",
+              "website_url": "https://youth-perspective.wixsite.com/youthperspective"
+            },
+            "schedule_category": {
+              "id": "4",
+              "name": "Spoken Word",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/microphone_3KaC7Yw.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "51",
+                "event_id": "51",
+                "category_id": "4",
+                "schedule_category": {
+                  "id": "4",
+                  "name": "Spoken Word",
+                  "colour_theme": "ORANGE",
+                  "image": "images/category-icons/microphone_3KaC7Yw.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "142",
+          "start": "2024-06-10T17:47:00.000Z",
+          "end": "2024-06-10T18:07:00.000Z",
+          "event_id": "59",
+          "parent_id": "7",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "59",
+            "title": "Poetry Reading",
+            "short_description": "Poetry reading :)",
+            "organisation_id": "19",
+            "submission_id": 61,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "4",
+            "slug": "poetry-reading",
+            "digital_signage": false,
+            "published": true,
+            "logo": "",
+            "long_description": "Hope for Health is an upcoming poetry pamphlet focussed on promoting positive and hopeful messages surrounding mental health - join us as we showcase potential entries for the first edition and find our voice as a publication!",
+            "tiny_description": "poetry reading",
+            "schedule_organisation": {
+              "id": "19",
+              "name": "Hope for health",
+              "description": "",
+              "slug": "vance",
+              "logo": "",
+              "instagram_handle": null,
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "4",
+              "name": "Spoken Word",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/microphone_3KaC7Yw.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "60",
+                "event_id": "59",
+                "category_id": "4",
+                "schedule_category": {
+                  "id": "4",
+                  "name": "Spoken Word",
+                  "colour_theme": "ORANGE",
+                  "image": "images/category-icons/microphone_3KaC7Yw.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "87",
+          "start": "2024-06-10T18:08:00.000Z",
+          "end": "2024-06-10T18:16:00.000Z",
+          "event_id": "11",
+          "parent_id": "7",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "11",
+            "title": "The Catharsis Project",
+            "short_description": "the catharsis project is my proudest collection of original poetry with stories of love and loss. soon, i will share my secret with the world.",
+            "organisation_id": "31",
+            "submission_id": 13,
+            "preferred_occurrences": 2,
+            "advertisement_weight": 1,
+            "primary_category_id": "4",
+            "slug": "the-catharsis-project",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": {
+              "id": "31",
+              "name": "Tia Shrivastava",
+              "description": "for me, poetry is to take your voice and let escape the rumble of phrases lying at the bottom of your belly. to string metaphors no one has ever known and fathomed. to weave a tapestry of everything you are and everything you can be.",
+              "slug": "tia-shrivastava",
+              "logo": "images/organisation-logos/the_catharsis_project.png",
+              "instagram_handle": "tiasavage711",
+              "is_society": false,
+              "website_name": null,
+              "website_url": null
+            },
+            "schedule_category": {
+              "id": "4",
+              "name": "Spoken Word",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/microphone_3KaC7Yw.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "10",
+                "event_id": "11",
+                "category_id": "4",
+                "schedule_category": {
+                  "id": "4",
+                  "name": "Spoken Word",
+                  "colour_theme": "ORANGE",
+                  "image": "images/category-icons/microphone_3KaC7Yw.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "95",
+          "start": "2024-06-10T18:18:00.000Z",
+          "end": "2024-06-10T18:33:00.000Z",
+          "event_id": "18",
+          "parent_id": "7",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "18",
+            "title": "Poetry by Apurva Wahul",
+            "short_description": "I have been writing poems for a long time and I would love to share them with everyone.",
+            "organisation_id": null,
+            "submission_id": 21,
+            "preferred_occurrences": 2,
+            "advertisement_weight": 1,
+            "primary_category_id": "4",
+            "slug": "apurva-wahul-poetry",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "4",
+              "name": "Spoken Word",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/microphone_3KaC7Yw.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "17",
+                "event_id": "18",
+                "category_id": "4",
+                "schedule_category": {
+                  "id": "4",
+                  "name": "Spoken Word",
+                  "colour_theme": "ORANGE",
+                  "image": "images/category-icons/microphone_3KaC7Yw.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "108",
+          "start": "2024-06-10T18:35:00.000Z",
+          "end": "2024-06-10T19:05:00.000Z",
+          "event_id": "28",
+          "parent_id": "7",
+          "venue_id": "5",
+          "published": true,
+          "booking_url": null,
+          "schedule_venue": {
+            "id": "5",
+            "name": "Curiositea",
+            "description": "Curiositea will feature free, evening entertainment",
+            "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+            "slug": "curiositea",
+            "image": null
+          },
+          "schedule_event": {
+            "id": "28",
+            "title": "Beck Sewart",
+            "short_description": "I will either be reading a short story or something poetry",
+            "organisation_id": null,
+            "submission_id": 31,
+            "preferred_occurrences": 1,
+            "advertisement_weight": 1,
+            "primary_category_id": "4",
+            "slug": "beck-sewart",
+            "digital_signage": true,
+            "published": true,
+            "logo": "",
+            "long_description": "",
+            "tiny_description": null,
+            "schedule_organisation": null,
+            "schedule_category": {
+              "id": "4",
+              "name": "Spoken Word",
+              "colour_theme": "ORANGE",
+              "image": "images/category-icons/microphone_3KaC7Yw.png",
+              "icon": "MASK"
+            },
+            "schedule_event_categories": [
+              {
+                "id": "27",
+                "event_id": "28",
+                "category_id": "4",
+                "schedule_category": {
+                  "id": "4",
+                  "name": "Spoken Word",
+                  "colour_theme": "ORANGE",
+                  "image": "images/category-icons/microphone_3KaC7Yw.png",
+                  "icon": "MASK"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

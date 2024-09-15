@@ -1,0 +1,60 @@
+{
+  "id": "12",
+  "title": "Art by Matthew Dickinson",
+  "short_description": "An Exhibition of Digital Art",
+  "organisation_id": null,
+  "submission_id": 14,
+  "preferred_occurrences": 2,
+  "advertisement_weight": 1,
+  "primary_category_id": "8",
+  "slug": "matthew-dickinson-art",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": null,
+  "schedule_organisation": null,
+  "schedule_category": {
+    "id": "8",
+    "name": "Exhibition",
+    "colour_theme": "YELLOW",
+    "image": "images/category-icons/paintbrush_RwmAFqg.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "11",
+      "event_id": "12",
+      "category_id": "8",
+      "schedule_category": {
+        "id": "8",
+        "name": "Exhibition",
+        "colour_theme": "YELLOW",
+        "image": "images/category-icons/paintbrush_RwmAFqg.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "88",
+      "start": "2024-06-10T17:45:00.000Z",
+      "end": "2024-06-10T18:30:00.000Z",
+      "event_id": "12",
+      "parent_id": null,
+      "venue_id": "7",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "7",
+        "name": "FAB0.19 Gallery",
+        "description": "The FAB Gallery will provide a variety of student art",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
+        "slug": "fab-019",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}

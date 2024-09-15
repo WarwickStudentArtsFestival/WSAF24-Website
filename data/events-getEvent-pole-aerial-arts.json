@@ -1,0 +1,70 @@
+{
+  "id": "43",
+  "title": "Pole/Aerial Arts",
+  "short_description": "There will be 2 aerial hoop dance performers and 4 pole dance performers. They would each have a 2-4 minute routine to perform in their chosen area. Some routines would be artistic and tell a mini story, and others would show off their strength and flexibility.",
+  "organisation_id": "14",
+  "submission_id": 45,
+  "preferred_occurrences": 1,
+  "advertisement_weight": 1,
+  "primary_category_id": "2",
+  "slug": "pole-aerial-arts",
+  "digital_signage": true,
+  "published": true,
+  "logo": "",
+  "long_description": "",
+  "tiny_description": "aerial arts",
+  "schedule_organisation": {
+    "id": "14",
+    "name": "Warwick Pole and Aerial Arts",
+    "description": "Cheaper than the gym and an amazing way to get fit - Warwick Pole and Aerial Arts is the perfect society to build strength, get more flexible, build confidence and make lifelong friends. We're a supportive and inclusive society that anyone is welcome to join regardless of gender, level of fitness or previous experience.",
+    "slug": "pole-and-aerial-arts",
+    "logo": "images/organisation-logos/Warwick_Pole_and_Aerial_Arts.png",
+    "instagram_handle": null,
+    "is_society": false,
+    "website_name": null,
+    "website_url": null
+  },
+  "schedule_category": {
+    "id": "2",
+    "name": "Dance",
+    "colour_theme": "PINK",
+    "image": "images/category-icons/ballet_shoes.png",
+    "icon": "MASK"
+  },
+  "schedule_event_categories": [
+    {
+      "id": "43",
+      "event_id": "43",
+      "category_id": "2",
+      "schedule_category": {
+        "id": "2",
+        "name": "Dance",
+        "colour_theme": "PINK",
+        "image": "images/category-icons/ballet_shoes.png",
+        "icon": "MASK"
+      }
+    }
+  ],
+  "schedule_eventinstance": [
+    {
+      "id": "124",
+      "start": "2024-06-08T14:30:00.000Z",
+      "end": "2024-06-08T15:00:00.000Z",
+      "event_id": "43",
+      "parent_id": null,
+      "venue_id": "1",
+      "published": true,
+      "booking_url": null,
+      "schedule_venue": {
+        "id": "1",
+        "name": "Piazza Stage",
+        "description": "Our big stage on Benefactors place next to the Piazza.",
+        "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+        "slug": "benefactors-place",
+        "image": ""
+      },
+      "schedule_eventinstance": null,
+      "other_schedule_eventinstance": []
+    }
+  ]
+}
