@@ -1,5 +1,337 @@
 [
   {
+    "id": "64",
+    "title": "Sunset Session 1 on FAB Terrace",
+    "short_description": "",
+    "organisation_id": "20",
+    "submission_id": null,
+    "preferred_occurrences": 1,
+    "advertisement_weight": 1,
+    "primary_category_id": "3",
+    "slug": "sunset-session-1",
+    "digital_signage": true,
+    "published": true,
+    "logo": "",
+    "long_description": "",
+    "tiny_description": null,
+    "schedule_organisation": {
+      "id": "20",
+      "name": "WSAF",
+      "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
+      "slug": "wsaf",
+      "logo": "images/organisation-logos/WSAF.png",
+      "instagram_handle": "wsaf24",
+      "is_society": false,
+      "website_name": null,
+      "website_url": null
+    },
+    "schedule_category": {
+      "id": "3",
+      "name": "Music",
+      "colour_theme": "PINK",
+      "image": "images/category-icons/trumpet.png",
+      "icon": "MASK"
+    },
+    "schedule_event_categories": [
+      {
+        "id": "65",
+        "event_id": "64",
+        "category_id": "3",
+        "schedule_category": {
+          "id": "3",
+          "name": "Music",
+          "colour_theme": "PINK",
+          "image": "images/category-icons/trumpet.png",
+          "icon": "MASK"
+        }
+      }
+    ],
+    "schedule_eventinstance": [
+      {
+        "id": "5",
+        "start": "2024-06-09T18:00:00.000Z",
+        "end": "2024-06-09T19:30:00.000Z",
+        "event_id": "64",
+        "parent_id": null,
+        "venue_id": "4",
+        "published": true,
+        "booking_url": "https://www.ticketsource.co.uk/wsaf",
+        "schedule_venue": {
+          "id": "4",
+          "name": "FAB Terrace",
+          "description": "Come and join us on the FAB Terrace on Sunday evening. Make sure to reserve your spot at https://www.ticketsource.co.uk/wsaf!",
+          "campus_map_url": "https://campus.warwick.ac.uk/search/623c896d421e6f5928c0fdeb",
+          "slug": "fab-terrace",
+          "image": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Summer Ceilidh",
+    "short_description": "We’ll be playing a variety of folk tunes for you to dance to!",
+    "organisation_id": "7",
+    "submission_id": 27,
+    "preferred_occurrences": 1,
+    "advertisement_weight": 1,
+    "primary_category_id": "2",
+    "slug": "summer-ceilidh",
+    "digital_signage": true,
+    "published": true,
+    "logo": "",
+    "long_description": "",
+    "tiny_description": "ceilidhs",
+    "schedule_organisation": {
+      "id": "7",
+      "name": "Warwick Folk",
+      "description": "Warwick Folk Society is a very relaxed music group for musicians of any age ability, or instrument. We play different styles of folk from across the world, usually from the British Isles and run various dances, ceilidhs and gigs throughout the year. Our style of playing tends to focus more on the enthusiasm than keeping to the dots. The sheet music acts as a guide to what we play.",
+      "slug": "folk-society",
+      "logo": "images/organisation-logos/Warwick_Folk.png",
+      "instagram_handle": null,
+      "is_society": false,
+      "website_name": null,
+      "website_url": null
+    },
+    "schedule_category": {
+      "id": "2",
+      "name": "Dance",
+      "colour_theme": "PINK",
+      "image": "images/category-icons/ballet_shoes.png",
+      "icon": "MASK"
+    },
+    "schedule_event_categories": [
+      {
+        "id": "22",
+        "event_id": "24",
+        "category_id": "2",
+        "schedule_category": {
+          "id": "2",
+          "name": "Dance",
+          "colour_theme": "PINK",
+          "image": "images/category-icons/ballet_shoes.png",
+          "icon": "MASK"
+        }
+      },
+      {
+        "id": "23",
+        "event_id": "24",
+        "category_id": "3",
+        "schedule_category": {
+          "id": "3",
+          "name": "Music",
+          "colour_theme": "PINK",
+          "image": "images/category-icons/trumpet.png",
+          "icon": "MASK"
+        }
+      }
+    ],
+    "schedule_eventinstance": [
+      {
+        "id": "102",
+        "start": "2024-06-10T19:00:00.000Z",
+        "end": "2024-06-10T21:00:00.000Z",
+        "event_id": "24",
+        "parent_id": null,
+        "venue_id": "1",
+        "published": true,
+        "booking_url": null,
+        "schedule_venue": {
+          "id": "1",
+          "name": "Piazza Stage",
+          "description": "Our big stage on Benefactors place next to the Piazza.",
+          "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
+          "slug": "benefactors-place",
+          "image": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "title": "Jack and the Beanstalk",
+    "short_description": "A 15-20 min version of Jack and the Beanstalk with some possible twists along the way!",
+    "organisation_id": "9",
+    "submission_id": 33,
+    "preferred_occurrences": 3,
+    "advertisement_weight": 1,
+    "primary_category_id": "1",
+    "slug": "jack-and-the-beanstalk",
+    "digital_signage": true,
+    "published": true,
+    "logo": "",
+    "long_description": "",
+    "tiny_description": "pantomimes",
+    "schedule_organisation": {
+      "id": "9",
+      "name": "Panto Soc",
+      "description": "Founded on the basis of inclusiveness, Warwick Pantomime Society invites anyone and everyone to join in and have a go! Whether you're a seasoned stage presence or have never set foot on one before, there's always a part for you. We put on a pantomime every term, so there are lots of chances to get involved!",
+      "slug": "pantomime-society",
+      "logo": "images/organisation-logos/Panto_Soc.png",
+      "instagram_handle": null,
+      "is_society": false,
+      "website_name": null,
+      "website_url": null
+    },
+    "schedule_category": {
+      "id": "1",
+      "name": "Theatre",
+      "colour_theme": "PURPLE",
+      "image": "images/category-icons/mask_oXCdVVv.png",
+      "icon": "MASK"
+    },
+    "schedule_event_categories": [
+      {
+        "id": "29",
+        "event_id": "30",
+        "category_id": "1",
+        "schedule_category": {
+          "id": "1",
+          "name": "Theatre",
+          "colour_theme": "PURPLE",
+          "image": "images/category-icons/mask_oXCdVVv.png",
+          "icon": "MASK"
+        }
+      },
+      {
+        "id": "30",
+        "event_id": "30",
+        "category_id": "7",
+        "schedule_category": {
+          "id": "7",
+          "name": "Comedy",
+          "colour_theme": "ORANGE",
+          "image": "images/category-icons/microphone_mmhbYJa.png",
+          "icon": "MASK"
+        }
+      }
+    ],
+    "schedule_eventinstance": [
+      {
+        "id": "112",
+        "start": "2024-06-09T17:00:00.000Z",
+        "end": "2024-06-09T17:30:00.000Z",
+        "event_id": "30",
+        "parent_id": null,
+        "venue_id": "2",
+        "published": true,
+        "booking_url": null,
+        "schedule_venue": {
+          "id": "2",
+          "name": "FAB0.20",
+          "description": "All theatre performances at WSAF will be held here.",
+          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+          "slug": "fab-020",
+          "image": ""
+        }
+      },
+      {
+        "id": "111",
+        "start": "2024-06-10T17:30:00.000Z",
+        "end": "2024-06-10T18:00:00.000Z",
+        "event_id": "30",
+        "parent_id": null,
+        "venue_id": "2",
+        "published": true,
+        "booking_url": null,
+        "schedule_venue": {
+          "id": "2",
+          "name": "FAB0.20",
+          "description": "All theatre performances at WSAF will be held here.",
+          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
+          "slug": "fab-020",
+          "image": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "title": "Creator Exhibition",
+    "short_description": "We would like to set up a room of stalls displaying the work of our society members, with a central table for art + crafts:\r\n- The work shown will be a mix of art forms, including some showcases of 2D/3D models, cosplay projects and traditional/digital art pieces.\r\n- As well as this, we're setting up a table with some arts + crafting supplies for people to come and try out on Sunday",
+    "organisation_id": "16",
+    "submission_id": 50,
+    "preferred_occurrences": 1,
+    "advertisement_weight": 1,
+    "primary_category_id": "8",
+    "slug": "creator-exhibition",
+    "digital_signage": true,
+    "published": true,
+    "logo": "",
+    "long_description": "",
+    "tiny_description": null,
+    "schedule_organisation": {
+      "id": "16",
+      "name": "Content Creation Society",
+      "description": "Wonder what Content Creation Society is all about ? Well, it's a place for all sorts of media, where we aim to cater to a wide variety of creators!",
+      "slug": "content-creation-society",
+      "logo": "images/organisation-logos/Content_Creation_Society.png",
+      "instagram_handle": null,
+      "is_society": false,
+      "website_name": null,
+      "website_url": null
+    },
+    "schedule_category": {
+      "id": "8",
+      "name": "Exhibition",
+      "colour_theme": "YELLOW",
+      "image": "images/category-icons/paintbrush_RwmAFqg.png",
+      "icon": "MASK"
+    },
+    "schedule_event_categories": [
+      {
+        "id": "48",
+        "event_id": "48",
+        "category_id": "8",
+        "schedule_category": {
+          "id": "8",
+          "name": "Exhibition",
+          "colour_theme": "YELLOW",
+          "image": "images/category-icons/paintbrush_RwmAFqg.png",
+          "icon": "MASK"
+        }
+      }
+    ],
+    "schedule_eventinstance": [
+      {
+        "id": "130",
+        "start": "2024-06-08T09:00:00.000Z",
+        "end": "2024-06-08T21:00:00.000Z",
+        "event_id": "48",
+        "parent_id": null,
+        "venue_id": "7",
+        "published": true,
+        "booking_url": null,
+        "schedule_venue": {
+          "id": "7",
+          "name": "FAB0.19 Gallery",
+          "description": "The FAB Gallery will provide a variety of student art",
+          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
+          "slug": "fab-019",
+          "image": ""
+        }
+      },
+      {
+        "id": "131",
+        "start": "2024-06-09T09:00:00.000Z",
+        "end": "2024-06-09T21:00:00.000Z",
+        "event_id": "48",
+        "parent_id": null,
+        "venue_id": "7",
+        "published": true,
+        "booking_url": null,
+        "schedule_venue": {
+          "id": "7",
+          "name": "FAB0.19 Gallery",
+          "description": "The FAB Gallery will provide a variety of student art",
+          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
+          "slug": "fab-019",
+          "image": ""
+        }
+      }
+    ]
+  },
+  {
     "id": "41",
     "title": "Art and Reality: Warwick Student Documentaries",
     "short_description": "Five documentaries made by Warwick student in total. They cover different themes, including the use of AI in art, marine life, student activism and a football team at Warwick. They are all the entries to the Warwick Documentary Society, but we would like to ensure that credits are given to all student filmmakers. We hope that the screening can encourage students to create their own documentaries and appreciate creative talents around them.",
@@ -68,74 +400,6 @@
     ]
   },
   {
-    "id": "59",
-    "title": "Poetry Reading",
-    "short_description": "Poetry reading :)",
-    "organisation_id": "19",
-    "submission_id": 61,
-    "preferred_occurrences": 1,
-    "advertisement_weight": 1,
-    "primary_category_id": "4",
-    "slug": "poetry-reading",
-    "digital_signage": false,
-    "published": true,
-    "logo": "",
-    "long_description": "Hope for Health is an upcoming poetry pamphlet focussed on promoting positive and hopeful messages surrounding mental health - join us as we showcase potential entries for the first edition and find our voice as a publication!",
-    "tiny_description": "poetry reading",
-    "schedule_organisation": {
-      "id": "19",
-      "name": "Hope for health",
-      "description": "",
-      "slug": "vance",
-      "logo": "",
-      "instagram_handle": null,
-      "is_society": false,
-      "website_name": null,
-      "website_url": null
-    },
-    "schedule_category": {
-      "id": "4",
-      "name": "Spoken Word",
-      "colour_theme": "ORANGE",
-      "image": "images/category-icons/microphone_3KaC7Yw.png",
-      "icon": "MASK"
-    },
-    "schedule_event_categories": [
-      {
-        "id": "60",
-        "event_id": "59",
-        "category_id": "4",
-        "schedule_category": {
-          "id": "4",
-          "name": "Spoken Word",
-          "colour_theme": "ORANGE",
-          "image": "images/category-icons/microphone_3KaC7Yw.png",
-          "icon": "MASK"
-        }
-      }
-    ],
-    "schedule_eventinstance": [
-      {
-        "id": "142",
-        "start": "2024-06-10T17:47:00.000Z",
-        "end": "2024-06-10T18:07:00.000Z",
-        "event_id": "59",
-        "parent_id": "7",
-        "venue_id": "5",
-        "published": true,
-        "booking_url": null,
-        "schedule_venue": {
-          "id": "5",
-          "name": "Curiositea",
-          "description": "Curiositea will feature free, evening entertainment",
-          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
-          "slug": "curiositea",
-          "image": null
-        }
-      }
-    ]
-  },
-  {
     "id": "11",
     "title": "The Catharsis Project",
     "short_description": "the catharsis project is my proudest collection of original poetry with stories of love and loss. soon, i will share my secret with the world.",
@@ -188,6 +452,142 @@
         "start": "2024-06-10T18:08:00.000Z",
         "end": "2024-06-10T18:16:00.000Z",
         "event_id": "11",
+        "parent_id": "7",
+        "venue_id": "5",
+        "published": true,
+        "booking_url": null,
+        "schedule_venue": {
+          "id": "5",
+          "name": "Curiositea",
+          "description": "Curiositea will feature free, evening entertainment",
+          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+          "slug": "curiositea",
+          "image": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "title": "Warwick Student Comedy Show",
+    "short_description": "Warwick Comedy present a mixed bill stand up show with the funniest comedians from the university.",
+    "organisation_id": "22",
+    "submission_id": 65,
+    "preferred_occurrences": 1,
+    "advertisement_weight": 1,
+    "primary_category_id": "4",
+    "slug": "wcs-1",
+    "digital_signage": true,
+    "published": true,
+    "logo": "",
+    "long_description": "",
+    "tiny_description": null,
+    "schedule_organisation": {
+      "id": "22",
+      "name": "Warwick Comedy",
+      "description": "Warwick Comedy Society offers the opportunity to write, perform and direct comedy -  from sketch to stand-up - putting on shows throughout the year and then taking them to the Edinburgh Fringe, Leicester Comedy Festival and elsewhere. But there's no pressure to perform - all of our sessions are welcoming and laid back. We also have plenty of trips just to watch comedy as well as many socials to attend. We welcome all new members, from freshers to PhD students, regardless of previous comedic experience!",
+      "slug": "warwick-comedy",
+      "logo": "images/organisation-logos/Warwick_Comedy.png",
+      "instagram_handle": null,
+      "is_society": false,
+      "website_name": null,
+      "website_url": null
+    },
+    "schedule_category": {
+      "id": "4",
+      "name": "Spoken Word",
+      "colour_theme": "ORANGE",
+      "image": "images/category-icons/microphone_3KaC7Yw.png",
+      "icon": "MASK"
+    },
+    "schedule_event_categories": [
+      {
+        "id": "70",
+        "event_id": "66",
+        "category_id": "7",
+        "schedule_category": {
+          "id": "7",
+          "name": "Comedy",
+          "colour_theme": "ORANGE",
+          "image": "images/category-icons/microphone_mmhbYJa.png",
+          "icon": "MASK"
+        }
+      }
+    ],
+    "schedule_eventinstance": [
+      {
+        "id": "150",
+        "start": "2024-06-10T19:20:00.000Z",
+        "end": "2024-06-10T20:45:00.000Z",
+        "event_id": "66",
+        "parent_id": null,
+        "venue_id": "5",
+        "published": true,
+        "booking_url": null,
+        "schedule_venue": {
+          "id": "5",
+          "name": "Curiositea",
+          "description": "Curiositea will feature free, evening entertainment",
+          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
+          "slug": "curiositea",
+          "image": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "title": "Poetry Reading",
+    "short_description": "Poetry reading :)",
+    "organisation_id": "19",
+    "submission_id": 61,
+    "preferred_occurrences": 1,
+    "advertisement_weight": 1,
+    "primary_category_id": "4",
+    "slug": "poetry-reading",
+    "digital_signage": false,
+    "published": true,
+    "logo": "",
+    "long_description": "Hope for Health is an upcoming poetry pamphlet focussed on promoting positive and hopeful messages surrounding mental health - join us as we showcase potential entries for the first edition and find our voice as a publication!",
+    "tiny_description": "poetry reading",
+    "schedule_organisation": {
+      "id": "19",
+      "name": "Hope for health",
+      "description": "",
+      "slug": "vance",
+      "logo": "",
+      "instagram_handle": null,
+      "is_society": false,
+      "website_name": null,
+      "website_url": null
+    },
+    "schedule_category": {
+      "id": "4",
+      "name": "Spoken Word",
+      "colour_theme": "ORANGE",
+      "image": "images/category-icons/microphone_3KaC7Yw.png",
+      "icon": "MASK"
+    },
+    "schedule_event_categories": [
+      {
+        "id": "60",
+        "event_id": "59",
+        "category_id": "4",
+        "schedule_category": {
+          "id": "4",
+          "name": "Spoken Word",
+          "colour_theme": "ORANGE",
+          "image": "images/category-icons/microphone_3KaC7Yw.png",
+          "icon": "MASK"
+        }
+      }
+    ],
+    "schedule_eventinstance": [
+      {
+        "id": "142",
+        "start": "2024-06-10T17:47:00.000Z",
+        "end": "2024-06-10T18:07:00.000Z",
+        "event_id": "59",
         "parent_id": "7",
         "venue_id": "5",
         "published": true,
@@ -739,86 +1139,7 @@
       }
     ]
   },
-  {
-    "id": "24",
-    "title": "Summer Ceilidh",
-    "short_description": "We’ll be playing a variety of folk tunes for you to dance to!",
-    "organisation_id": "7",
-    "submission_id": 27,
-    "preferred_occurrences": 1,
-    "advertisement_weight": 1,
-    "primary_category_id": "2",
-    "slug": "summer-ceilidh",
-    "digital_signage": true,
-    "published": true,
-    "logo": "",
-    "long_description": "",
-    "tiny_description": "ceilidhs",
-    "schedule_organisation": {
-      "id": "7",
-      "name": "Warwick Folk",
-      "description": "Warwick Folk Society is a very relaxed music group for musicians of any age ability, or instrument. We play different styles of folk from across the world, usually from the British Isles and run various dances, ceilidhs and gigs throughout the year. Our style of playing tends to focus more on the enthusiasm than keeping to the dots. The sheet music acts as a guide to what we play.",
-      "slug": "folk-society",
-      "logo": "images/organisation-logos/Warwick_Folk.png",
-      "instagram_handle": null,
-      "is_society": false,
-      "website_name": null,
-      "website_url": null
-    },
-    "schedule_category": {
-      "id": "2",
-      "name": "Dance",
-      "colour_theme": "PINK",
-      "image": "images/category-icons/ballet_shoes.png",
-      "icon": "MASK"
-    },
-    "schedule_event_categories": [
-      {
-        "id": "22",
-        "event_id": "24",
-        "category_id": "2",
-        "schedule_category": {
-          "id": "2",
-          "name": "Dance",
-          "colour_theme": "PINK",
-          "image": "images/category-icons/ballet_shoes.png",
-          "icon": "MASK"
-        }
-      },
-      {
-        "id": "23",
-        "event_id": "24",
-        "category_id": "3",
-        "schedule_category": {
-          "id": "3",
-          "name": "Music",
-          "colour_theme": "PINK",
-          "image": "images/category-icons/trumpet.png",
-          "icon": "MASK"
-        }
-      }
-    ],
-    "schedule_eventinstance": [
-      {
-        "id": "102",
-        "start": "2024-06-10T19:00:00.000Z",
-        "end": "2024-06-10T21:00:00.000Z",
-        "event_id": "24",
-        "parent_id": null,
-        "venue_id": "1",
-        "published": true,
-        "booking_url": null,
-        "schedule_venue": {
-          "id": "1",
-          "name": "Piazza Stage",
-          "description": "Our big stage on Benefactors place next to the Piazza.",
-          "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
-          "slug": "benefactors-place",
-          "image": ""
-        }
-      }
-    ]
-  },
+
   {
     "id": "32",
     "title": "Bollywood-Kollywood Dance Fusion",
@@ -1382,74 +1703,6 @@
           "description": "Our big stage on Benefactors place next to the Piazza.",
           "campus_map_url": "https://campus.warwick.ac.uk/search/623c885f421e6f5928c0c7db",
           "slug": "benefactors-place",
-          "image": ""
-        }
-      }
-    ]
-  },
-  {
-    "id": "64",
-    "title": "Sunset Session 1 on FAB Terrace",
-    "short_description": "",
-    "organisation_id": "20",
-    "submission_id": null,
-    "preferred_occurrences": 1,
-    "advertisement_weight": 1,
-    "primary_category_id": "3",
-    "slug": "sunset-session-1",
-    "digital_signage": true,
-    "published": true,
-    "logo": "",
-    "long_description": "",
-    "tiny_description": null,
-    "schedule_organisation": {
-      "id": "20",
-      "name": "WSAF",
-      "description": "The Warwick Student Arts Festival team will be putting on several events throughout the weekend consisting of multiple performers.",
-      "slug": "wsaf",
-      "logo": "images/organisation-logos/WSAF.png",
-      "instagram_handle": "wsaf24",
-      "is_society": false,
-      "website_name": null,
-      "website_url": null
-    },
-    "schedule_category": {
-      "id": "3",
-      "name": "Music",
-      "colour_theme": "PINK",
-      "image": "images/category-icons/trumpet.png",
-      "icon": "MASK"
-    },
-    "schedule_event_categories": [
-      {
-        "id": "65",
-        "event_id": "64",
-        "category_id": "3",
-        "schedule_category": {
-          "id": "3",
-          "name": "Music",
-          "colour_theme": "PINK",
-          "image": "images/category-icons/trumpet.png",
-          "icon": "MASK"
-        }
-      }
-    ],
-    "schedule_eventinstance": [
-      {
-        "id": "5",
-        "start": "2024-06-09T18:00:00.000Z",
-        "end": "2024-06-09T19:30:00.000Z",
-        "event_id": "64",
-        "parent_id": null,
-        "venue_id": "4",
-        "published": true,
-        "booking_url": "https://www.ticketsource.co.uk/wsaf",
-        "schedule_venue": {
-          "id": "4",
-          "name": "FAB Terrace",
-          "description": "Come and join us on the FAB Terrace on Sunday evening. Make sure to reserve your spot at https://www.ticketsource.co.uk/wsaf!",
-          "campus_map_url": "https://campus.warwick.ac.uk/search/623c896d421e6f5928c0fdeb",
-          "slug": "fab-terrace",
           "image": ""
         }
       }
@@ -2977,92 +3230,6 @@
     ]
   },
   {
-    "id": "48",
-    "title": "Creator Exhibition",
-    "short_description": "We would like to set up a room of stalls displaying the work of our society members, with a central table for art + crafts:\r\n- The work shown will be a mix of art forms, including some showcases of 2D/3D models, cosplay projects and traditional/digital art pieces.\r\n- As well as this, we're setting up a table with some arts + crafting supplies for people to come and try out on Sunday",
-    "organisation_id": "16",
-    "submission_id": 50,
-    "preferred_occurrences": 1,
-    "advertisement_weight": 1,
-    "primary_category_id": "8",
-    "slug": "creator-exhibition",
-    "digital_signage": true,
-    "published": true,
-    "logo": "",
-    "long_description": "",
-    "tiny_description": null,
-    "schedule_organisation": {
-      "id": "16",
-      "name": "Content Creation Society",
-      "description": "Wonder what Content Creation Society is all about ? Well, it's a place for all sorts of media, where we aim to cater to a wide variety of creators!",
-      "slug": "content-creation-society",
-      "logo": "images/organisation-logos/Content_Creation_Society.png",
-      "instagram_handle": null,
-      "is_society": false,
-      "website_name": null,
-      "website_url": null
-    },
-    "schedule_category": {
-      "id": "8",
-      "name": "Exhibition",
-      "colour_theme": "YELLOW",
-      "image": "images/category-icons/paintbrush_RwmAFqg.png",
-      "icon": "MASK"
-    },
-    "schedule_event_categories": [
-      {
-        "id": "48",
-        "event_id": "48",
-        "category_id": "8",
-        "schedule_category": {
-          "id": "8",
-          "name": "Exhibition",
-          "colour_theme": "YELLOW",
-          "image": "images/category-icons/paintbrush_RwmAFqg.png",
-          "icon": "MASK"
-        }
-      }
-    ],
-    "schedule_eventinstance": [
-      {
-        "id": "130",
-        "start": "2024-06-08T09:00:00.000Z",
-        "end": "2024-06-08T21:00:00.000Z",
-        "event_id": "48",
-        "parent_id": null,
-        "venue_id": "7",
-        "published": true,
-        "booking_url": null,
-        "schedule_venue": {
-          "id": "7",
-          "name": "FAB0.19 Gallery",
-          "description": "The FAB Gallery will provide a variety of student art",
-          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
-          "slug": "fab-019",
-          "image": ""
-        }
-      },
-      {
-        "id": "131",
-        "start": "2024-06-09T09:00:00.000Z",
-        "end": "2024-06-09T21:00:00.000Z",
-        "event_id": "48",
-        "parent_id": null,
-        "venue_id": "7",
-        "published": true,
-        "booking_url": null,
-        "schedule_venue": {
-          "id": "7",
-          "name": "FAB0.19 Gallery",
-          "description": "The FAB Gallery will provide a variety of student art",
-          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb67",
-          "slug": "fab-019",
-          "image": ""
-        }
-      }
-    ]
-  },
-  {
     "id": "54",
     "title": "Kieran Persaud: Piano Favs Compilation",
     "short_description": "Piano performance of an array of hip hop tunes within the last 20 years",
@@ -3308,74 +3475,6 @@
           "campus_map_url": "https://campus.warwick.ac.uk/search/623c896d421e6f5928c0fdeb",
           "slug": "fab-terrace",
           "image": ""
-        }
-      }
-    ]
-  },
-  {
-    "id": "66",
-    "title": "Warwick Student Comedy Show",
-    "short_description": "Warwick Comedy present a mixed bill stand up show with the funniest comedians from the university.",
-    "organisation_id": "22",
-    "submission_id": 65,
-    "preferred_occurrences": 1,
-    "advertisement_weight": 1,
-    "primary_category_id": "4",
-    "slug": "wcs-1",
-    "digital_signage": true,
-    "published": true,
-    "logo": "",
-    "long_description": "",
-    "tiny_description": null,
-    "schedule_organisation": {
-      "id": "22",
-      "name": "Warwick Comedy",
-      "description": "Warwick Comedy Society offers the opportunity to write, perform and direct comedy -  from sketch to stand-up - putting on shows throughout the year and then taking them to the Edinburgh Fringe, Leicester Comedy Festival and elsewhere. But there's no pressure to perform - all of our sessions are welcoming and laid back. We also have plenty of trips just to watch comedy as well as many socials to attend. We welcome all new members, from freshers to PhD students, regardless of previous comedic experience!",
-      "slug": "warwick-comedy",
-      "logo": "images/organisation-logos/Warwick_Comedy.png",
-      "instagram_handle": null,
-      "is_society": false,
-      "website_name": null,
-      "website_url": null
-    },
-    "schedule_category": {
-      "id": "4",
-      "name": "Spoken Word",
-      "colour_theme": "ORANGE",
-      "image": "images/category-icons/microphone_3KaC7Yw.png",
-      "icon": "MASK"
-    },
-    "schedule_event_categories": [
-      {
-        "id": "70",
-        "event_id": "66",
-        "category_id": "7",
-        "schedule_category": {
-          "id": "7",
-          "name": "Comedy",
-          "colour_theme": "ORANGE",
-          "image": "images/category-icons/microphone_mmhbYJa.png",
-          "icon": "MASK"
-        }
-      }
-    ],
-    "schedule_eventinstance": [
-      {
-        "id": "150",
-        "start": "2024-06-10T19:20:00.000Z",
-        "end": "2024-06-10T20:45:00.000Z",
-        "event_id": "66",
-        "parent_id": null,
-        "venue_id": "5",
-        "published": true,
-        "booking_url": null,
-        "schedule_venue": {
-          "id": "5",
-          "name": "Curiositea",
-          "description": "Curiositea will feature free, evening entertainment",
-          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8897421e6f5928c0d2db",
-          "slug": "curiositea",
-          "image": null
         }
       }
     ]
@@ -4237,104 +4336,6 @@
           "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb8d",
           "slug": "fab-023",
           "image": null
-        }
-      }
-    ]
-  },
-  {
-    "id": "30",
-    "title": "Jack and the Beanstalk",
-    "short_description": "A 15-20 min version of Jack and the Beanstalk with some possible twists along the way!",
-    "organisation_id": "9",
-    "submission_id": 33,
-    "preferred_occurrences": 3,
-    "advertisement_weight": 1,
-    "primary_category_id": "1",
-    "slug": "jack-and-the-beanstalk",
-    "digital_signage": true,
-    "published": true,
-    "logo": "",
-    "long_description": "",
-    "tiny_description": "pantomimes",
-    "schedule_organisation": {
-      "id": "9",
-      "name": "Panto Soc",
-      "description": "Founded on the basis of inclusiveness, Warwick Pantomime Society invites anyone and everyone to join in and have a go! Whether you're a seasoned stage presence or have never set foot on one before, there's always a part for you. We put on a pantomime every term, so there are lots of chances to get involved!",
-      "slug": "pantomime-society",
-      "logo": "images/organisation-logos/Panto_Soc.png",
-      "instagram_handle": null,
-      "is_society": false,
-      "website_name": null,
-      "website_url": null
-    },
-    "schedule_category": {
-      "id": "1",
-      "name": "Theatre",
-      "colour_theme": "PURPLE",
-      "image": "images/category-icons/mask_oXCdVVv.png",
-      "icon": "MASK"
-    },
-    "schedule_event_categories": [
-      {
-        "id": "29",
-        "event_id": "30",
-        "category_id": "1",
-        "schedule_category": {
-          "id": "1",
-          "name": "Theatre",
-          "colour_theme": "PURPLE",
-          "image": "images/category-icons/mask_oXCdVVv.png",
-          "icon": "MASK"
-        }
-      },
-      {
-        "id": "30",
-        "event_id": "30",
-        "category_id": "7",
-        "schedule_category": {
-          "id": "7",
-          "name": "Comedy",
-          "colour_theme": "ORANGE",
-          "image": "images/category-icons/microphone_mmhbYJa.png",
-          "icon": "MASK"
-        }
-      }
-    ],
-    "schedule_eventinstance": [
-      {
-        "id": "112",
-        "start": "2024-06-09T17:00:00.000Z",
-        "end": "2024-06-09T17:30:00.000Z",
-        "event_id": "30",
-        "parent_id": null,
-        "venue_id": "2",
-        "published": true,
-        "booking_url": null,
-        "schedule_venue": {
-          "id": "2",
-          "name": "FAB0.20",
-          "description": "All theatre performances at WSAF will be held here.",
-          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
-          "slug": "fab-020",
-          "image": ""
-        }
-      },
-      {
-        "id": "111",
-        "start": "2024-06-10T17:30:00.000Z",
-        "end": "2024-06-10T18:00:00.000Z",
-        "event_id": "30",
-        "parent_id": null,
-        "venue_id": "2",
-        "published": true,
-        "booking_url": null,
-        "schedule_venue": {
-          "id": "2",
-          "name": "FAB0.20",
-          "description": "All theatre performances at WSAF will be held here.",
-          "campus_map_url": "https://campus.warwick.ac.uk/search/623c8961421e6f5928c0fb6a",
-          "slug": "fab-020",
-          "image": ""
         }
       }
     ]
