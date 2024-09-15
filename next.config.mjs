@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  // output: 'standalone',
+  output: 'export',
   images: {
+    unoptimized: true, // For export
     remotePatterns: process.env.WSAF_ASSETS_BASE_URL ? [
       {
         protocol: process.env.WSAF_ASSETS_BASE_URL.includes('https') ? 'https' : 'http',
@@ -13,7 +15,7 @@ const nextConfig = {
   redirects: () => ([
     {
       source: '/instagram',
-      destination: 'https://www.instagram.com/wsaf24/',
+      destination: 'https://www.instagram.com/wsaf25/',
       permanent: true,
     },
     {

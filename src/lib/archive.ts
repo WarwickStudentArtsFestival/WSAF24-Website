@@ -9,7 +9,7 @@ const ENABLE_ARCHIVE = true;
 const SAVE_DATA = true;
 
 // If data is not saved, load and save it
-const SAVE_DATA_IF_NOT_FOUND = true;
+const SAVE_DATA_IF_NOT_FOUND = false;
 
 const DATA_DIRECTORY = 'data';
 
