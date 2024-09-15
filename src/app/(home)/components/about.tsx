@@ -29,7 +29,7 @@ export default function About() {
         </p>
 
         <p className="text-sm italic mb-2">
-          - Max, on behalf of the{' '}
+          - Maximus, on behalf of the{' '}
           <a href="/team" className="text-accent">
             WSAF Team
           </a>
