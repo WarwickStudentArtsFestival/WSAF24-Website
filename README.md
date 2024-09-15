@@ -1,6 +1,9 @@
 # Warwick Student Arts Festival 2024 Website
 > This is the public website for the Warwick Student Arts Festival, written in [Next.js](https://nextjs.org/).
 
+**NOTE: This website has now been archived. The main and production branches will both push to 2024.wsaf.org.uk on GitHub
+Pages.**
+
 ## Running the Website
 You will need to have installed NodeJS v20 and NPM for this to work. If you haven't already done this, you can install the LTS version [here](https://nodejs.org/en/download).
 
