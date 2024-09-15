@@ -9,9 +9,9 @@ export default function KeyDates() {
     <section className="mb-4 md:mb-8">
       <h2>Who&apos;s Involved?</h2>
       <p className="mt-2 mb-1 mx-4">
-        WSAF 2024 was being organised by the following volunteers, in
-        combination with many other people who worked behind the scenes in roles
-        such as marketing, tech and logistics.
+        WSAF 2024 was organised by the following volunteers, in combination with
+        many other people who worked behind the scenes in roles such as
+        marketing, tech and logistics.
         <br />
         <a href="/team" className="text-accent">
           Find out more about the full team and how you can get involved here.
