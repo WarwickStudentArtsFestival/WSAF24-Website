@@ -8,25 +8,41 @@ import Curiositea from '@/assets/images/curiositea.jpg';
 export default function About() {
   return (
     <section className="-top-8 relative">
-      <h2>What is WSAF?</h2>
+      <h2>What was WSAF 2024?</h2>
       <div className="px-8 lg:text-lg max-w-5xl mx-auto">
-        <p className="font-bold mb-2">
-          Warwick Student Arts Festival (WSAF) is a 3 day showcase and
-          celebration of all aspects of the arts at Warwick.
+        <p className="mb-2">
+          &ldquo;Last June, we brought the{' '}
+          <strong>Warwick Student Arts Festival</strong> back to campus and saw{' '}
+          <strong>2500+</strong> people celebrate the arts across{' '}
+          <strong>3 days</strong> and a variety of art forms. Each of our spaces
+          saw talented performers, some of whom had never performed publicly
+          before, dazzle our audiences. With over <strong>30 volunteers</strong>{' '}
+          and <strong>80 performers</strong> the event was a great comeback. We
+          collaborated with other societies such as WSC, RAW and The Boar to
+          widen our audience and become a space where any artist has a space to
+          express themselves.
         </p>
-        <p>
-          Every day will feature a morning-to-evening programme of events
-          including theatre, dance, music, film, literature, comedy and art held
-          across the entirety of campus.
+
+        <p className="mb-1">
+          Thank you to everyone for making WSAF24 a success. See you next
+          year!&rdquo;
         </p>
+
+        <p className="text-sm italic mb-2">
+          - Max, on behalf of the{' '}
+          <a href="/team" className="text-accent">
+            WSAF Team
+          </a>
+        </p>
+
         <a
-          href="/feedback"
+          href="https://wsaf.org.uk"
           className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mt-2"
           target="_blank"
         >
           <span className="text-xl lg:text-2xl uppercase font-bold">
             <FiArrowRight className="inline-block mb-1 mr-2" />
-            Feedback
+            WSAF 2025
           </span>
         </a>
         <p className="flex gap-2 justify-center mb-2">

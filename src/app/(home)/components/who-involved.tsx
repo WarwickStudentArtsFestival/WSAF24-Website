@@ -9,8 +9,8 @@ export default function KeyDates() {
     <section className="mb-4 md:mb-8">
       <h2>Who&apos;s Involved?</h2>
       <p className="mt-2 mb-1 mx-4">
-        This year&apos;s WSAF is being organised by the following volunteers, in
-        combination with many other people working behind the scenes in roles
+        WSAF 2024 was being organised by the following volunteers, in
+        combination with many other people who worked behind the scenes in roles
         such as marketing, tech and logistics.
         <br />
         <a href="/team" className="text-accent">

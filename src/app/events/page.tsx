@@ -111,17 +111,16 @@ export default async function Events() {
         </div>
       </div>
 
-      <div className="max-w-screen-6xl mx-auto">
+      {/*<div className="max-w-screen-6xl mx-auto">
         <div className="xs:columns-2 md:columns-3 xl:columns-4 2xl:columns-5 3xl:columns-6 4xl:columns-7 gap-0 m-4">
           {events.map((event) => (
             <EventCard event={event} key={event.id} />
           ))}
         </div>
-      </div>
+      </div>*/}
 
       {pastEvents.length > 0 && (
-        <div className="max-w-screen-6xl mx-auto mt-4">
-          <h2>Past Events</h2>
+        <div className="max-w-screen-6xl mx-auto">
           <div className="xs:columns-2 md:columns-3 xl:columns-4 2xl:columns-5 3xl:columns-6 4xl:columns-7 gap-0 m-4">
             {pastEvents.map((event) => (
               <EventCard event={event} key={event.id} pastEvent />

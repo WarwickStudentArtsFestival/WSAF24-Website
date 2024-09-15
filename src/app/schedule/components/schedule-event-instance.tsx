@@ -18,7 +18,9 @@ export default function ScheduleEventInstance({
   return (
     <a
       href={`/events/${eventInstance.schedule_event.slug}`}
-      className={`block w-52 ${eventPage ? 'hover:scale-105' : 'mr-3'} ${eventInstance.end.getTime() - new Date().getTime() > 0 ? '' : 'opacity-50 line-through'}`}
+      className={
+        `block w-52 ${eventPage ? 'hover:scale-105' : 'mr-3'}` /* ${eventInstance.end.getTime() - new Date().getTime() > 0 ? '' : 'opacity-50 line-through'} */
+      }
     >
       <article
         className={`group p-2 ${getEventColourClasses(eventInstance.schedule_event)} drop-shadow-md h-full relative`}

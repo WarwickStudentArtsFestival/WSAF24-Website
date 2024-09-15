@@ -11,7 +11,7 @@ export default async function WhatsOn() {
       <p className="max-w-6xl mx-auto px-4 mb-2">
         Across <strong>Saturday 8th June</strong>,{' '}
         <strong>Sunday 9th June</strong> and <strong>Monday 10th June</strong>{' '}
-        we&apos;ll feature a{' '}
+        we featured a{' '}
         <a href="/events" className="text-accent">
           huge variety of events
         </a>{' '}

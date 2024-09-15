@@ -21,7 +21,7 @@ export default function EventCard({
   return (
     <a
       href={`/events/${event.slug}`}
-      className={`block break-inside-avoid hover:scale-105 ${className || ''} ${pastEvent ? 'opacity-60' : ''}`}
+      className={`block break-inside-avoid hover:scale-105 ${className || ''} ${pastEvent && false ? 'opacity-60' : ''}`}
     >
       <article
         className={`group p-4 ${getEventColourClasses(event)} drop-shadow-md ${spacingClasses || 'mb-4 mx-2'} h-full`}
@@ -30,9 +30,9 @@ export default function EventCard({
           {event.schedule_eventinstance.map((instance) => (
             <p
               key={instance.id}
-              className={
+              /*className={
                 instance.end.getTime() < currentTime ? 'line-through' : ''
-              }
+              }*/
             >
               <time dateTime={instance.start.toISOString()}>
                 {formatShowDateTime(instance.start)}

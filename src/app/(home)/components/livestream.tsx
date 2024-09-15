@@ -26,7 +26,7 @@ export default function Livestream() {
         >
           FAB Terrace
         </a>{' '}
-        will be{' '}
+        were{' '}
         <a
           href="https://www.youtube.com/channel/UCCFESD5QMLnlgKQjkBLuv3A"
           className="text-accent"
@@ -51,7 +51,7 @@ export default function Livestream() {
         >
           <span className="text-xl uppercase font-bold">
             <FiTv className="inline mr-2 mb-1" />
-            Watch the Livestreams
+            WSAF YouTube Channel
           </span>
         </a>
       </div>
