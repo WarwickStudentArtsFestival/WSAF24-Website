@@ -1,6 +1,6 @@
 import prisma from '@/lib/prisma';
 
-export function getVenues() {
+export async function getVenues() {
   return prisma.schedule_venue.findMany({
     include: {
       _count: {

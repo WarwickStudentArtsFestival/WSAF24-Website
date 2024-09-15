@@ -8,7 +8,7 @@ import WhatsOn from '@/app/(home)/components/whats-on';
 import Livestream from '@/app/(home)/components/livestream';
 import Feedback from '@/app/(home)/components/feedback';
 
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
 
 export default function Home() {
   return (

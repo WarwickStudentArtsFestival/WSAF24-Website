@@ -5,6 +5,7 @@ import {
   schedule_event_with_relations_and_instances,
 } from '@/lib/events';
 import Image from 'next/image';
+import { convertArchivedDate } from '@/lib/archive';
 
 export default function EventCard({
   event,
@@ -34,7 +35,9 @@ export default function EventCard({
                 instance.end.getTime() < currentTime ? 'line-through' : ''
               }*/
             >
-              <time dateTime={instance.start.toISOString()}>
+              <time
+                dateTime={convertArchivedDate(instance.start).toISOString()}
+              >
                 {formatShowDateTime(instance.start)}
               </time>{' '}
               {instance.schedule_venue.name}

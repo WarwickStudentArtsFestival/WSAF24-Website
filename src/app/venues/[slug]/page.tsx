@@ -1,18 +1,18 @@
 import PageHeader from '@/app/components/page-header';
-import { getVenue } from '@/lib/venues';
+import { getVenue, getVenues } from '@/lib/venues-archive';
 import { Metadata } from 'next';
 import { getScheduleDays } from '@/lib/schedule';
 import ScheduleDays from '@/app/schedule/components/schedule-days';
 import { FiHome } from 'react-icons/fi';
 
-/*export async function generateStaticParams() {
-  const venues = await getVenues();
+export async function generateStaticParams() {
+  const venues = (await getVenues()) || [];
   return venues
     .filter((venue) => venue.slug)
     .map((venue) => ({ slug: venue.slug }));
-}*/
+}
 
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
 export async function generateMetadata({
   params: { slug },
 }: {

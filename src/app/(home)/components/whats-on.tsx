@@ -1,5 +1,5 @@
 import { FiArrowRight } from 'react-icons/fi';
-import { getEvents } from '@/lib/events';
+import { getEvents } from '@/lib/events-archive';
 import EventCard from '@/app/events/components/event-card';
 
 export default async function WhatsOn() {

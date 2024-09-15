@@ -11,6 +11,13 @@ export const prisma =
       process.env.NODE_ENV !== 'production'
         ? ['query', 'info', 'warn', 'error']
         : ['info', 'warn', 'error'],
+    omit: {
+      schedule_event: {
+        org_notes: true,
+        tech_notes: true,
+        data_collected: true,
+      },
+    },
   });
 
 if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma;

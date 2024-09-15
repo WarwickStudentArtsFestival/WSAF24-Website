@@ -78,7 +78,8 @@ export async function getEvent(
 }
 
 export async function getEvents(
-  randomise: boolean = false,
+  randomise: number = 0, // This was boolean, however has been converted to a number
+  //                        for archiving (0=false, 1=true)
   pastEvents: number = 0, // 0 = All, 1 = future only, 2 = past only
 ): Promise<schedule_event_with_relations_and_instances[]> {
   let events = await prisma.schedule_event.findMany({

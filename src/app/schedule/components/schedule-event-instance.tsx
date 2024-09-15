@@ -5,6 +5,7 @@ import {
 } from '@/lib/events';
 import Image from 'next/image';
 import dayjs from 'dayjs';
+import { convertArchivedDate } from '@/lib/archive';
 
 export default function ScheduleEventInstance({
   eventInstance,
@@ -37,11 +38,15 @@ export default function ScheduleEventInstance({
 
         <div className="relative">
           <div className="block uppercase text-lg font-bold mb-1">
-            <time dateTime={eventInstance.start.toISOString()}>
+            <time
+              dateTime={convertArchivedDate(eventInstance.start).toISOString()}
+            >
               {dayjs(eventInstance.start).format('h:mma')}
             </time>{' '}
             -{' '}
-            <time dateTime={eventInstance.end.toISOString()}>
+            <time
+              dateTime={convertArchivedDate(eventInstance.end).toISOString()}
+            >
               {dayjs(eventInstance.end).format('h:mma')}
             </time>
           </div>

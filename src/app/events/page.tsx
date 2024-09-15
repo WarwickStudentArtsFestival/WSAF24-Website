@@ -1,16 +1,16 @@
 import PageHeader from '@/app/components/page-header';
+import { getEventColourClasses } from '@/lib/events';
 import {
-  getEventColourClasses,
   getEventCount,
   getEvents,
   getEventTinyDescriptions,
-} from '@/lib/events';
+} from '@/lib/events-archive';
 import EventCard from '@/app/events/components/event-card';
 import { FiCalendar, FiHome } from 'react-icons/fi';
-import { getVenueCount } from '@/lib/venues';
+import { getVenueCount } from '@/lib/venues-archive';
 import { Metadata } from 'next';
 
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
 export async function generateMetadata(): Promise<Metadata> {
   const venueCount = await getVenueCount();
   const eventCount = await getEventCount();

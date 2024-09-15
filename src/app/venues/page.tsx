@@ -1,10 +1,10 @@
 import PageHeader from '@/app/components/page-header';
-import { getVenueCount, getVenues } from '@/lib/venues';
+import { getVenueCount, getVenues } from '@/lib/venues-archive';
 import { FiCalendar, FiTv } from 'react-icons/fi';
-import { getEventCount } from '@/lib/events';
+import { getEventCount } from '@/lib/events-archive';
 import { Metadata } from 'next';
 
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
 export async function generateMetadata(): Promise<Metadata> {
   const venueCount = await getVenueCount();
   const eventCount = await getEventCount();
@@ -16,7 +16,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Venues() {
-  const venues = await getVenues();
+  const venues = (await getVenues()) || [];
   const eventCount = await getEventCount();
 
   return (

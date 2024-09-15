@@ -1,12 +1,12 @@
 import PageHeader from '@/app/components/page-header';
 import { getScheduleDays } from '@/lib/schedule';
 import ScheduleDays from '@/app/schedule/components/schedule-days';
-import { getVenueCount } from '@/lib/venues';
-import { getEvent, getEventCount } from '@/lib/events';
+import { getVenueCount } from '@/lib/venues-archive';
+import { getEventCount } from '@/lib/events-archive';
 import { FiHome, FiTv } from 'react-icons/fi';
 import { Metadata } from 'next';
 
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
 export async function generateMetadata(): Promise<Metadata> {
   const venueCount = await getVenueCount();
   const eventCount = await getEventCount();

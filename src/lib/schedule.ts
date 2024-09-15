@@ -1,8 +1,7 @@
-import { schedule_event, schedule_venue } from '@prisma/client';
-import {
-  getEventInstances,
-  schedule_eventinstance_with_relations,
-} from '@/lib/events';
+import { schedule_venue } from '@prisma/client';
+import { schedule_eventinstance_with_relations } from '@/lib/events';
+import { getEventInstances } from '@/lib/events-archive';
+import { convertArchivedDate } from '@/lib/archive';
 
 export type VenueScheduleDay = {
   venue: schedule_venue;
@@ -27,7 +26,9 @@ export async function getScheduleDays(
   let currentTimeVenueEvents: Record<string, boolean> = {};
 
   for (const eventInstance of eventInstances) {
-    if (currentDateString !== eventInstance.start.toDateString()) {
+    const eventStart = convertArchivedDate(eventInstance.start);
+
+    if (currentDateString !== eventStart.toDateString()) {
       if (currentScheduleDay) {
         if (currentEventStartTime) {
           currentScheduleDay?.venueScheduleDays
@@ -42,9 +43,9 @@ export async function getScheduleDays(
         scheduleDays.push(currentScheduleDay);
       }
 
-      currentDateString = eventInstance.start.toDateString();
+      currentDateString = eventStart.toDateString();
       currentScheduleDay = {
-        earliestEventDate: eventInstance.start,
+        earliestEventDate: eventStart,
         venueScheduleDays: [],
       };
       currentDayEventCount = 0;
@@ -53,7 +54,7 @@ export async function getScheduleDays(
     }
 
     if (
-      currentEventStartTime !== eventInstance.start.toTimeString() ||
+      currentEventStartTime !== eventStart.toTimeString() ||
       currentTimeVenueEvents[eventInstance.venue_id.toString()]
     ) {
       if (currentEventStartTime) {
@@ -68,7 +69,7 @@ export async function getScheduleDays(
         currentDayEventCount++;
       }
 
-      currentEventStartTime = eventInstance.start.toTimeString();
+      currentEventStartTime = eventStart.toTimeString();
       currentTimeVenueEvents = {};
     }
 

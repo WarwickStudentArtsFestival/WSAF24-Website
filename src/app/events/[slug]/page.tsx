@@ -3,22 +3,23 @@ import { Metadata } from 'next';
 import {
   formatShowDateTime,
   formatShowTime,
-  getEvent,
   getEventBorderClasses,
   getEventColourClasses,
   getEventLogo,
   getOrganisationLogo,
 } from '@/lib/events';
+import { getEvent, getEvents } from '@/lib/events-archive';
 import Image from 'next/image';
 import { FiGlobe, FiInstagram, FiTv } from 'react-icons/fi';
 import ScheduleEventInstance from '@/app/schedule/components/schedule-event-instance';
+import { convertArchivedDate } from '@/lib/archive';
 
-/*export async function generateStaticParams() {
+export async function generateStaticParams() {
   const events = await getEvents();
   return events.map((event) => ({ slug: event.slug }));
-}*/
+}
 
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
 export async function generateMetadata({
   params: { slug },
 }: {
@@ -111,14 +112,18 @@ export default async function Event({
                     </a>
                     <p>
                       <time
-                        dateTime={instance.start.toISOString()}
+                        dateTime={convertArchivedDate(
+                          instance.start,
+                        ).toISOString()}
                         className="text-sm"
                       >
                         {formatShowDateTime(instance.start)}
                       </time>{' '}
                       -{' '}
                       <time
-                        dateTime={instance.end.toISOString()}
+                        dateTime={convertArchivedDate(
+                          instance.end,
+                        ).toISOString()}
                         className="text-sm"
                       >
                         {formatShowTime(instance.end)}
