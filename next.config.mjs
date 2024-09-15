@@ -2,13 +2,13 @@
 const nextConfig = {
   output: 'standalone',
   images: {
-    remotePatterns: [
+    remotePatterns: process.env.WSAF_ASSETS_BASE_URL ? [
       {
         protocol: process.env.WSAF_ASSETS_BASE_URL.includes('https') ? 'https' : 'http',
         hostname: process.env.WSAF_ASSETS_BASE_URL.replace('https://', '').replace('http://', '').split('/')[0],
         pathname: '/**'
       }
-    ],
+    ] : [],
   },
   redirects: () => ([
     {
