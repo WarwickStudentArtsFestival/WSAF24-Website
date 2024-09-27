@@ -15,7 +15,7 @@ const nextConfig = {
   redirects: () => ([
     {
       source: '/instagram',
-      destination: 'https://www.instagram.com/wsaf25/',
+      destination: 'https://www.instagram.com/wsaf24/',
       permanent: true,
     },
     {
