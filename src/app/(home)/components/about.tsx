@@ -43,7 +43,7 @@ export default function About() {
         </p>
 
         <a
-          href="https://wsaf.org.uk"
+          href="https://2025.wsaf.org.uk"
           className="inline-block bg-secondary px-4 py-1 rounded-sm drop-shadow-sm hover:scale-105 mt-2"
           target="_blank"
         >
